@@ -1,0 +1,25 @@
+.about{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.about .bgimg{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../assets/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.about .wrapper {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+  }

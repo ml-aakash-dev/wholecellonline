@@ -1,0 +1,57 @@
+.services{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.services .row.bgimg{
+    width: 100%;
+    background-image: url(../../assets/services.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.services .col{
+    text-align: center;
+    /* font-family: "Droid Sans",Helvetica,Arial,sans-serif; */
+    letter-spacing: 1px;
+    color: white;
+    padding: 0;
+}
+
+.services .col.first,.services .col.third{
+    background-color: rgba(0,0,0,0.5);
+}
+.services .col.sec{
+    background-color: rgba(204, 154, 79, 0.8);
+}
+
+.services .col h3{
+    background-color: rgba(255,255,255,0.3);
+}
+
+.services .col h1{
+    font-size: 35px;
+    font-weight: 300;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.services .col h2{
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.services .col h3{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
