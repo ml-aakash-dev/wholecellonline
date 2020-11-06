@@ -1,10 +1,10 @@
-.about{
+.process{
     position: relative;
     width: 100%;
     overflow: hidden;
 }
 
-.about .bgimg{
+.process .bgimg{
     width: 100%;
     background-image: url(../../assets/about.jpg);
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@
     background-position: center;
 }
 
-.about .wrapper {
+.process .wrapper {
     background: rgba(0, 0, 0, 0.8);
     width: 100%;
     overflow: hidden;
@@ -24,13 +24,13 @@
     align-items: center;
     justify-content: center;
   }
-  .about .content{
+  .process .content{
       padding: 0 40px 0 40px;
   }
-  .about .content h1, .about .content h3{
+  .process .content h1, .process .content h3{
     font-family: "Oswald", Helvetica, sans-serif;
 }
-  .about .content h1{
+  .process .content h1{
       text-align: center;
       font-weight: 700;
       font-size: 80px;
@@ -58,39 +58,45 @@
       }
     }
 
-  .about .content h2{
+  .process .content h2{
       text-align: center;
       font-size: 15px;
       letter-spacing: 1.5px;
       margin-bottom: 30px;
   }
-  .about .content h2 span{
+  .process .content h2 span{
     color: rgba(204, 154, 79, 0.9);
   }
-  .about .content p{
+  .process .content p{
       text-align: center;
       font-size: 18px;
       margin-bottom: 50px;
   }
-  .about .content .row .icon{
-      font-size: 30px;
+  .process .content .circle{
+      width: 150px;
+      height: 150px;
+      border: 1px solid white;
+      border-radius: 10%;
+      margin: auto;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
   }
-  .about .content .row h3 span{
-    color: rgba(204, 154, 79, 0.9);
-  }
-  .about .content .row p{
-      text-align: left;
-      font-size: 15px;
+
+  .process .content .circle .icon{
+      font-size: 35px;
   }
 
   @media (max-width: 576px){
-      .about .content h1{
-          font-size: 60px;
-      }
-      .about .content h2{
-          font-size: 12px;
-      }
-      .about .content p{
-          font-size: 18px;
-      }
+    .process .content h1{
+        font-size: 60px;
+    }
+    .process .content h2{
+        font-size: 12px;
+    }
+    .process .content p{
+        font-size: 18px;
+    }
 }
