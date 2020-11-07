@@ -3,6 +3,7 @@ import {
     Form,
     Row, Col
 } from 'react-bootstrap';
+import MapModal from './MapModal'
 
 import '../../css/body/contact.css'
 
@@ -67,6 +68,10 @@ class Contact extends Component {
                 email: "",
                 message: ""
             })
+        }
+        handleMapModal = () => {
+            document.getElementById('map-modal').style.display="block"
+            document.body.style.overflow="hidden"
         }
     render() {
         return (
@@ -157,6 +162,10 @@ class Contact extends Component {
                                         </Form.Group>
                                     </Form>
                                 </div>
+                            </div>
+                            <button className="map-btn" onClick={this.handleMapModal}>LOCATE US ON MAP</button>
+                            <div id="map-modal">
+                                <MapModal/>
                             </div>
                         </div>
                     </div>

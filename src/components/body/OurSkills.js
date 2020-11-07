@@ -11,7 +11,7 @@ class OurSkills extends Component {
         var winHeight = $(window).height();
         if (animatorTeaserL.length) {
             var firEvent1 = false,
-                objectPosTop = $('.prog-bar').offset().top+850;
+                objectPosTop = $('.prog-bar').offset().top+1300;
                 
                 //when element shows at bottom
                 var elementViewInBottom = objectPosTop - winHeight;
