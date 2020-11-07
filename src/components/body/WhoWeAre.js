@@ -9,7 +9,7 @@ class WhoWeAre extends Component {
             <div id="wwa" className="who-we-are">
                 <Row>
                     <Col xs={12} lg={6} className="col first">
-                        <button>View Our Work</button>
+                        <button onClick={this.props.scrollToWork}>View Our Work</button>
                     </Col>
                     <Col xs={12} lg={6} className="col sec">
                         <h1><span>WHO</span> WE ARE</h1>

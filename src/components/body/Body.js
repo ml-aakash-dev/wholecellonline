@@ -79,7 +79,7 @@ class Body extends Component {
         
                 })
             } 
-            if(window.scrollY >= document.getElementById("about").offsetTop-50)
+            if(window.scrollY >= document.getElementById("about").offsetTop-80)
             {
                 this.setState({
                     headerDot: false,
@@ -96,7 +96,7 @@ class Body extends Component {
         
                 })
             }
-            if(window.scrollY >= document.getElementById("hww").offsetTop - 50)
+            if(window.scrollY >= document.getElementById("hww").offsetTop - 80)
             {
                 this.setState({
                     headerDot: false,
@@ -198,7 +198,7 @@ class Body extends Component {
         
                 })
             }
-            if(window.scrollY >= document.getElementById("numbers").offsetTop-50)
+            if(window.scrollY >= document.getElementById("numbers").offsetTop-140)
             {
                 this.setState({
                     headerDot: false,
@@ -274,12 +274,12 @@ class Body extends Component {
         document.body.style.overflow="auto"
     }
     scrollToAbout = () => {
-        //.current is verification that your element has rendered
-        if(this.about.current){
-            this.about.current.scrollIntoView({ 
-               behavior: "smooth"
-            })
-        }
+        const store = document.getElementById('about').offsetTop
+        // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        window.scrollTo({
+            top: store - 70, //add your necessary value
+            behavior: "smooth"  //Smooth transition to roll
+          });
         document.getElementById('nav-ham-icon').style.display="block"
         document.getElementById('nav-cross-icon').style.display="none"
         document.getElementById('ham-menu').style.display="none"
@@ -316,7 +316,6 @@ class Body extends Component {
         document.body.style.overflow="auto"
     }
     scrollToWwa = () => {
-        //.current is verification that your element has rendered
         const store = document.getElementById('wwa').offsetTop
         // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
         window.scrollTo({
@@ -373,12 +372,12 @@ class Body extends Component {
         document.body.style.overflow="auto"
     }
     scrollToNumbers = () => {
-        //.current is verification that your element has rendered
-        if(this.numbers.current){
-            this.numbers.current.scrollIntoView({ 
-               behavior: "smooth"
-            })
-        }
+        const store = document.getElementById('numbers').offsetTop
+        // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        window.scrollTo({
+            top: store - 130, //add your necessary value
+            behavior: "smooth"  //Smooth transition to roll
+          });
         document.getElementById('nav-ham-icon').style.display="block"
         document.getElementById('nav-cross-icon').style.display="none"
         document.getElementById('ham-menu').style.display="none"
@@ -464,7 +463,7 @@ class Body extends Component {
                 <section ref={this.about}><About /></section>
                 <section ref={this.hww}><HowWeWork /></section>
                 <section ref={this.team}><Team /></section>
-                <section ref={this.wwa}><WhoWeAre /></section>
+                <section ref={this.wwa}><WhoWeAre scrollToWork={this.scrollToWork}/></section>
                 <section ref={this.services}><Services /></section>
                 <section ref={this.work}><OurWork /></section>
                 <section ref={this.process}><Process /></section>

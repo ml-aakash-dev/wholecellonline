@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-scroll";
+import BgVideo from '../../../assets/header.mp4'
 
 import NavigationBar from './NavigationBar'
 import HamburgerMenu from './HamburgerMenu'
@@ -32,7 +33,11 @@ class Header extends Component {
                 scrollToContact={this.props.scrollToContact}
                     />
                 </div>
-                <div className="bgimg">  
+                    <video preload="auto" autoPlay muted loop="loop" id="header-video" className="video">
+                    <source src={BgVideo} type="video/webm" />
+                    Your browser does not support HTML5 video.
+                    </video>
+                {/* <div className="bgimg">   */}
                     <div className="wrapper">
                         <div className="content">
                             <div className="center-text">
@@ -66,7 +71,7 @@ class Header extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
+                {/* </div> */}
                 
 
                 <PageBorder 
