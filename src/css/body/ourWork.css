@@ -74,7 +74,8 @@
   /* height: 10vh; */
   line-height: 10vh;
   text-align: center;
-  padding: 0 20px 0 20px;
+  padding: 0;
+  /* padding: 0 20px 0 20px; */
   margin: 0;
   list-style: none;
   color: white;
@@ -92,7 +93,7 @@
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 800;
-  padding: 0px 15px;
+  padding: 5px 15px;
   letter-spacing: 2px;
   cursor: pointer;
 }
@@ -140,6 +141,7 @@
   /* margin-top: 20px !important; */
   padding: 5px;
   margin: 0 10px;
+  text-align: center;
 }
 
 .our-work .btn:hover{
@@ -188,11 +190,16 @@
   transition: 0.5s;
   padding: 5%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   }
   .our-work .box:hover .sub-content{
   opacity: 1;
   }
-    .our-work .sub-content p{
+    /* .our-work .sub-content p{
       position: relative;
       text-transform: uppercase;
       font-size: 12px;
@@ -200,6 +207,53 @@
       top: 50%;
       transform: translateX(-50%) translateY(-50%);
   
+    } */
+    
+.our-work .box .img-box .video-icon{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 80px;
+  color: #cc9a4f;
+}
+    
+.our-work .box:hover .content{
+  opacity: 1;
+  }
+
+  .our-work .sub-content h6{
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-size: 2vw;
+    line-height: 24px;
+    font-weight: 700;
+
+    }
+    .our-work .sub-content h6 span{
+      color: #cc9a4f;
+  
+    }
+    .our-work .sub-content p{
+      text-transform: uppercase;
+      font-size: 1vw;
+      margin-bottom: 10px;
+  
+    }
+    .our-work .sub-content .video-icon{
+      font-size: 2vw;
+  
+    }
+    #testimonials-gallery-modal{
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1040;
+      width: 100%;
+      height: 100vh;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background-color: rgba(14, 14, 15, 0.95);
+      display: none;
     }
     @media(max-width: 768px){
         .our-work .box{

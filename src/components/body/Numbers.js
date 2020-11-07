@@ -42,7 +42,7 @@ class Numbers extends Component {
     }
     render() {
         return (
-            <div className="numbers">
+            <div id="numbers" className="numbers">
                 <div className="bgimg">
                     <div className="wrapper">
                         <div className="content">

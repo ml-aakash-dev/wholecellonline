@@ -103,7 +103,7 @@
 .contact .send{
   font-weight: bold;
   color: #cc9a4f;
-  border: #cc9a4f 1px solid;
+  border: white 1px solid;
   background-color: hsla(0, 0%, 0%, 0);
   font-size: 1rem;
   border-radius: 5px;
@@ -111,8 +111,8 @@
 }
 
 .contact .send:hover{
-  color: black;
-  background-color: #cc9a4f;
+  color: white;
+  /* background-color: #cc9a4f; */
 }
 
 @media(max-width: 767px){

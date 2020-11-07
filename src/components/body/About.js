@@ -6,7 +6,7 @@ import '../../css/body/about.css'
 class About extends Component {
     render() {
         return (
-            <div className="about">
+            <div id="about" className="about">
                 <div className="bgimg">  
                     <div className="wrapper">
                         <div className="content">

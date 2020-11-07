@@ -6,7 +6,7 @@ import '../../css/body/services.css'
 class Services extends Component {
     render() {
         return (
-            <div className="services">
+            <div id="services" className="services">
                 <div className="bgimg">
                     <div className="wrapper">
                         <div className="content">

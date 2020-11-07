@@ -6,7 +6,7 @@ import '../../css/body/process.css'
 class Process extends Component {
     render() {
         return (
-            <div className="process">
+            <div id="process" className="process">
                 <div className="bgimg">
                     <div className="wrapper">
                         <div className="content">

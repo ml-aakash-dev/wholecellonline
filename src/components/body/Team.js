@@ -10,7 +10,7 @@ import '../../css/body/team.css'
 class Team extends Component {
     render() {
         return (
-            <div className="team">
+            <div id="team" className="team">
                 <div className="bgimg">
                     <div className="wrapper">
                         <div className="content">

@@ -70,7 +70,7 @@ class Contact extends Component {
         }
     render() {
         return (
-            <div className="contact" id="s-contact">
+            <div className="contact" id="contact">
                 <div className="bgimg">     
                      <div className="image-wrapper">
                         <div className="content">
@@ -110,7 +110,7 @@ class Contact extends Component {
                                 </span>
                                 <div className="form-content" data-aos="fade-left" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
                                     <Form id="contact-form" onSubmit={this.handleSubmit} className="form">
-                                        <Row form>
+                                        <Row>
                                             <Col md={6}>
                                                 <Form.Group>
                                                     <Form.Control

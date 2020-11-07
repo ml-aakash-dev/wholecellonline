@@ -6,7 +6,7 @@ import '../../css/body/whoWeAre.css'
 class WhoWeAre extends Component {
     render() {
         return (
-            <div className="who-we-are">
+            <div id="wwa" className="who-we-are">
                 <Row>
                     <Col xs={12} lg={6} className="col first">
                         <button>View Our Work</button>

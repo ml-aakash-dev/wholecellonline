@@ -6,7 +6,7 @@ import '../../css/body/howWeWork.css'
 class HowWeWork extends Component {
     render() {
         return (
-            <div className="how-we-work">
+            <div id="hww" className="how-we-work">
                 <div className="bgimg">
                     <div className="wrapper">
                         <div className="content">

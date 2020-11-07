@@ -6,7 +6,7 @@ import '../../css/body/tabs.css'
 class Tabs extends Component {
     render() {
         return (
-            <div className="tabs">
+            <div id="tabs" className="tabs">
                 <Row className="bgimg">
                     <Col xs={12} md={4} className="col first">
                         <h1>RESPONSIVE</h1>

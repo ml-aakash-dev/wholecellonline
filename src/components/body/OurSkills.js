@@ -40,7 +40,7 @@ class OurSkills extends Component {
     }
     render() {
         return (
-            <div className="our-skills">
+            <div id="skills" className="our-skills">
                 <div className="bgimg">
                     <div className="wrapper">
                         <div className="content">
