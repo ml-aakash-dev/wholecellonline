@@ -5,12 +5,12 @@ import GalleryModal from './GalleryModal'
 
 import '../../css/body/footer.css'
 
-import Img1 from '../../assets/customer_reviews/1_img.jpg'
-import Img2 from '../../assets/customer_reviews/2_img.jpg'
-import Img3 from '../../assets/customer_reviews/3_img.jpg'
-import Img4 from '../../assets/customer_reviews/4_img.jpg'
-import Img5 from '../../assets/customer_reviews/5_img.jpg'
-import Img6 from '../../assets/customer_reviews/6_img.jpg'
+import Img1 from '../../assets/customer_reviews/1.jpg'
+import Img2 from '../../assets/customer_reviews/2.jpg'
+import Img3 from '../../assets/customer_reviews/3.jpg'
+import Img4 from '../../assets/customer_reviews/4.jpg'
+import Img5 from '../../assets/customer_reviews/5.jpg'
+import Img6 from '../../assets/customer_reviews/6.jpg'
 
 import Video1 from '../../assets/customer_reviews/1.mp4'
 import Video2 from '../../assets/customer_reviews/2.mp4'
@@ -145,49 +145,49 @@ class Footer extends Component {
                         <Col xs={6} md={3} className="third-col col">
                             <h6>Quick Visit</h6>
                             <p>
-                                <Link
+                                {/* <Link
                                 activeClass="active"
                                 to="about"
                                 spy={true}
                                 smooth={true}
                                 offset={-50}
                                 duration= {1000}
-                                >
-                                <span>- About</span>
-                                </Link>
+                                > */}
+                                <span onClick={this.props.scrollToServices}>- Services</span>
+                                {/* </Link> */}
                                 <br/>
-                                <Link
+                                {/* <Link
                                 activeClass="active"
                                 to="team"
                                 spy={true}
                                 smooth={true}
                                 offset={-0}
                                 duration= {1000}
-                                >
-                                <span>- Team</span>
-                                </Link>
+                                > */}
+                                <span onClick={this.props.scrollToWork}>- Work</span>
+                                {/* </Link> */}
                                 <br/>
-                                <Link
+                                {/* <Link
                                 activeClass="active"
                                 to="services"
                                 spy={true}
                                 smooth={true}
                                 offset={-0}
                                 duration= {1000}
-                                >
-                                <span>- Services</span>
-                                </Link>
+                                > */}
+                                <span onClick={this.props.scrollToNumbers}>- Numbers</span>
+                                {/* </Link> */}
                                 <br/>
-                                <Link
+                                {/* <Link
                                 activeClass="active"
                                 to="our-work"
                                 spy={true}
                                 smooth={true}
                                 offset={-0}
                                 duration= {1000}
-                                >
-                                <span>- Our Work</span>
-                                </Link>
+                                > */}
+                                <span onClick={this.props.scrollToContact}>- Contact</span>
+                                {/* </Link> */}
                             </p>
                         </Col>
                         <Col xs={6} md={3} className="last-col col">

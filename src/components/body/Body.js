@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
 
 import Header from './header/Header'
-import Tabs from './Tabs'
-import About from './About'
+import Tabs from './services/Tabs'
+import Accessories from './services/Accessories'
+import Repair from './services/Repair'
+import Activation from './services/Activation'
+// import About from './About'
 import HowWeWork from './HowWeWork'
 import Team from './Team'
 import WhoWeAre from './WhoWeAre'
@@ -20,11 +23,11 @@ class Body extends Component {
         this.state={
             state1: "state1",
             headerDot: true,
+            servicesDot: false,
             aboutDot:false,
             hwwDot: false,
             teamDot: false,
             wwaDot: false,
-            servicesDot: false,
             workDot: false,
             processDot: false,
             numbersDot: false,
@@ -32,15 +35,15 @@ class Body extends Component {
             contactDot: false
         }
         this.header = React.createRef()
-        this.about = React.createRef()
-        this.hww = React.createRef()
-        this.team = React.createRef()
-        this.wwa = React.createRef()
         this.services = React.createRef()
+        // this.about = React.createRef()
+        // this.hww = React.createRef()
+        // this.team = React.createRef()
+        // this.wwa = React.createRef()
         this.work = React.createRef()
-        this.process = React.createRef()
+        // this.process = React.createRef()
         this.numbers = React.createRef()
-        this.skills = React.createRef()
+        // this.skills = React.createRef()
         this.contact = React.createRef()
     } 
     
@@ -66,6 +69,7 @@ class Body extends Component {
         
                 this.setState({
                     headerDot: true,
+                    servicesDot: false,
                     aboutDot:false,
                     hwwDot: false,
                     teamDot: false,
@@ -79,83 +83,15 @@ class Body extends Component {
         
                 })
             } 
-            if(window.scrollY >= document.getElementById("about").offsetTop-80)
+            if(window.scrollY >= document.getElementById("tabs").offsetTop-50)
             {
                 this.setState({
                     headerDot: false,
-                    aboutDot:true,
-                    hwwDot: false,
-                    teamDot: false,
-                    wwaDot: false,
-                    servicesDot: false,
-                    workDot: false,
-                    processDot: false,
-                    numbersDot: false,
-                    skillsDot: false,
-                    contactDot: false
-        
-                })
-            }
-            if(window.scrollY >= document.getElementById("hww").offsetTop - 80)
-            {
-                this.setState({
-                    headerDot: false,
-                    aboutDot:false,
-                    hwwDot: true,
-                    teamDot: false,
-                    wwaDot: false,
-                    servicesDot: false,
-                    workDot: false,
-                    processDot: false,
-                    numbersDot: false,
-                    skillsDot: false,
-                    contactDot: false
-        
-                })
-            }
-            if(window.scrollY >= document.getElementById("team").offsetTop-50)
-            {
-                this.setState({
-                    headerDot: false,
-                    aboutDot:false,
-                    hwwDot: false,
-                    teamDot: true,
-                    wwaDot: false,
-                    servicesDot: false,
-                    workDot: false,
-                    processDot: false,
-                    numbersDot: false,
-                    skillsDot: false,
-                    contactDot: false
-        
-                })
-            }
-            if(window.scrollY >= document.getElementById("wwa").offsetTop-160)
-            {
-                this.setState({
-                    headerDot: false,
-                    aboutDot:false,
-                    hwwDot: false,
-                    teamDot: false,
-                    wwaDot: true,
-                    servicesDot: false,
-                    workDot: false,
-                    processDot: false,
-                    numbersDot: false,
-                    skillsDot: false,
-                    contactDot: false
-        
-                })
-            }
-            if(window.scrollY >= document.getElementById("services").offsetTop-50)
-            {
-                this.setState({
-                    headerDot: false,
-                    aboutDot:false,
-                    hwwDot: false,
-                    teamDot: false,
-                    wwaDot: false,
                     servicesDot: true,
+                    aboutDot:false,
+                    hwwDot: false,
+                    teamDot: false,
+                    wwaDot: false,
                     workDot: false,
                     processDot: false,
                     numbersDot: false,
@@ -164,15 +100,84 @@ class Body extends Component {
         
                 })
             }
+            // if(window.scrollY >= document.getElementById("about").offsetTop-70)
+            // {
+            //     this.setState({
+            //         headerDot: false,
+            //         servicesDot: false,
+            //         aboutDot:true,
+            //         hwwDot: false,
+            //         teamDot: false,
+            //         wwaDot: false,
+            //         servicesDot: false,
+            //         workDot: false,
+            //         processDot: false,
+            //         numbersDot: false,
+            //         skillsDot: false,
+            //         contactDot: false
+        
+            //     })
+            // }
+            // if(window.scrollY >= document.getElementById("hww").offsetTop - 80)
+            // {
+            //     this.setState({
+            //         headerDot: false,
+            //         servicesDot: false,
+            //         aboutDot:false,
+            //         hwwDot: true,
+            //         teamDot: false,
+            //         wwaDot: false,
+            //         workDot: false,
+            //         processDot: false,
+            //         numbersDot: false,
+            //         skillsDot: false,
+            //         contactDot: false
+        
+            //     })
+            // }
+            // if(window.scrollY >= document.getElementById("team").offsetTop-50)
+            // {
+            //     this.setState({
+            //         headerDot: false,
+            //         servicesDot: false,
+            //         aboutDot:false,
+            //         hwwDot: false,
+            //         teamDot: true,
+            //         wwaDot: false,
+            //         workDot: false,
+            //         processDot: false,
+            //         numbersDot: false,
+            //         skillsDot: false,
+            //         contactDot: false
+        
+            //     })
+            // }
+            // if(window.scrollY >= document.getElementById("wwa").offsetTop-160)
+            // {
+            //     this.setState({
+            //         headerDot: false,
+            //         servicesDot: false,
+            //         aboutDot:false,
+            //         hwwDot: false,
+            //         teamDot: false,
+            //         wwaDot: true,
+            //         workDot: false,
+            //         processDot: false,
+            //         numbersDot: false,
+            //         skillsDot: false,
+            //         contactDot: false
+        
+            //     })
+            // }
             if(window.scrollY >= document.getElementById("work").offsetTop-50)
             {
                 this.setState({
                     headerDot: false,
+                    servicesDot: false,
                     aboutDot:false,
                     hwwDot: false,
                     teamDot: false,
                     wwaDot: false,
-                    servicesDot: false,
                     workDot: true,
                     processDot: false,
                     numbersDot: false,
@@ -181,32 +186,32 @@ class Body extends Component {
         
                 })
             }
-            if(window.scrollY >= document.getElementById("process").offsetTop-50)
-            {
-                this.setState({
-                    headerDot: false,
-                    aboutDot:false,
-                    hwwDot: false,
-                    teamDot: false,
-                    wwaDot: false,
-                    servicesDot: false,
-                    workDot: false,
-                    processDot: true,
-                    numbersDot: false,
-                    skillsDot: false,
-                    contactDot: false
+            // if(window.scrollY >= document.getElementById("process").offsetTop-50)
+            // {
+            //     this.setState({
+            //         headerDot: false,
+            //         servicesDot: false,
+            //         aboutDot:false,
+            //         hwwDot: false,
+            //         teamDot: false,
+            //         wwaDot: false,
+            //         workDot: false,
+            //         processDot: true,
+            //         numbersDot: false,
+            //         skillsDot: false,
+            //         contactDot: false
         
-                })
-            }
+            //     })
+            // }
             if(window.scrollY >= document.getElementById("numbers").offsetTop-140)
             {
                 this.setState({
                     headerDot: false,
+                    servicesDot: false,
                     aboutDot:false,
                     hwwDot: false,
                     teamDot: false,
                     wwaDot: false,
-                    servicesDot: false,
                     workDot: false,
                     processDot: false,
                     numbersDot: true,
@@ -215,32 +220,32 @@ class Body extends Component {
         
                 })
             }
-            if(window.scrollY >= document.getElementById("skills").offsetTop-50)
-            {
-                this.setState({
-                    headerDot: false,
-                    aboutDot:false,
-                    hwwDot: false,
-                    teamDot: false,
-                    wwaDot: false,
-                    servicesDot: false,
-                    workDot: false,
-                    processDot: false,
-                    numbersDot: false,
-                    skillsDot: true,
-                    contactDot: false
+            // if(window.scrollY >= document.getElementById("skills").offsetTop-50)
+            // {
+            //     this.setState({
+            //         headerDot: false,
+            //         servicesDot: false,
+            //         aboutDot:false,
+            //         hwwDot: false,
+            //         teamDot: false,
+            //         wwaDot: false,
+            //         workDot: false,
+            //         processDot: false,
+            //         numbersDot: false,
+            //         skillsDot: true,
+            //         contactDot: false
         
-                })
-            }
+            //     })
+            // }
             if(window.scrollY >= document.getElementById("contact").offsetTop-50)
             {
                 this.setState({
                     headerDot: false,
+                    servicesDot: false,
                     aboutDot:false,
                     hwwDot: false,
                     teamDot: false,
                     wwaDot: false,
-                    servicesDot: false,
                     workDot: false,
                     processDot: false,
                     numbersDot: false,
@@ -273,69 +278,13 @@ class Body extends Component {
         document.getElementById('nav-logo-bottom').style.display="block" 
         document.body.style.overflow="auto"
     }
-    scrollToAbout = () => {
-        const store = document.getElementById('about').offsetTop
-        // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        window.scrollTo({
-            top: store - 70, //add your necessary value
-            behavior: "smooth"  //Smooth transition to roll
-          });
-        document.getElementById('nav-ham-icon').style.display="block"
-        document.getElementById('nav-cross-icon').style.display="none"
-        document.getElementById('ham-menu').style.display="none"
-        document.getElementById('mobile-ham-menu').style.display="none"
-        document.getElementById('nav-logo-bottom').style.display="block" 
-        document.body.style.overflow="auto"
-    }
-    scrollToHww = () => {
-        const store = document.getElementById('hww').offsetTop
-        // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        window.scrollTo({
-            top: store - 70, //add your necessary value
-            behavior: "smooth"  //Smooth transition to roll
-          });
-        document.getElementById('nav-ham-icon').style.display="block"
-        document.getElementById('nav-cross-icon').style.display="none"
-        document.getElementById('ham-menu').style.display="none"
-        document.getElementById('mobile-ham-menu').style.display="none"
-        document.getElementById('nav-logo-bottom').style.display="block" 
-        document.body.style.overflow="auto"
-    }
-    scrollToTeam = () => {
-        //.current is verification that your element has rendered
-        if(this.team.current){
-            this.team.current.scrollIntoView({ 
-               behavior: "smooth"
-            })
-        }
-        document.getElementById('nav-ham-icon').style.display="block"
-        document.getElementById('nav-cross-icon').style.display="none"
-        document.getElementById('ham-menu').style.display="none"
-        document.getElementById('mobile-ham-menu').style.display="none"
-        document.getElementById('nav-logo-bottom').style.display="block" 
-        document.body.style.overflow="auto"
-    }
-    scrollToWwa = () => {
-        const store = document.getElementById('wwa').offsetTop
-        // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        window.scrollTo({
-            top: store - 150, //add your necessary value
-            behavior: "smooth"  //Smooth transition to roll
-          });
-        document.getElementById('nav-ham-icon').style.display="block"
-        document.getElementById('nav-cross-icon').style.display="none"
-        document.getElementById('ham-menu').style.display="none"
-        document.getElementById('mobile-ham-menu').style.display="none"
-        document.getElementById('nav-logo-bottom').style.display="block" 
-        document.body.style.overflow="auto"
-    }
     scrollToServices = () => {
-        //.current is verification that your element has rendered
-        if(this.services.current){
-            this.services.current.scrollIntoView({ 
-               behavior: "smooth"
-            })
-        }
+        const store = document.getElementById('tabs').offsetTop
+        // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        window.scrollTo({
+            top: store -40, //add your necessary value
+            behavior: "smooth"  //Smooth transition to roll
+          });
         document.getElementById('nav-ham-icon').style.display="block"
         document.getElementById('nav-cross-icon').style.display="none"
         document.getElementById('ham-menu').style.display="none"
@@ -343,6 +292,86 @@ class Body extends Component {
         document.getElementById('nav-logo-bottom').style.display="block" 
         document.body.style.overflow="auto"
     }
+    scrollToAccessories = () => {
+        const store = document.getElementById('accessories').offsetTop
+        // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        window.scrollTo({
+            top: store -0, //add your necessary value
+            behavior: "smooth"  //Smooth transition to roll
+          });
+    }
+    scrollToRepair = () => {
+        const store = document.getElementById('repair').offsetTop
+        // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        window.scrollTo({
+            top: store -0, //add your necessary value
+            behavior: "smooth"  //Smooth transition to roll
+          });
+    }
+    scrollToActivation = () => {
+        const store = document.getElementById('activation').offsetTop
+        // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        window.scrollTo({
+            top: store -0, //add your necessary value
+            behavior: "smooth"  //Smooth transition to roll
+          });
+    }
+    // scrollToAbout = () => {
+    //     const store = document.getElementById('about').offsetTop
+    //     // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    //     window.scrollTo({
+    //         top: store -60, //add your necessary value
+    //         behavior: "smooth"  //Smooth transition to roll
+    //       });
+    //     document.getElementById('nav-ham-icon').style.display="block"
+    //     document.getElementById('nav-cross-icon').style.display="none"
+    //     document.getElementById('ham-menu').style.display="none"
+    //     document.getElementById('mobile-ham-menu').style.display="none"
+    //     document.getElementById('nav-logo-bottom').style.display="block" 
+    //     document.body.style.overflow="auto"
+    // }
+    // scrollToHww = () => {
+    //     const store = document.getElementById('hww').offsetTop
+    //     // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    //     window.scrollTo({
+    //         top: store - 70, //add your necessary value
+    //         behavior: "smooth"  //Smooth transition to roll
+    //       });
+    //     document.getElementById('nav-ham-icon').style.display="block"
+    //     document.getElementById('nav-cross-icon').style.display="none"
+    //     document.getElementById('ham-menu').style.display="none"
+    //     document.getElementById('mobile-ham-menu').style.display="none"
+    //     document.getElementById('nav-logo-bottom').style.display="block" 
+    //     document.body.style.overflow="auto"
+    // }
+    // scrollToTeam = () => {
+    //     //.current is verification that your element has rendered
+    //     if(this.team.current){
+    //         this.team.current.scrollIntoView({ 
+    //            behavior: "smooth"
+    //         })
+    //     }
+    //     document.getElementById('nav-ham-icon').style.display="block"
+    //     document.getElementById('nav-cross-icon').style.display="none"
+    //     document.getElementById('ham-menu').style.display="none"
+    //     document.getElementById('mobile-ham-menu').style.display="none"
+    //     document.getElementById('nav-logo-bottom').style.display="block" 
+    //     document.body.style.overflow="auto"
+    // }
+    // scrollToWwa = () => {
+    //     const store = document.getElementById('wwa').offsetTop
+    //     // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    //     window.scrollTo({
+    //         top: store - 150, //add your necessary value
+    //         behavior: "smooth"  //Smooth transition to roll
+    //       });
+    //     document.getElementById('nav-ham-icon').style.display="block"
+    //     document.getElementById('nav-cross-icon').style.display="none"
+    //     document.getElementById('ham-menu').style.display="none"
+    //     document.getElementById('mobile-ham-menu').style.display="none"
+    //     document.getElementById('nav-logo-bottom').style.display="block" 
+    //     document.body.style.overflow="auto"
+    // }
     scrollToWork = () => {
         //.current is verification that your element has rendered
         if(this.work.current){
@@ -357,20 +386,20 @@ class Body extends Component {
         document.getElementById('nav-logo-bottom').style.display="block" 
         document.body.style.overflow="auto"
     }
-    scrollToProcess = () => {
-        //.current is verification that your element has rendered
-        if(this.process.current){
-            this.process.current.scrollIntoView({ 
-               behavior: "smooth"
-            })
-        }
-        document.getElementById('nav-ham-icon').style.display="block"
-        document.getElementById('nav-cross-icon').style.display="none"
-        document.getElementById('ham-menu').style.display="none"
-        document.getElementById('mobile-ham-menu').style.display="none"
-        document.getElementById('nav-logo-bottom').style.display="block" 
-        document.body.style.overflow="auto"
-    }
+    // scrollToProcess = () => {
+    //     //.current is verification that your element has rendered
+    //     if(this.process.current){
+    //         this.process.current.scrollIntoView({ 
+    //            behavior: "smooth"
+    //         })
+    //     }
+    //     document.getElementById('nav-ham-icon').style.display="block"
+    //     document.getElementById('nav-cross-icon').style.display="none"
+    //     document.getElementById('ham-menu').style.display="none"
+    //     document.getElementById('mobile-ham-menu').style.display="none"
+    //     document.getElementById('nav-logo-bottom').style.display="block" 
+    //     document.body.style.overflow="auto"
+    // }
     scrollToNumbers = () => {
         const store = document.getElementById('numbers').offsetTop
         // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -385,20 +414,20 @@ class Body extends Component {
         document.getElementById('nav-logo-bottom').style.display="block" 
         document.body.style.overflow="auto"
     }
-    scrollToSkills = () => {
-        //.current is verification that your element has rendered
-        if(this.skills.current){
-            this.skills.current.scrollIntoView({ 
-               behavior: "smooth"
-            })
-        }
-        document.getElementById('nav-ham-icon').style.display="block"
-        document.getElementById('nav-cross-icon').style.display="none"
-        document.getElementById('ham-menu').style.display="none"
-        document.getElementById('mobile-ham-menu').style.display="none"
-        document.getElementById('nav-logo-bottom').style.display="block" 
-        document.body.style.overflow="auto"
-    }
+    // scrollToSkills = () => {
+    //     //.current is verification that your element has rendered
+    //     if(this.skills.current){
+    //         this.skills.current.scrollIntoView({ 
+    //            behavior: "smooth"
+    //         })
+    //     }
+    //     document.getElementById('nav-ham-icon').style.display="block"
+    //     document.getElementById('nav-cross-icon').style.display="none"
+    //     document.getElementById('ham-menu').style.display="none"
+    //     document.getElementById('mobile-ham-menu').style.display="none"
+    //     document.getElementById('nav-logo-bottom').style.display="block" 
+    //     document.body.style.overflow="auto"
+    // }
     scrollToContact = () => {
         //.current is verification that your element has rendered
         if(this.contact.current){
@@ -435,15 +464,15 @@ class Body extends Component {
                         state1Handler={this.state1Handler}
                         state2Handler={this.state2Handler}
                         scrollToHeader={this.scrollToHeader}
-                        scrollToAbout={this.scrollToAbout}
-                        scrollToHww={this.scrollToHww}
-                        scrollToTeam={this.scrollToTeam}
-                        scrollToWwa={this.scrollToWwa}
+                        // scrollToAbout={this.scrollToAbout}
+                        // scrollToHww={this.scrollToHww}
+                        // scrollToTeam={this.scrollToTeam}
+                        // scrollToWwa={this.scrollToWwa}
                         scrollToServices={this.scrollToServices}
                         scrollToWork={this.scrollToWork}
-                        scrollToProcess={this.scrollToProcess}
+                        // scrollToProcess={this.scrollToProcess}
                         scrollToNumbers={this.scrollToNumbers}
-                        scrollToSkills={this.scrollToSkills}
+                        // scrollToSkills={this.scrollToSkills}
                         scrollToContact={this.scrollToContact}
                         state={this.state.state1}
                         headerDot={this.state.headerDot}
@@ -459,18 +488,30 @@ class Body extends Component {
                         contactDot={this.state.contactDot}
                     />
                 </section>
-                <Tabs />
-                <section ref={this.about}><About /></section>
-                <section ref={this.hww}><HowWeWork /></section>
+                <section ref={this.services}><Tabs 
+                scrollToAccessories={this.scrollToAccessories}
+                scrollToRepair={this.scrollToRepair}
+                scrollToActivation={this.scrollToActivation}
+                /></section>
+                <Accessories />
+                <Repair />
+                <Activation />
+                {/* <section ref={this.about}><About /></section> */}
+                {/* <section ref={this.hww}><HowWeWork /></section>
                 <section ref={this.team}><Team /></section>
-                <section ref={this.wwa}><WhoWeAre scrollToWork={this.scrollToWork}/></section>
-                <section ref={this.services}><Services /></section>
+                <section ref={this.wwa}><WhoWeAre scrollToWork={this.scrollToWork}/></section> */}
+                {/* <section ref={this.services}><Services /></section> */}
                 <section ref={this.work}><OurWork /></section>
-                <section ref={this.process}><Process /></section>
+                {/* <section ref={this.process}><Process /></section> */}
                 <section ref={this.numbers}><Numbers /></section>
-                <section ref={this.skills}><OurSkills /></section>
+                {/* <section ref={this.skills}><OurSkills /></section> */}
                 <section ref={this.contact}><Contact /></section>
-                <Footer />
+                <Footer 
+                    scrollToServices={this.scrollToServices}
+                    scrollToWork={this.scrollToWork}
+                    scrollToNumbers={this.scrollToNumbers}
+                    scrollToContact={this.scrollToContact}
+                />
             </div>
         )
     }

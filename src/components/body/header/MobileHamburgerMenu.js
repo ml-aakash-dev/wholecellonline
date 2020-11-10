@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import {Row,Col} from "react-bootstrap"
-import { UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import { Link} from "react-scroll";
 
 import '../../../css/body/header/mobileHamburgerMenu.css'
 

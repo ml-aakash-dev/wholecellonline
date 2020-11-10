@@ -113,17 +113,20 @@
     opacity: 0;
     left: 0;
     bottom: 0;
-    -webkit-transition: width 3s ease-in-out;
-    -moz-transition: width 3s ease-in-out;
-    -o-transition: width 3s ease-in-out;
-    transition: width 3s ease-in-out;
+    -webkit-transition: width 2s ease-in-out;
+    -moz-transition: width 2s ease-in-out;
+    -o-transition: width 2s ease-in-out;
+    transition: width 2s ease-in-out;
   }
 
   .our-skills .content .dark .percent{
-    background-color: rgba(56, 56, 56, 0.82);
+    background-color: rgba(56, 56, 56, 0.6);
   }
-  .our-skills .content .light .percent,.our-skills .content .light h3{
+  .our-skills .content .light .percent{
     background-color: rgba(255, 255, 255, 0.5);
+  }
+  .our-skills .content .light h3{
+    background-color: rgba(255, 255, 255, 0.8);
     color: black;
   }
 

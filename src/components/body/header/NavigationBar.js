@@ -2,17 +2,12 @@ import React, { Component } from 'react'
 import {
     Navbar,
     NavbarBrand,
-    Nav,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
+    Nav
   } from 'reactstrap';
 
 import NavHamburger from './NavHamburger'
 import '../../../css/body/header/navigationBar.css'
 import Login from '../../auth/Login'
-import { Link} from "react-scroll";
 import $ from 'jquery'
 
 class NavigationBar extends Component {
@@ -257,27 +252,7 @@ class NavigationBar extends Component {
                                 onClick={this.props.scrollToHeader}>
                                     <span>Home</span> 
                                 </NavbarBrand>
-
-                                <NavbarBrand 
-                                className={
-                                    this.props.aboutDot ?
-                                    "nav-item active": 
-                                    "nav-item"
-                                } 
-                                onClick={this.props.scrollToAbout}>
-                                    <span>About</span> 
-                                </NavbarBrand>
-
-                                <NavbarBrand 
-                                className={
-                                    this.props.teamDot ?
-                                    "nav-item active": 
-                                    "nav-item"
-                                } 
-                                onClick={this.props.scrollToTeam}>
-                                    <span>Team</span> 
-                                </NavbarBrand>
-
+                                
                                 <NavbarBrand 
                                 className={
                                     this.props.servicesDot ?
@@ -287,6 +262,26 @@ class NavigationBar extends Component {
                                 onClick={this.props.scrollToServices}>
                                     <span>Services</span> 
                                 </NavbarBrand>
+
+                                {/* <NavbarBrand 
+                                className={
+                                    this.props.aboutDot ?
+                                    "nav-item active": 
+                                    "nav-item"
+                                } 
+                                onClick={this.props.scrollToAbout}>
+                                    <span>About</span> 
+                                </NavbarBrand> */}
+
+                                {/* <NavbarBrand 
+                                className={
+                                    this.props.teamDot ?
+                                    "nav-item active": 
+                                    "nav-item"
+                                } 
+                                onClick={this.props.scrollToTeam}>
+                                    <span>Team</span> 
+                                </NavbarBrand> */}
 
                                 <NavbarBrand 
                                 className={
@@ -298,7 +293,7 @@ class NavigationBar extends Component {
                                     <span>Work</span> 
                                 </NavbarBrand>
 
-                                <NavbarBrand 
+                                {/* <NavbarBrand 
                                 className={
                                     this.props.skillsDot ?
                                     "nav-item active": 
@@ -306,7 +301,7 @@ class NavigationBar extends Component {
                                 } 
                                 onClick={this.props.scrollToSkills}>
                                     <span>Skills</span> 
-                                </NavbarBrand>
+                                </NavbarBrand> */}
 
                                 <NavbarBrand 
                                 className={

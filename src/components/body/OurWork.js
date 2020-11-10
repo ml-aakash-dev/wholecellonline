@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
 import GalleryModal from './GalleryModal'
-import Img1 from '../../assets/customer_reviews/1_img.jpg'
-import Img2 from '../../assets/customer_reviews/2_img.jpg'
-import Img3 from '../../assets/customer_reviews/3_img.jpg'
-import Img4 from '../../assets/customer_reviews/4_img.jpg'
-import Img5 from '../../assets/customer_reviews/5_img.jpg'
-import Img6 from '../../assets/customer_reviews/6_img.jpg'
-import Img7 from '../../assets/customer_reviews/7_img.jpg'
-import Img8 from '../../assets/customer_reviews/8_img.jpg'
-import Img9 from '../../assets/customer_reviews/9_img.jpg'
-import Img10 from '../../assets/customer_reviews/10_img.jpg'
-import Img11 from '../../assets/customer_reviews/11_img.jpg'
-import Img12 from '../../assets/customer_reviews/12_img.jpg'
+import Img1 from '../../assets/customer_reviews/1.jpg'
+import Img2 from '../../assets/customer_reviews/2.jpg'
+import Img3 from '../../assets/customer_reviews/3.jpg'
+import Img4 from '../../assets/customer_reviews/4.jpg'
+import Img5 from '../../assets/customer_reviews/5.jpg'
+import Img6 from '../../assets/customer_reviews/6.jpg'
+import Img7 from '../../assets/customer_reviews/7.jpg'
+import Img8 from '../../assets/customer_reviews/8.jpg'
+import Img9 from '../../assets/customer_reviews/9.jpg'
+import Img10 from '../../assets/customer_reviews/10.jpg'
+import Img11 from '../../assets/customer_reviews/11.jpg'
+import Img12 from '../../assets/customer_reviews/12.jpg'
 
 import Video1 from '../../assets/customer_reviews/1.mp4'
 import Video2 from '../../assets/customer_reviews/2.mp4'
@@ -123,41 +123,41 @@ class OurWork extends Component {
                     id: 9,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "whole cell accessories in lansing gave me a great deal on my phones, repaired them, they both are working and great customer service and I just want to say thank you",
+                    desc: "hey, if you wanna get a new phone or want to get your phone fixed, come down to accessories for tablet they gonna take care of you man",
                     image: Img9,
                     video: Video9,
-                    date: "05-08-2020",
+                    date: "05-09-2020",
                     store: "Whole Cell Accessories"
                 },
                 {
                     id: 10,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "shout out to boost in Lansing, come get your phone, service is execellent here they hook me up",
+                    desc: "I came here to get my phone fixed with my wife and they offer great service",
                     image: Img10,
                     video: Video10,
-                    date: "05-08-2020",
-                    store: "Boost Mobile"
+                    date: "05-14-2020",
+                    store: "We Fix Phones"
                 },
                 {
                     id: 11,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "hey, if you wanna get a new phone or want to get your phone fixed, come down to accessories for tablet they gonna take care of you man",
+                    desc: "We Fix Phones has been a blessing to me, I broke my phone screen and had to get my laptop fixed but they did it on the same day",
                     image: Img11,
                     video: Video11,
-                    date: "05-09-2020",
-                    store: "Whole Cell Accessories"
+                    date: "05-14-2020",
+                    store: "We Fix Phones"
                 },
                 {
                     id: 12,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "these guys help me so many times and they are very helpful, usually in and out here is quick, I love this guy thanks for taking care of me",
+                    desc: "They gave me a great price and speedy service, I'll come again",
                     image: Img12,
                     video: Video12,
-                    date: "05-09-2020",
-                    store: "Boost Mobile"
+                    date: "05-12-2020",
+                    store: "We Fix Phones"
                 }
             ]
         }

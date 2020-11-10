@@ -66,15 +66,23 @@ class PageBorder extends Component {
                                         <i className="fas fa-circle circle"></i>
                                 }
                             </li>
-                            <li onClick={this.props.scrollToAbout}>
+                            <li onClick={this.props.scrollToServices}>
+                                {
+                                    this.props.servicesDot ? 
+                                    <i className="far fa-circle"></i>
+                                    :
+                                    <i className="fas fa-circle circle"></i>
+                                }
+                            </li>
+                            {/* <li onClick={this.props.scrollToAbout}>
                                 {
                                     this.props.aboutDot ? 
                                         <i className="far fa-circle"></i>
                                     :
                                         <i className="fas fa-circle circle"></i>
                                 }
-                            </li>
-                            <li onClick={this.props.scrollToHww}>
+                            </li> */}
+                            {/* <li onClick={this.props.scrollToHww}>
                                 {
                                     this.props.hwwDot ? 
                                         <i className="far fa-circle"></i>
@@ -97,15 +105,7 @@ class PageBorder extends Component {
                                     :
                                         <i className="fas fa-circle circle"></i>
                                 }
-                            </li>
-                            <li onClick={this.props.scrollToServices}>
-                                {
-                                    this.props.servicesDot ? 
-                                    <i className="far fa-circle"></i>
-                                    :
-                                    <i className="fas fa-circle circle"></i>
-                                }
-                            </li>
+                            </li> */}
                             <li onClick={this.props.scrollToWork}>
                                 {
                                     this.props.workDot ? 
@@ -114,14 +114,14 @@ class PageBorder extends Component {
                                         <i className="fas fa-circle circle"></i>
                                 }
                             </li>
-                            <li onClick={this.props.scrollToProcess}>
+                            {/* <li onClick={this.props.scrollToProcess}>
                                 {
                                     this.props.processDot ? 
                                         <i className="far fa-circle"></i>
                                     :
                                         <i className="fas fa-circle circle"></i>
                                 }
-                            </li>
+                            </li> */}
                             <li onClick={this.props.scrollToNumbers}>
                                 {
                                     this.props.numbersDot ? 
@@ -130,14 +130,14 @@ class PageBorder extends Component {
                                         <i className="fas fa-circle circle"></i>
                                 }
                             </li>
-                            <li onClick={this.props.scrollToSkills}>
+                            {/* <li onClick={this.props.scrollToSkills}>
                                 {
                                     this.props.skillsDot ? 
                                         <i className="far fa-circle"></i>
                                     :
                                         <i className="fas fa-circle circle"></i>
                                 }
-                            </li>
+                            </li> */}
                             <li onClick={this.props.scrollToContact}>
                                 {
                                     this.props.contactDot ? 

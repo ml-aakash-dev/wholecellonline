@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from "react-scroll";
 import BgVideo from '../../../assets/header.mp4'
 
 import NavigationBar from './NavigationBar'
@@ -43,30 +42,29 @@ class Header extends Component {
                             <div className="center-text">
                                 <h2>We <span>are</span></h2>
                                 <h1>WHOLE CELL <span>ACCESSORIES</span></h1>
-                                <p>INTEGER LIGULA ANTE, POSUERE ET ANTE QUIS, <br/>
-                                 ELEIFEND ELEIFEND IPSUM. IN SED ODIO MI <br/>
-                                  VIVAMUS DAPIBUS GRAVIDA.</p>
+                                <p>Open To Public<br/>
+                                Never Pay Retail!!!<br/></p>
                                 <div className="btn-group">
-                                    <Link
+                                    {/* <Link
                                     activeClass="active"
-                                    to="about"
+                                    to="tabs"
                                     spy={true}
                                     smooth={true}
-                                    offset={-50}
+                                    offset={-0}
                                     duration= {1000}
-                                    >
-                                        <button className="btn-au">About us</button>
-                                    </Link>
-                                    <Link
+                                    > */}
+                                        <button className="btn-au" onClick={this.props.scrollToServices}>Services</button>
+                                    {/* </Link> */}
+                                    {/* <Link
                                     activeClass="active"
                                     to="our-work"
                                     spy={true}
                                     smooth={true}
                                     offset={-50}
-                                    duration= {1000}
-                                    >
-                                        <button className="btn-ow">Our Work</button>
-                                    </Link>
+                                    duration= {1000} 
+                                    >*/}
+                                        <button className="btn-ow" onClick={this.props.scrollToWork}>Our Work</button>
+                                    {/* </Link> */}
                                 </div>
                             </div>
                         </div>

@@ -52,23 +52,23 @@ class Numbers extends Component {
                         <Row className="counters">
                             <Col xs={12} sm={6} xl={3} className="background-l col">
                             {/* <div className="counter background-10-light" data-target="358022">0</div> */}
-                                <div className="counter background-10-light">210</div>
-                                <h3>PROJECTS</h3>
+                                <div className="counter background-10-light">91376</div>
+                                <h3>Satisfied Customers</h3>
                             </Col>
                             <Col xs={12} sm={6} xl={3} className="background-d col">
                             {/* <div className="counter background-10-light" data-target="24442">0</div> */}
-                                <div className="counter background-10-light">120</div>
-                                <h3>CLIENTS</h3>
+                                <div className="counter background-10-light">385573</div>
+                                <h3>Succesful Repairs</h3>
                             </Col>
                             <Col xs={12} sm={6} xl={3} className="background-l col">
                             {/* <div className="counter background-10-light" data-target="6656">0</div> */}
-                                <div className="counter background-10-light">3459</div>
-                                <h3>FOLLOWERS</h3>
+                                <div className="counter background-10-light">26555</div>
+                                <h3>5 Star Google Reviews</h3>
                             </Col>
                             <Col xs={12} sm={6} xl={3} className="background-d col">
                             {/* <div className="counter background-10-light" data-target="6656">0</div> */}
-                                <div className="counter background-10-light">7</div>
-                                <h3>YEARS</h3>
+                                <div className="counter background-10-light">10114</div>
+                                <h3>New Phone Sales</h3>
                             </Col>
                         </Row>
                     </div>
