@@ -20,16 +20,6 @@ import Img17 from '../../assets/customer_reviews/17.jpg'
 import Img18 from '../../assets/customer_reviews/18.jpg'
 import Img19 from '../../assets/customer_reviews/19.jpg'
 import Img20 from '../../assets/customer_reviews/20.jpg'
-import Img21 from '../../assets/customer_reviews/21.jpg'
-import Img22 from '../../assets/customer_reviews/22.jpg'
-import Img23 from '../../assets/customer_reviews/23.jpg'
-import Img24 from '../../assets/customer_reviews/24.jpg'
-import Img25 from '../../assets/customer_reviews/25.jpg'
-import Img26 from '../../assets/customer_reviews/26.jpg'
-import Img27 from '../../assets/customer_reviews/27.jpg'
-import Img28 from '../../assets/customer_reviews/28.jpg'
-import Img29 from '../../assets/customer_reviews/29.jpg'
-import Img30 from '../../assets/customer_reviews/30.jpg'
 
 import Video1 from '../../assets/customer_reviews/1.mp4'
 import Video2 from '../../assets/customer_reviews/2.mp4'
@@ -51,16 +41,6 @@ import Video17 from '../../assets/customer_reviews/17.mp4'
 import Video18 from '../../assets/customer_reviews/18.mp4'
 import Video19 from '../../assets/customer_reviews/19.mp4'
 import Video20 from '../../assets/customer_reviews/20.mp4'
-import Video21 from '../../assets/customer_reviews/21.mp4'
-import Video22 from '../../assets/customer_reviews/22.mp4'
-import Video23 from '../../assets/customer_reviews/23.mp4'
-import Video24 from '../../assets/customer_reviews/24.mp4'
-import Video25 from '../../assets/customer_reviews/25.mp4'
-import Video26 from '../../assets/customer_reviews/26.mp4'
-import Video27 from '../../assets/customer_reviews/27.mp4'
-import Video28 from '../../assets/customer_reviews/28.mp4'
-import Video29 from '../../assets/customer_reviews/29.mp4'
-import Video30 from '../../assets/customer_reviews/30.mp4'
 
 import '../../css/body/reviews.css'
 
@@ -274,106 +254,6 @@ class Reviews extends Component {
                     video: Video20,
                     date: "05-27-2020",
                     store: "Whole Cell Accessories"
-                },
-                {
-                    id: 21,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "Thank you for your service today, you kept the customer happy",
-                    image: Img21,
-                    video: Video21,
-                    date: "05-27-2020",
-                    store: "Boost Mobile"
-                },
-                {
-                    id: 22,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "I'm here at whole cell accessories in Lansing, they took care of me, gave me great deal, and listen, you can come and be a part of this, i've been coming here for years",
-                    image: Img22,
-                    video: Video22,
-                    date: "05-27-2020",
-                    store: "Whole Cell Accessories"
-                },
-                {
-                    id: 23,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "come to whole cell accessories, be sure to checkout, they are great with the phones and deals, you gotta come see them",
-                    image: Img23,
-                    video: Video23,
-                    date: "05-28-2020",
-                    store: "Whole Cell Accessories"
-                },
-                {
-                    id: 24,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "I wanna thank T.J today, he actually went extra step, which rarely happens, to help me get less charge, I'm so thankful",
-                    image: Img24,
-                    video: Video24,
-                    date: "05-28-2020",
-                    store: "Boost Mobile"
-                },
-                {
-                    id: 25,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "I used to be a teacher at Chicago Heights, and I've been coming to this store and I've enjoyed it, it's extremly extremly helpful, they are great people, thank you",
-                    image: Img25,
-                    video: Video25,
-                    date: "05-28-2020",
-                    store: "Whole Cell Accessories"
-                },
-                {
-                    id: 26,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "I'm here at Whole Cell Accessories, got a new phone, come on down and check'em out, they got lot of accessories for your phone, very good store to come to",
-                    image: Img26,
-                    video: Video26,
-                    date: "05-28-2020",
-                    store: "Whole Cell Accessories"
-                },
-                {
-                    id: 27,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "I just got a best hook up from Whole Cell Accessories in Lansing, got 3 phones, they give me the best deal, this is the place to be man",
-                    image: Img27,
-                    video: Video27,
-                    date: "05-29-2020",
-                    store: "Whole Cell Accessories"
-                },
-                {
-                    id: 28,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "We are at Whole Cell Accessories today, we really had wonderful time, and we really enjoyed the customer service and product quality, we look forward to come again, everything was good",
-                    image: Img28,
-                    video: Video28,
-                    date: "05-29-2020",
-                    store: "Whole Cell Accessories"
-                },
-                {
-                    id: 29,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "Boost Mobile Store did such a good job, got stylo it looks pretty, thank you all",
-                    image: Img29,
-                    video: Video29,
-                    date: "05-29-2020",
-                    store: "Boost Mobile"
-                },
-                {
-                    id: 30,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "had a real serious issue, T.J helped me out, i'm leaving as satisfied customer, boost always helps me out specially T.J",
-                    image: Img30,
-                    video: Video30,
-                    date: "05-29-2020",
-                    store: "Boost Mobile"
                 }
             ]
         }
