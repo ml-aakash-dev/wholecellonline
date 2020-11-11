@@ -302,6 +302,15 @@ class NavigationBar extends Component {
                                 onClick={this.props.scrollToSkills}>
                                     <span>Skills</span> 
                                 </NavbarBrand> */}
+                                <NavbarBrand 
+                                className={
+                                    this.props.numbersDot ?
+                                    "nav-item active": 
+                                    "nav-item"
+                                } 
+                                onClick={this.props.scrollToNumbers}>
+                                    <span>Numbers</span> 
+                                </NavbarBrand>
 
                                 <NavbarBrand 
                                 className={

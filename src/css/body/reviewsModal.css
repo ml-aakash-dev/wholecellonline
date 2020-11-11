@@ -1,0 +1,22 @@
+.reviews-modal .contorls{
+    background-color: rgba(204, 154, 79, 0.85);
+    height: 90px;
+}
+
+.reviews-modal .contorls .cross{
+    float: right;
+    /* line-height: 90px; */
+    font-size: 40px;
+    margin: 25px !important;
+    color: white;
+}
+.reviews-modal .contorls .cross:hover{
+    cursor: pointer;
+}
+
+.reviews-modal .content{
+    width: 100%;
+    padding: 0 !important;
+    /* padding: 20px 40px; */
+    /* overflow-y: scroll; */
+}

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
-import { Link } from "react-scroll";
 import GalleryModal from './GalleryModal'
 
 import '../../css/body/footer.css'
@@ -18,8 +17,6 @@ import Video3 from '../../assets/customer_reviews/3.mp4'
 import Video4 from '../../assets/customer_reviews/4.mp4'
 import Video5 from '../../assets/customer_reviews/5.mp4'
 import Video6 from '../../assets/customer_reviews/6.mp4'
-
-// import GalleryModal from '../GalleryModal'
 
 
 class Footer extends Component {
@@ -145,49 +142,13 @@ class Footer extends Component {
                         <Col xs={6} md={3} className="third-col col">
                             <h6>Quick Visit</h6>
                             <p>
-                                {/* <Link
-                                activeClass="active"
-                                to="about"
-                                spy={true}
-                                smooth={true}
-                                offset={-50}
-                                duration= {1000}
-                                > */}
                                 <span onClick={this.props.scrollToServices}>- Services</span>
-                                {/* </Link> */}
                                 <br/>
-                                {/* <Link
-                                activeClass="active"
-                                to="team"
-                                spy={true}
-                                smooth={true}
-                                offset={-0}
-                                duration= {1000}
-                                > */}
                                 <span onClick={this.props.scrollToWork}>- Work</span>
-                                {/* </Link> */}
                                 <br/>
-                                {/* <Link
-                                activeClass="active"
-                                to="services"
-                                spy={true}
-                                smooth={true}
-                                offset={-0}
-                                duration= {1000}
-                                > */}
                                 <span onClick={this.props.scrollToNumbers}>- Numbers</span>
-                                {/* </Link> */}
                                 <br/>
-                                {/* <Link
-                                activeClass="active"
-                                to="our-work"
-                                spy={true}
-                                smooth={true}
-                                offset={-0}
-                                duration= {1000}
-                                > */}
                                 <span onClick={this.props.scrollToContact}>- Contact</span>
-                                {/* </Link> */}
                             </p>
                         </Col>
                         <Col xs={6} md={3} className="last-col col">

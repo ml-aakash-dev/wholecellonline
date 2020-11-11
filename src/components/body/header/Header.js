@@ -15,21 +15,19 @@ class Header extends Component {
                 <div className="ham-menu" id="ham-menu">
                 <HamburgerMenu 
                 scrollToWork={this.props.scrollToWork}
-                scrollToProcess={this.props.scrollToProcess}
-                scrollToHww={this.props.scrollToHww}
-                scrollToWwa={this.props.scrollToWwa}
+                scrollToHeader={this.props.scrollToHeader}
+                scrollToServices={this.props.scrollToServices}
+                scrollToContact={this.props.scrollToContact}
                 scrollToNumbers={this.props.scrollToNumbers}
                     />
                 </div>
                 <div className="mobile-ham-menu" id="mobile-ham-menu">
                     <MobileHamburgerMenu 
-                scrollToHeader={this.props.scrollToHeader}
-                scrollToAbout={this.props.scrollToAbout}
-                scrollToTeam={this.props.scrollToTeam}
-                scrollToServices={this.props.scrollToServices}
                 scrollToWork={this.props.scrollToWork}
-                scrollToSkills={this.props.scrollToSkills}
+                scrollToHeader={this.props.scrollToHeader}
+                scrollToServices={this.props.scrollToServices}
                 scrollToContact={this.props.scrollToContact}
+                scrollToNumbers={this.props.scrollToNumbers}
                     />
                 </div>
                     <video preload="auto" autoPlay muted loop="loop" id="header-video" className="video">

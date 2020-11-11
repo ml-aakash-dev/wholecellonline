@@ -9,10 +9,15 @@ class GalleryModal extends Component {
         var video = document.getElementById('gm-video');
         video.pause();
         video.currentTime = 0;
-        // document.getElementById('customer-reviews-modal').style.display="none"
-        document.getElementById('footer-reviews-modal').style.display="none"
-        // document.getElementById('testimonials-modal').style.display="none"
-        document.getElementById('testimonials-gallery-modal').style.display="none"
+        if(document.getElementById('footer-reviews-modal')){
+            document.getElementById('footer-reviews-modal').style.display="none"
+        }
+        if(document.getElementById('work-gallery-modal')){
+            document.getElementById('work-gallery-modal').style.display="none"
+        }
+        if(document.getElementById('reviews-gallery-modal')){
+            document.getElementById('reviews-gallery-modal').style.display="none"
+        }
         document.body.style.overflow="auto"
         this.props.clearState()
     }

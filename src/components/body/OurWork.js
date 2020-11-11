@@ -1,30 +1,33 @@
 import React, { Component } from 'react'
 import GalleryModal from './GalleryModal'
-import Img1 from '../../assets/customer_reviews/1.jpg'
-import Img2 from '../../assets/customer_reviews/2.jpg'
-import Img3 from '../../assets/customer_reviews/3.jpg'
-import Img4 from '../../assets/customer_reviews/4.jpg'
-import Img5 from '../../assets/customer_reviews/5.jpg'
-import Img6 from '../../assets/customer_reviews/6.jpg'
-import Img7 from '../../assets/customer_reviews/7.jpg'
-import Img8 from '../../assets/customer_reviews/8.jpg'
-import Img9 from '../../assets/customer_reviews/9.jpg'
-import Img10 from '../../assets/customer_reviews/10.jpg'
-import Img11 from '../../assets/customer_reviews/11.jpg'
-import Img12 from '../../assets/customer_reviews/12.jpg'
+import ReviewsModal from './ReviewsModal'
 
-import Video1 from '../../assets/customer_reviews/1.mp4'
-import Video2 from '../../assets/customer_reviews/2.mp4'
-import Video3 from '../../assets/customer_reviews/3.mp4'
-import Video4 from '../../assets/customer_reviews/4.mp4'
-import Video5 from '../../assets/customer_reviews/5.mp4'
-import Video6 from '../../assets/customer_reviews/6.mp4'
-import Video7 from '../../assets/customer_reviews/7.mp4'
-import Video8 from '../../assets/customer_reviews/8.mp4'
-import Video9 from '../../assets/customer_reviews/9.mp4'
-import Video10 from '../../assets/customer_reviews/10.mp4'
-import Video11 from '../../assets/customer_reviews/11.mp4'
-import Video12 from '../../assets/customer_reviews/12.mp4'
+import Img358 from '../../assets/work/358_img.jpg'
+import Img359 from '../../assets/work/359_img.jpg'
+import Img360 from '../../assets/work/360_img.jpg'
+import Img361 from '../../assets/work/361_img.jpg'
+import Img362 from '../../assets/work/362_img.jpg'
+import Img363 from '../../assets/work/363_img.jpg'
+import Img364 from '../../assets/work/364_img.jpg'
+import Img365 from '../../assets/work/365_img.jpg'
+import Img366 from '../../assets/work/366_img.jpg'
+import Img367 from '../../assets/work/367_img.jpg'
+import Img368 from '../../assets/work/368_img.jpg'
+import Img369 from '../../assets/work/369_img.jpg'
+
+
+import Video358 from '../../assets/work/358.mp4'
+import Video359 from '../../assets/work/359.mp4'
+import Video360 from '../../assets/work/360.mp4'
+import Video361 from '../../assets/work/361.mp4'
+import Video362 from '../../assets/work/362.mp4'
+import Video363 from '../../assets/work/363.mp4'
+import Video364 from '../../assets/work/364.mp4'
+import Video365 from '../../assets/work/365.mp4'
+import Video366 from '../../assets/work/366.mp4'
+import Video367 from '../../assets/work/367.mp4'
+import Video368 from '../../assets/work/368.mp4'
+import Video369 from '../../assets/work/369.mp4'
 
 import '../../css/body/ourWork.css'
 
@@ -40,124 +43,124 @@ class OurWork extends Component {
             filteredReviews:[],
             reviews: [
                 {
-                    id: 1,
+                    id: 358,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I just purchased Iphone Xr with 2 phone cases, great service come on down to get you one, bring your friends and family",
-                    image: Img1,
-                    video: Video1,
-                    date: "05-06-2020",
-                    store: "Boost Mobile"
+                    desc: "I came to get my phone fixed, it looks brand new, thank to Alex, I'm happy customer",
+                    image: Img358,
+                    video: Video358,
+                    date: "08-18-2020",
+                    store: "We Fix Phones" 
                 },
                 {
-                    id: 2,
+                    id: 359,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "came to whole cell accessories to get my daughter a phone for her birthday, leaving with 2 phones thanks to all, customer service is great and will recommend it to anyone",
-                    image: Img2,
-                    video: Video2,
-                    date: "05-06-2020",
-                    store: "Whole Cell Accessories"
+                    desc: "I'm here at Boost Mobile in Lansing, I had a phone damaged, I came here to trasfer to new phone, Mr. Muhammed, very professional, very swift, I'm very pleased, great service",
+                    image: Img359,
+                    video: Video359,
+                    date: "08-18-2020",
+                    store: "Boost Mobile" 
                 },
                 {
-                    id: 3,
+                    id: 360,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "just want everybody know to come to accessories for tablets, staff takes care of you come see them",
-                    image: Img3,
-                    video: Video3,
-                    date: "05-07-2020",
-                    store: "Whole Cell Accessories"
+                    desc: "I'm at We Fix Phones in Lansing, Alex did a fantastic job",
+                    image: Img360,
+                    video: Video360,
+                    date: "08-19-2020",
+                    store: "We Fix Phones" 
                 },
                 {
-                    id: 4,
+                    id: 361,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "please come on down to boost mobile store, if you have any trouble with the phone or looking for a good deal they'll take care of you",
-                    image: Img4,
-                    video: Video4,
-                    date: "05-07-2020",
-                    store: "Boost Mobile"
+                    desc: "The service is very good at Boost Mobile",
+                    image: Img361,
+                    video: Video361,
+                    date: "08-19-2020",
+                    store: "Boost Mobile" 
                 },
                 {
-                    id: 5,
+                    id: 362,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I'm here at boost mobile in Lansing just got my new phone man, great service, great people, come on down to check them out",
-                    image: Img5,
-                    video: Video5,
-                    date: "05-07-2020",
-                    store: "Boost Mobile"
+                    desc: "I come up here at Whole Cell Accessories, they took care of my phone, 20-30 minutes to fix this cracked phone, this is the place where you wanna be",
+                    image: Img362,
+                    video: Video362,
+                    date: "08-20-2020",
+                    store: "We Fix Phones" 
                 },
                 {
-                    id: 6,
+                    id: 363,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I just wanna give shout out to my boost people here in Lansing you know they hook me up with the phone and they got nice deals, nice employees here and I recommend that you go there",
-                    image: Img6,
-                    video: Video6,
-                    date: "05-08-2020",
-                    store: "Boost Mobile"
+                    desc: "I'm here at Whole Cell Accessories, this is my second trip here, very successful, come on down they will hook you up",
+                    image: Img363,
+                    video: Video363,
+                    date: "08-20-2020",
+                    store: "Whole Cell Accessories" 
                 },
                 {
-                    id: 7,
+                    id: 364,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I broke my phone they fixed it, I appreciate everyone who works here, the manger is helpful, great service",
-                    image: Img7,
-                    video: Video7,
-                    date: "05-08-2020",
-                    store: "We Fix Phones"
+                    desc: "I'm here at Boost Mobile, I just got SE phone, Shally is a great employee, she loves her job and does it well, Thank you",
+                    image: Img364,
+                    video: Video364,
+                    date: "08-21-2020",
+                    store: "Boost Mobile" 
                 },
                 {
-                    id: 8,
+                    id: 365,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "If you want to get your phone fixed or you want to buy phones come to whole cell accessories, let me tell you something you gonna get a good deal",
-                    image: Img8,
-                    video: Video8,
-                    date: "05-08-2020",
-                    store: "Whole Cell Accessories"
+                    desc: "I came to pay phone bill, Islah hook me up with nice deal, my new favourite spot to come to",
+                    image: Img365,
+                    video: Video365,
+                    date: "08-21-2020",
+                    store: "Boost Mobile" 
                 },
                 {
-                    id: 9,
+                    id: 366,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "hey, if you wanna get a new phone or want to get your phone fixed, come down to accessories for tablet they gonna take care of you man",
-                    image: Img9,
-                    video: Video9,
-                    date: "05-09-2020",
-                    store: "Whole Cell Accessories"
+                    desc: "It was wonderful, I'll be back again",
+                    image: Img366,
+                    video: Video366,
+                    date: "08-22-2020",
+                    store: "Boost Mobile" 
                 },
                 {
-                    id: 10,
+                    id: 367,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came here to get my phone fixed with my wife and they offer great service",
-                    image: Img10,
-                    video: Video10,
-                    date: "05-14-2020",
-                    store: "We Fix Phones"
+                    desc: "My phone was messed up, he took his time, and helped me out, thank you",
+                    image: Img367,
+                    video: Video367,
+                    date: "08-22-2020",
+                    store: "We Fix Phones" 
                 },
                 {
-                    id: 11,
+                    id: 368,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "We Fix Phones has been a blessing to me, I broke my phone screen and had to get my laptop fixed but they did it on the same day",
-                    image: Img11,
-                    video: Video11,
-                    date: "05-14-2020",
-                    store: "We Fix Phones"
+                    desc: "I'm here at Accessories for Tablets, they just fixed my phone, It was cracked but now it's nice and smooth",
+                    image: Img368,
+                    video: Video368,
+                    date: "08-23-2020",
+                    store: "We Fix Phones" 
                 },
                 {
-                    id: 12,
+                    id: 369,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "They gave me a great price and speedy service, I'll come again",
-                    image: Img12,
-                    video: Video12,
-                    date: "05-12-2020",
-                    store: "We Fix Phones"
+                    desc: "I come from good distance, because they always take care of me, and give me good prices",
+                    image: Img369,
+                    video: Video369,
+                    date: "08-23-2020",
+                    store: "We Fix Phones" 
                 }
             ]
         }
@@ -179,7 +182,7 @@ class OurWork extends Component {
                 review.id === id
                 )
         })
-        document.getElementById('testimonials-gallery-modal').style.display="block"
+        document.getElementById('work-gallery-modal').style.display="block"
         document.body.style.overflow="hidden"
     }
     clearState = () => {
@@ -224,6 +227,11 @@ class OurWork extends Component {
             filteredReviews: this.state.reviews.filter(review => review.store==="Boost Mobile")
         })
     }
+    
+    handleReviewsModal = () => {
+        document.getElementById('reviews-modal').style.display="block"
+        document.body.style.overflow="hidden"
+    }
     render() {
         return (
             <div id="work" className="our-work">
@@ -231,13 +239,13 @@ class OurWork extends Component {
                     <div className="wrapper">
                         <div className="content">
                             <h1>OUR WORK</h1>
-                            <h2><span>SOME RECENT</span> PROJECTS</h2>
-                            <p>
+                            <h2><span>SOME RECENT</span> REVIEWS</h2>
+                            {/* <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
                             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
                              voluptate velit esse cillum dolore.
-                            </p>
+                            </p> */}
                             <ul className="filter">
                                 <button className="btn btn-outline-light" onClick={this.allHandler}>
                                     <li className={this.state.allState} >All</li>
@@ -267,9 +275,14 @@ class OurWork extends Component {
                             </div>
                             ))}
                         </div>
+                        
+                        <button className="reviews-btn"  onClick={this.handleReviewsModal}>View More Reviews</button>
+                            <div id="reviews-modal">
+                                <ReviewsModal/>
+                            </div>
                     </div>
                 </div>
-                <div id="testimonials-gallery-modal">
+                <div id="work-gallery-modal">
                     <GalleryModal 
                     filteredModal= {this.state.filteredModal}
                     clearState={this.clearState}

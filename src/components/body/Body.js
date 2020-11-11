@@ -6,14 +6,14 @@ import Accessories from './services/Accessories'
 import Repair from './services/Repair'
 import Activation from './services/Activation'
 // import About from './About'
-import HowWeWork from './HowWeWork'
-import Team from './Team'
-import WhoWeAre from './WhoWeAre'
-import Services from './Services'
+// import HowWeWork from './HowWeWork'
+// import Team from './Team'
+// import WhoWeAre from './WhoWeAre'
+// import Services from './Services'
 import OurWork from './OurWork'
-import Process from './Process'
+// import Process from './Process'
 import Numbers from './Numbers'
-import OurSkills from './OurSkills'
+// import OurSkills from './OurSkills'
 import Contact from './Contact'
 import Footer from './Footer'
 
@@ -74,7 +74,6 @@ class Body extends Component {
                     hwwDot: false,
                     teamDot: false,
                     wwaDot: false,
-                    servicesDot: false,
                     workDot: false,
                     processDot: false,
                     numbersDot: false,
