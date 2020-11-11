@@ -27,6 +27,7 @@
   .our-work .content{
       padding: 0 40px 0 40px;
       text-align: center;
+      width: 100%;
   }
   .our-work .content h1{
     font-family: "Oswald", Helvetica, sans-serif;
