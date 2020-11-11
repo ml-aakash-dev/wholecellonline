@@ -14,7 +14,7 @@ class PageBorder extends Component {
                     <div className="page-border bottom">
                         {
                         this.props.state==='state1' ? 
-                            <span style={{cursor: 'pointer'}} onClick={this.props.scrollToAbout}><span>Scroll</span> Down</span> : 
+                            <span style={{cursor: 'pointer'}} onClick={this.props.scrollToServices}><span>Scroll</span> Down</span> : 
                             <span style={{cursor: 'pointer'}} onClick={this.props.scrollToHeader}><span>To</span> Top</span>
                         }
                     </div>

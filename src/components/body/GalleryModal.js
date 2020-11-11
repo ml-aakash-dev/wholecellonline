@@ -35,7 +35,7 @@ class GalleryModal extends Component {
                     <Row>
                         <Col xs={12} lg={9} className="first-col">
                             <React.Fragment key={data.video}>
-                                <video controls className="video" id="gm-video">
+                                <video controls autoPlay className="video" id="gm-video">
                                     <source src={data.video} type="video/mp4" />
                                     Your browser does not support HTML5 video.
                                 </video>
