@@ -56,16 +56,6 @@ class Reviews extends Component {
             filteredReviews:[],
             reviews: [
                 {
-                    id: 1,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "I just purchased Iphone Xr with 2 phone cases, great service come on down to get you one, bring your friends and family",
-                    image: Img1,
-                    video: Video1,
-                    date: "05-06-2020",
-                    store: "Boost Mobile"
-                },
-                {
                     id: 2,
                     firstname: "Whole Cell",
                     lastname: "Customer",
@@ -84,16 +74,6 @@ class Reviews extends Component {
                     video: Video3,
                     date: "05-07-2020",
                     store: "Whole Cell Accessories"
-                },
-                {
-                    id: 4,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "please come on down to boost mobile store, if you have any trouble with the phone or looking for a good deal they'll take care of you",
-                    image: Img4,
-                    video: Video4,
-                    date: "05-07-2020",
-                    store: "Boost Mobile"
                 },
                 {
                     id: 5,
@@ -126,26 +106,6 @@ class Reviews extends Component {
                     store: "We Fix Phones"
                 },
                 {
-                    id: 8,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "If you want to get your phone fixed or you want to buy phones come to whole cell accessories, let me tell you something you gonna get a good deal",
-                    image: Img8,
-                    video: Video8,
-                    date: "05-08-2020",
-                    store: "Whole Cell Accessories"
-                },
-                {
-                    id: 9,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "whole cell accessories in lansing gave me a great deal on my phones, repaired them, they both are working and great customer service and I just want to say thank you",
-                    image: Img9,
-                    video: Video9,
-                    date: "05-08-2020",
-                    store: "Whole Cell Accessories"
-                },
-                {
                     id: 10,
                     firstname: "Whole Cell",
                     lastname: "Customer",
@@ -154,36 +114,6 @@ class Reviews extends Component {
                     video: Video10,
                     date: "05-08-2020",
                     store: "Boost Mobile"
-                },
-                {
-                    id: 11,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "hey, if you wanna get a new phone or want to get your phone fixed, come down to accessories for tablet they gonna take care of you man",
-                    image: Img11,
-                    video: Video11,
-                    date: "05-09-2020",
-                    store: "Whole Cell Accessories"
-                },
-                {
-                    id: 12,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "these guys help me so many times and they are very helpful, usually in and out here is quick, I love this guy thanks for taking care of me",
-                    image: Img12,
-                    video: Video12,
-                    date: "05-09-2020",
-                    store: "Boost Mobile"
-                },
-                {
-                    id: 13,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "I bought 2 new phones, they offer great service with cheap prices",
-                    image: Img13,
-                    video: Video13,
-                    date: "05-09-2020",
-                    store: "Whole Cell Accessories"
                 },
                 {
                     id: 14,
@@ -244,16 +174,6 @@ class Reviews extends Component {
                     video: Video19,
                     date: "05-14-2020",
                     store: "We Fix Phones"
-                },
-                {
-                    id: 20,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "I'm in whole cell accessories, best place to come, they are good people please come down, best place i've ever been, they are very helpful",
-                    image: Img20,
-                    video: Video20,
-                    date: "05-27-2020",
-                    store: "Whole Cell Accessories"
                 }
             ]
         }
