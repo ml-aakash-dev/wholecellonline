@@ -4,19 +4,19 @@ import GalleryModal from './GalleryModal'
 
 import '../../css/body/footer.css'
 
-import Img1 from '../../assets/customer_reviews/1.jpg'
-import Img2 from '../../assets/customer_reviews/2.jpg'
-import Img3 from '../../assets/customer_reviews/3.jpg'
-import Img4 from '../../assets/customer_reviews/4.jpg'
-import Img5 from '../../assets/customer_reviews/5.jpg'
-import Img6 from '../../assets/customer_reviews/6.jpg'
+import Img354 from '../../assets/work/354_img.jpg'
+import Img355 from '../../assets/work/355_img.jpg'
+import Img357 from '../../assets/work/357_img.jpg'
+import Img361 from '../../assets/work/361_img.jpg'
+import Img362 from '../../assets/work/362_img.jpg'
+import Img363 from '../../assets/work/363_img.jpg'
 
-import Video1 from '../../assets/customer_reviews/1.mp4'
-import Video2 from '../../assets/customer_reviews/2.mp4'
-import Video3 from '../../assets/customer_reviews/3.mp4'
-import Video4 from '../../assets/customer_reviews/4.mp4'
-import Video5 from '../../assets/customer_reviews/5.mp4'
-import Video6 from '../../assets/customer_reviews/6.mp4'
+import Video354 from '../../assets/work/354.mp4'
+import Video355 from '../../assets/work/355.mp4'
+import Video357 from '../../assets/work/357.mp4'
+import Video361 from '../../assets/work/361.mp4'
+import Video362 from '../../assets/work/362.mp4'
+import Video363 from '../../assets/work/363.mp4'
 
 
 class Footer extends Component {
@@ -25,58 +25,64 @@ class Footer extends Component {
         this.state = {
             reviews: [
                 {
-                    id: 1,
+                    id: 354,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I just purchased Iphone Xr with 2 phone cases, great service come on down to get you one, bring your friends and family",
-                    image: Img1,
-                    video: Video1,
-                    date: "05-06-2020"
+                    desc: "I came to purchase my phone, Whole Cell was a big help today, I appreciate it",
+                    image: Img354,
+                    video: Video354,
+                    date: "08-16-2020",
+                    store: "Whole Cell Accessories" 
                 },
                 {
-                    id: 2,
+                    id: 355,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "came to whole cell accessories to get my daughter a phone for her birthday, leaving with 2 phones thanks to all, customer service is great and will recommend it to anyone",
-                    image: Img2,
-                    video: Video2,
-                    date: "05-06-2020"
+                    desc: "I'm at Whole Cell Accessories, this is the best place to buy what you need for your phone, anything you need come here",
+                    image: Img355,
+                    video: Video355,
+                    date: "08-16-2020",
+                    store: "Whole Cell Accessories" 
                 },
                 {
-                    id: 3,
+                    id: 357,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "just want everybody know to come to accessories for tablets, staff takes care of you come see them",
-                    image: Img3,
-                    video: Video3,
-                    date: "05-07-2020"
+                    desc: "I came here to look for phone, the young man here was fabulous, kind and patient, he convinced me to purchase a phone and accessories, thank you",
+                    image: Img357,
+                    video: Video357,
+                    date: "08-17-2020",
+                    store: "Whole Cell Accessories" 
                 },
                 {
-                    id: 4,
+                    id: 361,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "please come on down to boost mobile store, if you have any trouble with the phone or looking for a good deal they'll take care of you",
-                    image: Img4,
-                    video: Video4,
-                    date: "05-07-2020"
+                    desc: "The service is very good at Boost Mobile",
+                    image: Img361,
+                    video: Video361,
+                    date: "08-19-2020",
+                    store: "Boost Mobile" 
                 },
                 {
-                    id: 5,
+                    id: 362,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I'm here at boost mobile in Lansing just got my new phone man, great service, great people, come on down to check them out",
-                    image: Img5,
-                    video: Video5,
-                    date: "05-07-2020"
+                    desc: "I come up here at Whole Cell Accessories, they took care of my phone, 20-30 minutes to fix this cracked phone, this is the place where you wanna be",
+                    image: Img362,
+                    video: Video362,
+                    date: "08-20-2020",
+                    store: "We Fix Phones" 
                 },
                 {
-                    id: 6,
+                    id: 363,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I just wanna give shout out to my boost people here in Lansing you know they hook me up with the phone and they got nice deals, nice employees here and I recommend that you go there",
-                    image: Img6,
-                    video: Video6,
-                    date: "05-08-2020"
+                    desc: "I'm here at Whole Cell Accessories, this is my second trip here, very successful, come on down they will hook you up",
+                    image: Img363,
+                    video: Video363,
+                    date: "08-20-2020",
+                    store: "Whole Cell Accessories" 
                 }
             ],
             filteredModal:[]
