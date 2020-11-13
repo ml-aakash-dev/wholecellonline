@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Video1 from '../../../assets/testimonials/27.mp4'
+import Video1 from '../../../assets/testimonials/23.mp4'
 
 
 import '../../../css/body/testimonials/reviewsVideoSection.css'

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import Video1 from '../../../assets/testimonials/1.mp4'
-import Video27 from '../../../assets/testimonials/27.mp4'
+import Video23 from '../../../assets/testimonials/23.mp4'
 
 import '../../../css/body/testimonials/allTestimonials.css'
 import $ from 'jquery'
@@ -19,10 +19,10 @@ class AllTestimonials extends Component {
                     src: Video1
                 },
                 {
-                    id: "video27",
+                    id: "video23",
                     class:"slide video current",
-                    vidref: "vidRef27",
-                    src: Video27
+                    vidref: "vidRef23",
+                    src: Video23
                 }
             ]
         }
@@ -126,7 +126,7 @@ class AllTestimonials extends Component {
     pauseVideo = () => {
         // Pause as well
         this.refs.vidRef1.pause();
-        this.refs.vidRef27.pause();
+        this.refs.vidRef23.pause();
       };
     render() {
         return (
