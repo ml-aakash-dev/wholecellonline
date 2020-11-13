@@ -5,12 +5,14 @@ import Tabs from './services/Tabs'
 import Accessories from './services/Accessories'
 import Repair from './services/Repair'
 import Activation from './services/Activation'
+import Testimonials from './testimonials/Testimonials'
 // import About from './About'
 // import HowWeWork from './HowWeWork'
 // import Team from './Team'
 // import WhoWeAre from './WhoWeAre'
 // import Services from './Services'
 import OurWork from './OurWork'
+import JoinUs from './join/JoinUs'
 // import Process from './Process'
 import Numbers from './Numbers'
 // import OurSkills from './OurSkills'
@@ -24,14 +26,10 @@ class Body extends Component {
             state1: "state1",
             headerDot: true,
             servicesDot: false,
-            aboutDot:false,
-            hwwDot: false,
-            teamDot: false,
-            wwaDot: false,
+            testimonialDot: false,
             workDot: false,
-            processDot: false,
+            joinDot: false,
             numbersDot: false,
-            skillsDot: false,
             contactDot: false
         }
         this.header = React.createRef()
@@ -43,6 +41,8 @@ class Body extends Component {
         this.work = React.createRef()
         // this.process = React.createRef()
         this.numbers = React.createRef()
+        this.testimonial = React.createRef()
+        this.join = React.createRef()
         // this.skills = React.createRef()
         this.contact = React.createRef()
     } 
@@ -70,14 +70,10 @@ class Body extends Component {
                 this.setState({
                     headerDot: true,
                     servicesDot: false,
-                    aboutDot:false,
-                    hwwDot: false,
-                    teamDot: false,
-                    wwaDot: false,
+                    testimonialDot: false,
                     workDot: false,
-                    processDot: false,
+                    joinDot: false,
                     numbersDot: false,
-                    skillsDot: false,
                     contactDot: false
         
                 })
@@ -87,14 +83,10 @@ class Body extends Component {
                 this.setState({
                     headerDot: false,
                     servicesDot: true,
-                    aboutDot:false,
-                    hwwDot: false,
-                    teamDot: false,
-                    wwaDot: false,
+                    testimonialDot: false,
                     workDot: false,
-                    processDot: false,
+                    joinDot: false,
                     numbersDot: false,
-                    skillsDot: false,
                     contactDot: false
         
                 })
@@ -168,19 +160,28 @@ class Body extends Component {
         
             //     })
             // }
+            if(window.scrollY >= document.getElementById("testimonials").offsetTop-50)
+            {
+                this.setState({
+                    headerDot: false,
+                    servicesDot: false,
+                    testimonialDot: true,
+                    workDot: false,
+                    joinDot: false,
+                    numbersDot: false,
+                    contactDot: false
+        
+                })
+            }
             if(window.scrollY >= document.getElementById("work").offsetTop-50)
             {
                 this.setState({
                     headerDot: false,
                     servicesDot: false,
-                    aboutDot:false,
-                    hwwDot: false,
-                    teamDot: false,
-                    wwaDot: false,
+                    testimonialDot: false,
                     workDot: true,
-                    processDot: false,
+                    joinDot: false,
                     numbersDot: false,
-                    skillsDot: false,
                     contactDot: false
         
                 })
@@ -202,19 +203,28 @@ class Body extends Component {
         
             //     })
             // }
+            if(window.scrollY >= document.getElementById("join").offsetTop-140)
+            {
+                this.setState({
+                    headerDot: false,
+                    servicesDot: false,
+                    testimonialDot: false,
+                    workDot: false,
+                    joinDot: true,
+                    numbersDot: false,
+                    contactDot: false
+        
+                })
+            }
             if(window.scrollY >= document.getElementById("numbers").offsetTop-140)
             {
                 this.setState({
                     headerDot: false,
                     servicesDot: false,
-                    aboutDot:false,
-                    hwwDot: false,
-                    teamDot: false,
-                    wwaDot: false,
+                    testimonialDot: false,
                     workDot: false,
-                    processDot: false,
+                    joinDot: false,
                     numbersDot: true,
-                    skillsDot: false,
                     contactDot: false
         
                 })
@@ -241,14 +251,10 @@ class Body extends Component {
                 this.setState({
                     headerDot: false,
                     servicesDot: false,
-                    aboutDot:false,
-                    hwwDot: false,
-                    teamDot: false,
-                    wwaDot: false,
+                    testimonialDot: false,
                     workDot: false,
-                    processDot: false,
+                    joinDot: false,
                     numbersDot: false,
-                    skillsDot: false,
                     contactDot: true
         
                 })
@@ -371,6 +377,20 @@ class Body extends Component {
     //     document.getElementById('nav-logo-bottom').style.display="block" 
     //     document.body.style.overflow="auto"
     // }
+    scrollToTestimonial = () => {
+        //.current is verification that your element has rendered
+        if(this.testimonial.current){
+            this.testimonial.current.scrollIntoView({ 
+               behavior: "smooth"
+            })
+        }
+        document.getElementById('nav-ham-icon').style.display="block"
+        document.getElementById('nav-cross-icon').style.display="none"
+        document.getElementById('ham-menu').style.display="none"
+        document.getElementById('mobile-ham-menu').style.display="none"
+        document.getElementById('nav-logo-bottom').style.display="block" 
+        document.body.style.overflow="auto"
+    }
     scrollToWork = () => {
         //.current is verification that your element has rendered
         if(this.work.current){
@@ -399,6 +419,19 @@ class Body extends Component {
     //     document.getElementById('nav-logo-bottom').style.display="block" 
     //     document.body.style.overflow="auto"
     // }
+    scrollToJoin = () => {
+        if(this.join.current){
+            this.join.current.scrollIntoView({ 
+               behavior: "smooth"
+            })
+        }
+        document.getElementById('nav-ham-icon').style.display="block"
+        document.getElementById('nav-cross-icon').style.display="none"
+        document.getElementById('ham-menu').style.display="none"
+        document.getElementById('mobile-ham-menu').style.display="none"
+        document.getElementById('nav-logo-bottom').style.display="block" 
+        document.body.style.overflow="auto"
+    }
     scrollToNumbers = () => {
         const store = document.getElementById('numbers').offsetTop
         // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -463,27 +496,19 @@ class Body extends Component {
                         state1Handler={this.state1Handler}
                         state2Handler={this.state2Handler}
                         scrollToHeader={this.scrollToHeader}
-                        // scrollToAbout={this.scrollToAbout}
-                        // scrollToHww={this.scrollToHww}
-                        // scrollToTeam={this.scrollToTeam}
-                        // scrollToWwa={this.scrollToWwa}
                         scrollToServices={this.scrollToServices}
+                        scrollToTestimonial={this.scrollToTestimonial}
                         scrollToWork={this.scrollToWork}
-                        // scrollToProcess={this.scrollToProcess}
+                        scrollToJoin={this.scrollToJoin}
                         scrollToNumbers={this.scrollToNumbers}
-                        // scrollToSkills={this.scrollToSkills}
                         scrollToContact={this.scrollToContact}
                         state={this.state.state1}
                         headerDot={this.state.headerDot}
-                        aboutDot={this.state.aboutDot}
-                        hwwDot={this.state.hwwDot}
-                        teamDot={this.state.teamDot}
-                        wwaDot={this.state.wwaDot}
                         servicesDot={this.state.servicesDot}
+                        testimonialDot={this.state.testimonialDot}
                         workDot={this.state.workDot}
-                        processDot={this.state.processDot}
+                        joinDot={this.state.joinDot}
                         numbersDot={this.state.numbersDot}
-                        skillsDot={this.state.skillsDot}
                         contactDot={this.state.contactDot}
                     />
                 </section>
@@ -495,15 +520,10 @@ class Body extends Component {
                 <Accessories />
                 <Repair />
                 <Activation />
-                {/* <section ref={this.about}><About /></section> */}
-                {/* <section ref={this.hww}><HowWeWork /></section>
-                <section ref={this.team}><Team /></section>
-                <section ref={this.wwa}><WhoWeAre scrollToWork={this.scrollToWork}/></section> */}
-                {/* <section ref={this.services}><Services /></section> */}
+                <section ref={this.testimonial}><Testimonials /></section>
                 <section ref={this.work}><OurWork /></section>
-                {/* <section ref={this.process}><Process /></section> */}
+                <section ref={this.join}><JoinUs /></section>
                 <section ref={this.numbers}><Numbers /></section>
-                {/* <section ref={this.skills}><OurSkills /></section> */}
                 <section ref={this.contact}><Contact /></section>
                 <Footer 
                     scrollToServices={this.scrollToServices}

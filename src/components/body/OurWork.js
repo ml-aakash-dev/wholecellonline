@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 import GalleryModal from './GalleryModal'
 import ReviewsModal from './ReviewsModal'
 
-import Img358 from '../../assets/work/358_img.jpg'
-import Img359 from '../../assets/work/359_img.jpg'
-import Img360 from '../../assets/work/360_img.jpg'
+
+import Img354 from '../../assets/work/354_img.jpg'
+import Img355 from '../../assets/work/355_img.jpg'
+import Img357 from '../../assets/work/357_img.jpg'
 import Img361 from '../../assets/work/361_img.jpg'
 import Img362 from '../../assets/work/362_img.jpg'
 import Img363 from '../../assets/work/363_img.jpg'
@@ -16,9 +17,10 @@ import Img368 from '../../assets/work/368_img.jpg'
 import Img369 from '../../assets/work/369_img.jpg'
 
 
-import Video358 from '../../assets/work/358.mp4'
-import Video359 from '../../assets/work/359.mp4'
-import Video360 from '../../assets/work/360.mp4'
+
+import Video354 from '../../assets/work/354.mp4'
+import Video355 from '../../assets/work/355.mp4'
+import Video357 from '../../assets/work/357.mp4'
 import Video361 from '../../assets/work/361.mp4'
 import Video362 from '../../assets/work/362.mp4'
 import Video363 from '../../assets/work/363.mp4'
@@ -43,34 +45,34 @@ class OurWork extends Component {
             filteredReviews:[],
             reviews: [
                 {
-                    id: 358,
+                    id: 354,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came to get my phone fixed, it looks brand new, thank to Alex, I'm happy customer",
-                    image: Img358,
-                    video: Video358,
-                    date: "08-18-2020",
-                    store: "We Fix Phones" 
+                    desc: "I came to purchase my phone, Whole Cell was a big help today, I appreciate it",
+                    image: Img354,
+                    video: Video354,
+                    date: "08-16-2020",
+                    store: "Whole Cell Accessories" 
                 },
                 {
-                    id: 359,
+                    id: 355,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I'm here at Boost Mobile in Lansing, I had a phone damaged, I came here to trasfer to new phone, Mr. Muhammed, very professional, very swift, I'm very pleased, great service",
-                    image: Img359,
-                    video: Video359,
-                    date: "08-18-2020",
-                    store: "Boost Mobile" 
+                    desc: "I'm at Whole Cell Accessories, this is the best place to buy what you need for your phone, anything you need come here",
+                    image: Img355,
+                    video: Video355,
+                    date: "08-16-2020",
+                    store: "Whole Cell Accessories" 
                 },
                 {
-                    id: 360,
+                    id: 357,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I'm at We Fix Phones in Lansing, Alex did a fantastic job",
-                    image: Img360,
-                    video: Video360,
-                    date: "08-19-2020",
-                    store: "We Fix Phones" 
+                    desc: "I came here to look for phone, the young man here was fabulous, kind and patient, he convinced me to purchase a phone and accessories, thank you",
+                    image: Img357,
+                    video: Video357,
+                    date: "08-17-2020",
+                    store: "Whole Cell Accessories" 
                 },
                 {
                     id: 361,
@@ -228,24 +230,18 @@ class OurWork extends Component {
         })
     }
     
-    handleReviewsModal = () => {
-        document.getElementById('reviews-modal').style.display="block"
-        document.body.style.overflow="hidden"
-    }
+    // handleReviewsModal = () => {
+    //     document.getElementById('reviews-modal').style.display="block"
+    //     document.body.style.overflow="hidden"
+    // }
     render() {
         return (
             <div id="work" className="our-work">
                 <div className="bgimg">
                     <div className="wrapper">
                         <div className="content">
-                            <h1>OUR WORK</h1>
+                            <h1>OUR REVIEWS</h1>
                             <h2><span>SOME RECENT</span> REVIEWS</h2>
-                            {/* <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                             voluptate velit esse cillum dolore.
-                            </p> */}
                             <ul className="filter">
                                 <button className="btn btn-outline-light" onClick={this.allHandler}>
                                     <li className={this.state.allState} >All</li>
@@ -276,10 +272,10 @@ class OurWork extends Component {
                             ))}
                         </div>
                         
-                        <button className="reviews-btn"  onClick={this.handleReviewsModal}>View More Reviews</button>
-                            <div id="reviews-modal">
+                        <a className="reviews-btn" href="/reviews">View More Reviews</a>
+                            {/* <div id="reviews-modal">
                                 <ReviewsModal/>
-                            </div>
+                            </div> */}
                     </div>
                 </div>
                 <div id="work-gallery-modal">

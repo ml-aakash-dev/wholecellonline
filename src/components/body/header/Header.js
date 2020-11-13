@@ -26,6 +26,7 @@ class Header extends Component {
                 scrollToWork={this.props.scrollToWork}
                 scrollToHeader={this.props.scrollToHeader}
                 scrollToServices={this.props.scrollToServices}
+                scrollToTestimonial={this.props.scrollToTestimonial}
                 scrollToContact={this.props.scrollToContact}
                 scrollToNumbers={this.props.scrollToNumbers}
                     />
@@ -74,27 +75,19 @@ class Header extends Component {
                         state1Handler={this.props.state1Handler}
                         state2Handler={this.props.state2Handler}
                         scrollToHeader={this.props.scrollToHeader}
-                        scrollToAbout={this.props.scrollToAbout}
-                        scrollToHww={this.props.scrollToHww}
-                        scrollToTeam={this.props.scrollToTeam}
-                        scrollToWwa={this.props.scrollToWwa}
                         scrollToServices={this.props.scrollToServices}
+                        scrollToTestimonial={this.props.scrollToTestimonial}
                         scrollToWork={this.props.scrollToWork}
-                        scrollToProcess={this.props.scrollToProcess}
+                        scrollToJoin={this.props.scrollToJoin}
                         scrollToNumbers={this.props.scrollToNumbers}
-                        scrollToSkills={this.props.scrollToSkills}
                         scrollToContact={this.props.scrollToContact}
                         state={this.props.state}
                         headerDot={this.props.headerDot}
-                        aboutDot={this.props.aboutDot}
-                        hwwDot={this.props.hwwDot}
-                        teamDot={this.props.teamDot}
-                        wwaDot={this.props.wwaDot}
                         servicesDot={this.props.servicesDot}
+                        testimonialDot={this.props.testimonialDot}
                         workDot={this.props.workDot}
-                        processDot={this.props.processDot}
+                        joinDot={this.props.joinDot}
                         numbersDot={this.props.numbersDot}
-                        skillsDot={this.props.skillsDot}
                         contactDot={this.props.contactDot}
                 />
                 
@@ -102,27 +95,19 @@ class Header extends Component {
                         state1Handler={this.props.state1Handler}
                         state2Handler={this.props.state2Handler}
                         scrollToHeader={this.props.scrollToHeader}
-                        scrollToAbout={this.props.scrollToAbout}
-                        scrollToHww={this.props.scrollToHww}
-                        scrollToTeam={this.props.scrollToTeam}
-                        scrollToWwa={this.props.scrollToWwa}
                         scrollToServices={this.props.scrollToServices}
+                        scrollToTestimonial={this.props.scrollToTestimonial}
                         scrollToWork={this.props.scrollToWork}
-                        scrollToProcess={this.props.scrollToProcess}
+                        scrollToJoin={this.props.scrollToJoin}
                         scrollToNumbers={this.props.scrollToNumbers}
-                        scrollToSkills={this.props.scrollToSkills}
                         scrollToContact={this.props.scrollToContact}
                         state={this.props.state}
                         headerDot={this.props.headerDot}
-                        aboutDot={this.props.aboutDot}
-                        hwwDot={this.props.hwwDot}
-                        teamDot={this.props.teamDot}
-                        wwaDot={this.props.wwaDot}
                         servicesDot={this.props.servicesDot}
+                        testimonialDot={this.props.testimonialDot}
                         workDot={this.props.workDot}
-                        processDot={this.props.processDot}
+                        joinDot={this.props.joinDot}
                         numbersDot={this.props.numbersDot}
-                        skillsDot={this.props.skillsDot}
                         contactDot={this.props.contactDot}
                 />
             </div>

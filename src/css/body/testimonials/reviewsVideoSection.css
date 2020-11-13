@@ -1,0 +1,59 @@
+.reviews-video-section {
+    position: relative;
+    /* width: 100%; */
+    height: calc(100vh - 30px);
+    overflow: hidden;
+}
+
+
+.reviews-video-section .video-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    background-image: url(../../../assets/testimonials/cover_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .reviews-video-section .video-wrapper.hide{
+      display: none;
+  }
+
+  .reviews-video-section .video-wrapper .playpause{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /* height: 100%;
+    width: 100%; */
+    font-size: 120px;
+    color: #cc9a4f;
+  }
+
+.reviews-video-section .controls{
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.reviews-video-section .video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+
+@media(min-width:767px){
+    .reviews-video-section{
+        height: calc(100vh - 55px);
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}

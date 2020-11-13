@@ -325,6 +325,9 @@ class Reviews extends Component {
             <div id="reviews" className="reviews">
                 <div className="bgimg">
                     <div className="wrapper">
+                        <div className="controls">
+                            <a href="/"><i className="fas fa-times icon cross"></i></a>
+                        </div>
                         <div className="content">
                             <h1>OUR REVIEWS</h1>
                             <ul className="filter">
