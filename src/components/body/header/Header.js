@@ -4,7 +4,7 @@ import BgVideo from '../../../assets/header.mp4'
 import NavigationBar from './NavigationBar'
 import HamburgerMenu from './HamburgerMenu'
 import MobileHamburgerMenu from './MobileHamburgerMenu'
-import PageBorder from '../PageBorder'
+// import PageBorder from '../PageBorder'
 
 import '../../../css/body/header/header.css'
 
@@ -38,40 +38,22 @@ class Header extends Component {
                 {/* <div className="bgimg">   */}
                     <div className="wrapper">
                         <div className="content">
-                            <div className="center-text">
+                            {/* <div className="center-text">
                                 <h2>We <span>are</span></h2>
                                 <h1>WHOLE CELL <span>ACCESSORIES</span></h1>
                                 <p>Open To Public<br/>
                                 Never Pay Retail!!!<br/></p>
                                 <div className="btn-group">
-                                    {/* <Link
-                                    activeClass="active"
-                                    to="tabs"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-0}
-                                    duration= {1000}
-                                    > */}
                                         <button className="btn-au" onClick={this.props.scrollToServices}>Services</button>
-                                    {/* </Link> */}
-                                    {/* <Link
-                                    activeClass="active"
-                                    to="our-work"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-50}
-                                    duration= {1000} 
-                                    >*/}
                                         <button className="btn-ow" onClick={this.props.scrollToWork}>Our Work</button>
-                                    {/* </Link> */}
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 {/* </div> */}
                 
 
-                <PageBorder 
+                {/* <PageBorder 
                         state1Handler={this.props.state1Handler}
                         state2Handler={this.props.state2Handler}
                         scrollToHeader={this.props.scrollToHeader}
@@ -89,7 +71,7 @@ class Header extends Component {
                         joinDot={this.props.joinDot}
                         numbersDot={this.props.numbersDot}
                         contactDot={this.props.contactDot}
-                />
+                /> */}
                 
                 <NavigationBar 
                         state1Handler={this.props.state1Handler}
