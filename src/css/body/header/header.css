@@ -216,7 +216,13 @@
     .header .icon-wrap{
       bottom: 20px;
       right: 20px;
+      padding: 5px 10px;
     }
+    .header .icon-wrap h2{
+      font-size: 18px;
+      letter-spacing: normal;
+      margin: 0;
+     }
     .header .store-popup{
       bottom: 90px;
       right: 20px;
