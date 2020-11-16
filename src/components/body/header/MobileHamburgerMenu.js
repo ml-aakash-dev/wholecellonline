@@ -52,12 +52,17 @@ class MobileHamburgerMenu extends Component {
                     </Col>
                     <Col xs={12} className="col">
                         <span className="title" onClick={this.props.scrollToTestimonial}>
-                            Testimonial
+                            Testimonials
                         </span>
                     </Col>
                     <Col xs={12} className="col">
                         <span className="title" onClick={this.props.scrollToWork}>
                             Reviews
+                        </span>
+                    </Col>
+                    <Col xs={12} className="col">
+                        <span className="title" onClick={this.props.scrollToJoin}>
+                            Join
                         </span>
                     </Col>
                     <Col xs={12} className="col">

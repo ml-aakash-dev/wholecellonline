@@ -41,6 +41,7 @@
     font-size: 15px;
     letter-spacing: 1.5px;
     margin-bottom: 30px;
+    line-height: 30px;
 }
 .numbers .content h2 span{
   color: rgba(204, 154, 79, 0.9);

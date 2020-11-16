@@ -4,7 +4,7 @@ import BgVideo from '../../../assets/services/repair.webm'
 import RepairPoster from '../../../assets/services/repair-poster.jpg'
 import '../../../css/body/services/repair.css'
 import IntroductionSection from '../IntroductionSection'
-import $ from 'jquery'
+// import $ from 'jquery'
 
 class Repair extends Component {
     // componentDidMount(){

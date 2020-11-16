@@ -13,7 +13,7 @@
     color: white;
 }
 
-.hamburger-menu .bottom.row .first, .hamburger-menu .bottom.row .sec{
+.hamburger-menu .bottom.row .first, .hamburger-menu .bottom.row .sec, .hamburger-menu .bottom.row .third{
     border-bottom: 1px solid;
     border-color: rgba(255, 255, 255, 0.08) !important;
 }
@@ -193,79 +193,6 @@
     display: flex;
     align-items: center;
 }
-
-/* .hamburger-menu ul{
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.hamburger-menu .stores-list{
-    display: none;
-    transition: ease-in-out 0.5s;
-}
-.hamburger-menu .top.row .first .title:hover + .stores-list{
-    display: block;
-}
-.hamburger-menu .top.row .first .stores-list li:hover + .stores-list{
-    display: block;
-}
-
-.hamburger-menu ul li{
-    display: inline-block;
-    float: none;
-    position: relative;
-    text-indent: 0;
-    font-size: 11px;
-    text-transform: uppercase;
-    font-weight: 800;
-    padding: 5px 15px;
-    letter-spacing: 2px;
-    cursor: pointer;
-    background-color: #cc9a4f;
-}
-.hamburger-menu ul li:hover{
-    background-color: black;
-    color: white;
-}
-.hamburger-menu .lansing-list{
-    position: absolute;
-    right: 88.5px;
-    top: 137.5px;
-    z-index: 100;
-    display: none;
-    transition: ease-in-out 0.5s;
-}
-.hamburger-menu .chicago-list{
-    position: absolute;
-    right: 212px;
-    top: 171.5px;
-    z-index: 100;
-    display: none;
-    transition: ease-in-out 0.5s;
-}
-.hamburger-menu .boling-list{
-    position: absolute;
-    right: 172px;
-    top: 205.5px;
-    z-index: 100;
-    display: none;
-    transition: ease-in-out 0.5s;
-}
-.hamburger-menu .joliet-list{
-    position: absolute;
-    right: 232px;
-    top: 239.5px;
-    z-index: 100;
-    display: none;
-    transition: ease-in-out 0.5s;
-} */
-/* .hamburger-menu .lansing-list li{
-    position: absolute;
-    right: 0;
-    top: 0;
-} */
 
 @media(min-width: 568px){
     .hamburger-menu .top.row{

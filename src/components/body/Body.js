@@ -262,10 +262,18 @@ class Body extends Component {
     scrollToNumbers = () => {
         const store = document.getElementById('numbers').offsetTop
         // store.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        window.scrollTo({
-            top: store - 130, //add your necessary value
-            behavior: "smooth"  //Smooth transition to roll
-          });
+        if(window.innerWidth>576){
+            window.scrollTo({
+                top: store - 130, //add your necessary value
+                behavior: "smooth"  //Smooth transition to roll
+              });
+        }
+        if(window.innerWidth<=576){
+            window.scrollTo({
+                top: store , //add your necessary value
+                behavior: "smooth"  //Smooth transition to roll
+              });
+        }
         document.getElementById('nav-ham-icon').style.display="block"
         document.getElementById('nav-cross-icon').style.display="none"
         document.getElementById('ham-menu').style.display="none"

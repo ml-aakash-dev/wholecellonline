@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import GalleryModal from './GalleryModal'
-import ReviewsModal from './ReviewsModal'
+// import ReviewsModal from './ReviewsModal'
 
 
 import Img354 from '../../assets/work/354_img.jpg'

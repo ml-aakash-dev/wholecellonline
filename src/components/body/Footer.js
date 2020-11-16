@@ -118,13 +118,13 @@ class Footer extends Component {
                                     <a href='https://www.youtube.com/channel/UCVqmjZmCX8bwQgem5oSV-LQ' target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-youtube icon"></i>
                                     </a>
-                                    <a href='https://www.instagram.com/whole_cell_accessories/?hl=en' target="_blank" rel="noopener noreferrer">
+                                    <a href='https://www.instagram.com/wholecellchicago/' target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-instagram icon"></i>
                                     </a>
                                     {/* <a href='https://www.google.com'>
                                         <i className="fab fa-google icon"></i>
                                     </a> */}
-                                    <a href='https://www.facebook.com/Whole-Cell-Accessories-133478916702283/' target="_blank" rel="noopener noreferrer">
+                                    <a href='https://www.facebook.com/WcellCH/' target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-facebook-f icon"></i>
                                     </a>
                                     {/* <a href='https://www.snapchat.com'>

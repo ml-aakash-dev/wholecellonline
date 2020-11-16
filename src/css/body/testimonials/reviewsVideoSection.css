@@ -3,6 +3,7 @@
     /* width: 100%; */
     height: calc(100vh - 30px);
     overflow: hidden;
+    margin: 0 !important;
 }
 
 

@@ -224,7 +224,7 @@ class NavigationBar extends Component {
                              window.innerWidth<1200 ?
                              this.state.loggedin ?
                              <i id="mob-loggedin" className="fas fa-user ml-auto" style={{cursor:'pointer'}}></i>: 
-                             <i className="fas fa-user ml-auto" style={{cursor:'pointer'}} onClick={() => this.onLoginToggle()}></i> :
+                             <div className="ml-auto"  onClick={() => this.onLoginToggle()}><i className="fas fa-user ml-auto" style={{cursor:'pointer'}}></i>&nbsp;Login</div> :
                              ""
                          }
                          

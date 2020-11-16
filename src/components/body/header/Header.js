@@ -9,6 +9,11 @@ import MobileHamburgerMenu from './MobileHamburgerMenu'
 import '../../../css/body/header/header.css'
 
 class Header extends Component {
+    // componentDidUpdate() {
+    //     document.getElementById('icon-wrap').onmouseenter(
+    //         document.getElementById('store-popup').style.display="block"
+    //     )
+    // }
     render() {
         return (
             <div className={this.props.state1, "header"} id="header">
@@ -27,6 +32,7 @@ class Header extends Component {
                 scrollToHeader={this.props.scrollToHeader}
                 scrollToServices={this.props.scrollToServices}
                 scrollToTestimonial={this.props.scrollToTestimonial}
+                scrollToJoin={this.props.scrollToJoin}
                 scrollToContact={this.props.scrollToContact}
                 scrollToNumbers={this.props.scrollToNumbers}
                     />
@@ -49,6 +55,10 @@ class Header extends Component {
                                 </div>
                             </div> */}
                         </div>
+                        <div id="icon-wrap" className="icon-wrap">
+                            <i className="fas fa-store store-icon"></i>
+                        </div>
+                        <div id="store-popup" className="store-popup">come visit our retail location</div>
                     </div>
                 {/* </div> */}
                 
