@@ -56,9 +56,9 @@ class Header extends Component {
                             </div> */}
                         </div>
                         <div id="icon-wrap" className="icon-wrap">
-                            <i className="fas fa-store store-icon"></i>
+                        <i className="fas fa-store store-icon"></i><h2>come visit our <span>retail locations</span></h2> 
                         </div>
-                        <div id="store-popup" className="store-popup">come visit our retail location</div>
+                        {/* <div id="store-popup" className="store-popup">come visit our retail locations</div> */}
                     </div>
                 {/* </div> */}
                 
