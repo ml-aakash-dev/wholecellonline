@@ -14,7 +14,7 @@ class Testimonials extends Component {
                             <h2><span>OUR RECENT</span> TESTIMONIAL</h2>
                         </div>
                         <ReviewsVideoSection />
-                        <a className="testi-btn" href="/testimonials">View More Testimonials</a>
+                        <a className="testi-btn" href="/whole-cell-online-site/testimonials">View More Testimonials</a>
                     </div>
                 </div>
             </div>
