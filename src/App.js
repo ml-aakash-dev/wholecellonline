@@ -10,7 +10,7 @@ function App() {
     <React.Fragment>
       <Router>
         <Switch>
-          <Route exact path="/" component={Main}/>
+          <Route exact path="/whole-cell-online-site/" component={Main}/>
           {/* <Route exact path="/reviews" component={Reviews}/>
           <Route exact path="/testimonials" component={Testimonials}/> */}
         </Switch>
