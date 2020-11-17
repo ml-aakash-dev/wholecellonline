@@ -2,6 +2,17 @@ import React, { Component } from 'react'
 import '../../css/body/storeLocator.css'
 
 class StoreLocator extends Component {
+    componentDidMount(){
+        
+      function loadScript() {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBmFOOpGfwDilHaxqgiOqoOCuCcBVXgSis&callback=initMap";
+        document.body.appendChild(script);
+      }
+
+      window.onload = loadScript;
+    }
     render() {
         
         return (
