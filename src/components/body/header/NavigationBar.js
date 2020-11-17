@@ -216,7 +216,7 @@ class NavigationBar extends Component {
             <div className={this.props.state}>
                 <Navbar className="header-navbar" expand="xl" variant="dark" fixed="top">
                         <Nav>
-                            <NavbarBrand className="logo" href="/">
+                            <NavbarBrand className="logo" href="/whole-cell-online-site/">
                                 Whole Cell<span> Accessories</span> <br/> <h3 id="nav-logo-bottom">open to public</h3>
                             </NavbarBrand>
                         </Nav>

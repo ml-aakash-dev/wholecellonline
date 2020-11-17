@@ -132,7 +132,7 @@ class AllTestimonials extends Component {
         return (
             <div className="all-testimonials">
                 <div className="top-controls">
-                    <a href="/"><i className="fas fa-times icon cross"></i></a>
+                    <a href="/whole-cell-online-site/"><i className="fas fa-times icon cross"></i></a>
                 </div>
                 <div className="content">
                     <div className="video-wrapper">

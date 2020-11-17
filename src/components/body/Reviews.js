@@ -234,7 +234,7 @@ class Reviews extends Component {
                 <div className="bgimg">
                     <div className="wrapper">
                         <div className="controls">
-                            <a href="/"><i className="fas fa-times icon cross"></i></a>
+                            <a href="/whole-cell-online-site/"><i className="fas fa-times icon cross"></i></a>
                         </div>
                         <div className="content">
                             <h1>OUR REVIEWS</h1>
