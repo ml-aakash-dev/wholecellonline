@@ -272,7 +272,7 @@ class OurWork extends Component {
                             ))}
                         </div>
                         
-                        <a className="reviews-btn" href="/whole-cell-online-site/reviews">View More Reviews</a>
+                        {/* <a className="reviews-btn" href="/whole-cell-online-site/reviews">View More Reviews</a> */}
                             {/* <div id="reviews-modal">
                                 <ReviewsModal/>
                             </div> */}
