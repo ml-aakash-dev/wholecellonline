@@ -38,7 +38,7 @@
     color: #8c8c8c;
 }
 
-.footer .col p span:hover{
+.footer .col p span:hover, .footer .sec-col a:hover{
     cursor: pointer;
     color: #747474;
 }
@@ -99,7 +99,7 @@
     color: #cc9a4f;
 }
 
-.footer .last-col .our-reviews span:hover{
+.footer .last-col .our-reviews span:hover, .footer .sec-col a:hover{
     cursor: pointer;
 }
 

@@ -348,6 +348,9 @@ class Body extends Component {
                 <section ref={this.contact}><Contact /></section>
                 <Footer 
                     scrollToServices={this.scrollToServices}
+                    scrollToAccessories={this.scrollToAccessories}
+                    scrollToRepair={this.scrollToRepair}
+                    scrollToActivation={this.scrollToActivation}
                     scrollToWork={this.scrollToWork}
                     scrollToNumbers={this.scrollToNumbers}
                     scrollToContact={this.scrollToContact}

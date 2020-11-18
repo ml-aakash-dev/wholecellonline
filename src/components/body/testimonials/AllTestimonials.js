@@ -13,13 +13,13 @@ class AllTestimonials extends Component {
             pause: false,
             videos:[
                 {
-                    id: "video1",
+                    id: "",
                     class:"slide video",
                     vidref: "vidRef1",
                     src: Video1
                 },
                 {
-                    id: "video23",
+                    id: "current-testi",
                     class:"slide video current",
                     vidref: "vidRef23",
                     src: Video23
@@ -43,14 +43,17 @@ class AllTestimonials extends Component {
         // Remove current class
         if(current){
             current.classList.remove('current');
+            current.removeAttribute("id")
         }
         // Check for next slide
         if (current.nextElementSibling) {
             // Add current to next sibling
             current.nextElementSibling.classList.add('current');
+            current.nextElementSibling.setAttribute("id", "current-testi")
         } else {
             // Add current to start
             slides[0].classList.add('current');
+            slides[0].setAttribute("id", "current-testi")
         }
         setTimeout(() => current.classList.remove('current'),200);
         };
@@ -61,14 +64,17 @@ class AllTestimonials extends Component {
         // Remove current class
         if(current){
             current.classList.remove('current');
+            current.removeAttribute("id")
         }
         // Check for prev slide
         if (current.previousElementSibling) {
             // Add current to prev sibling
             current.previousElementSibling.classList.add('current');
+            current.previousElementSibling.setAttribute("id", "current-testi")
         } else {
             // Add current to last
             slides[slides.length - 1].classList.add('current');
+            slides[slides.length - 1].setAttribute("id", "current-testi")
         }
         setTimeout(() => current.classList.remove('current'));
         };
@@ -131,11 +137,11 @@ class AllTestimonials extends Component {
     render() {
         return (
             <div className="all-testimonials">
-                <div className="top-controls">
+                {/* <div className="top-controls">
                     <a href="/whole-cell-online-site/"><i className="fas fa-times icon cross"></i></a>
-                </div>
+                </div> */}
                 <div className="content">
-                    <div className="video-wrapper">
+                    <div id="test-wrapper" className="video-wrapper">
                         <i className="far fa-play-circle playpause"></i>
                     </div>
                     <div className="slider">

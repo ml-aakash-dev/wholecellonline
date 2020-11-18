@@ -1,11 +1,14 @@
 .all-testimonials {
     position: relative;
     overflow: hidden;
+    top: 90px;
+    height: calc(100vh - 90px);
 }
 
 .all-testimonials .content{
     position: relative;
-    height: calc(100vh - 90px);
+    height: 100%;
+    margin: 0 !important;
 }
 .all-testimonials .top-controls{
     background-color: rgba(204, 154, 79, 1);

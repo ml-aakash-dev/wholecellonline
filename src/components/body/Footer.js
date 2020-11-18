@@ -138,11 +138,11 @@ class Footer extends Component {
                         <Col xs={6} md={3} className="sec-col col">
                             <h6>Additional Links</h6>
                             <p>
-                                <a href="https://wholecellonline.com/internal/" target="_blank" rel="noopener noreferrer">- Whole Cell Accessories</a>
+                                <a onClick={this.props.scrollToAccessories}>- Whole Cell Accessories</a>
                                 <br/>
-                                <a href="https://wholecellonline.com/wfp_store/" target="_blank" rel="noopener noreferrer">- We Fix Phones</a>
+                                <a onClick={this.props.scrollToRepair}>- We Fix Phones</a>
                                 <br/>
-                                <a href="https://wholecellonline.com/prepaidcity/" target="_blank" rel="noopener noreferrer">- Prepaid City</a>
+                                <a onClick={this.props.scrollToActivation}>- We Are Wireless</a>
                             </p>
                         </Col>
                         <Col xs={6} md={3} className="third-col col">

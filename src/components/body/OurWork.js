@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import GalleryModal from './GalleryModal'
-// import ReviewsModal from './ReviewsModal'
+import ReviewsModal from './ReviewsModal'
 
 
 import Img354 from '../../assets/work/354_img.jpg'
@@ -230,10 +230,10 @@ class OurWork extends Component {
         })
     }
     
-    // handleReviewsModal = () => {
-    //     document.getElementById('reviews-modal').style.display="block"
-    //     document.body.style.overflow="hidden"
-    // }
+    handleReviewsModal = () => {
+        document.getElementById('reviews-modal').style.display="block"
+        document.body.style.overflow="hidden"
+    }
     render() {
         return (
             <div id="work" className="our-work">
@@ -273,9 +273,10 @@ class OurWork extends Component {
                         </div>
                         
                         {/* <a className="reviews-btn" href="/whole-cell-online-site/reviews">View More Reviews</a> */}
-                            {/* <div id="reviews-modal">
+                        <a className="reviews-btn" onClick={this.handleReviewsModal}>View More Reviews</a>
+                            <div id="reviews-modal">
                                 <ReviewsModal/>
-                            </div> */}
+                            </div>
                     </div>
                 </div>
                 <div id="work-gallery-modal">
