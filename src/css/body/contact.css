@@ -141,6 +141,12 @@
   background-color: rgba(14, 14, 15, 0.95);
   display: none;
 }
+.contact .gm-style, .contact .gm-style a{
+  color: black;
+}
+.contact .gm-style a:hover{
+  color: blue;
+}
 
 @media(max-width: 767px){
   .contact .content .sub-content{
