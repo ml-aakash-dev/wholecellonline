@@ -3,33 +3,33 @@ import GalleryModal from './GalleryModal'
 import ReviewsModal from './ReviewsModal'
 
 
-import Img354 from '../../assets/work/354_img.jpg'
-import Img355 from '../../assets/work/355_img.jpg'
-import Img357 from '../../assets/work/357_img.jpg'
-import Img361 from '../../assets/work/361_img.jpg'
-import Img362 from '../../assets/work/362_img.jpg'
-import Img363 from '../../assets/work/363_img.jpg'
-import Img364 from '../../assets/work/364_img.jpg'
-import Img365 from '../../assets/work/365_img.jpg'
-import Img366 from '../../assets/work/366_img.jpg'
-import Img367 from '../../assets/work/367_img.jpg'
-import Img368 from '../../assets/work/368_img.jpg'
-import Img369 from '../../assets/work/369_img.jpg'
+import Img1 from '../../assets/work/1.jpg'
+import Img2 from '../../assets/work/2.jpg'
+import Img3 from '../../assets/work/3.jpg'
+import Img4 from '../../assets/work/4.jpg'
+import Img5 from '../../assets/work/5.jpg'
+import Img6 from '../../assets/work/6.jpg'
+import Img7 from '../../assets/work/7.jpg'
+import Img8 from '../../assets/work/8.jpg'
+import Img9 from '../../assets/work/9.jpg'
+import Img10 from '../../assets/work/10.jpg'
+import Img11 from '../../assets/work/11.jpg'
+import Img12 from '../../assets/work/12.jpg'
 
 
 
-import Video354 from '../../assets/work/354.mp4'
-import Video355 from '../../assets/work/355.mp4'
-import Video357 from '../../assets/work/357.mp4'
-import Video361 from '../../assets/work/361.mp4'
-import Video362 from '../../assets/work/362.mp4'
-import Video363 from '../../assets/work/363.mp4'
-import Video364 from '../../assets/work/364.mp4'
-import Video365 from '../../assets/work/365.mp4'
-import Video366 from '../../assets/work/366.mp4'
-import Video367 from '../../assets/work/367.mp4'
-import Video368 from '../../assets/work/368.mp4'
-import Video369 from '../../assets/work/369.mp4'
+import Video1 from '../../assets/work/1.mp4'
+import Video2 from '../../assets/work/2.mp4'
+import Video3 from '../../assets/work/3.mp4'
+import Video4 from '../../assets/work/4.mp4'
+import Video5 from '../../assets/work/5.mp4'
+import Video6 from '../../assets/work/6.mp4'
+import Video7 from '../../assets/work/7.mp4'
+import Video8 from '../../assets/work/8.mp4'
+import Video9 from '../../assets/work/9.mp4'
+import Video10 from '../../assets/work/10.mp4'
+import Video11 from '../../assets/work/11.mp4'
+import Video12 from '../../assets/work/12.mp4'
 
 import '../../css/body/ourWork.css'
 
@@ -45,123 +45,123 @@ class OurWork extends Component {
             filteredReviews:[],
             reviews: [
                 {
-                    id: 354,
+                    id: 1,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came to purchase my phone, Whole Cell was a big help today, I appreciate it",
-                    image: Img354,
-                    video: Video354,
-                    date: "08-16-2020",
-                    store: "Whole Cell Accessories" 
-                },
-                {
-                    id: 355,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "I'm at Whole Cell Accessories, this is the best place to buy what you need for your phone, anything you need come here",
-                    image: Img355,
-                    video: Video355,
-                    date: "08-16-2020",
-                    store: "Whole Cell Accessories" 
-                },
-                {
-                    id: 357,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "I came here to look for phone, the young man here was fabulous, kind and patient, he convinced me to purchase a phone and accessories, thank you",
-                    image: Img357,
-                    video: Video357,
-                    date: "08-17-2020",
-                    store: "Whole Cell Accessories" 
-                },
-                {
-                    id: 361,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "The service is very good at Boost Mobile",
-                    image: Img361,
-                    video: Video361,
-                    date: "08-19-2020",
+                    desc: "Hi, Listen come to Umer, He is great and terrific",
+                    image: Img1,
+                    video: Video1,
+                    date: "11-14-2020",
                     store: "Boost Mobile" 
                 },
                 {
-                    id: 362,
+                    id: 2,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I come up here at Whole Cell Accessories, they took care of my phone, 20-30 minutes to fix this cracked phone, this is the place where you wanna be",
-                    image: Img362,
-                    video: Video362,
-                    date: "08-20-2020",
+                    desc: "Hi, I came to Boost Mobile, my slaesperson was Islah, really good person, really good guy",
+                    image: Img2,
+                    video: Video2,
+                    date: "11-14-2020",
+                    store: "Boost Mobile" 
+                },
+                {
+                    id: 3,
+                    firstname: "Whole Cell",
+                    lastname: "Customer",
+                    desc: "Just got a great deal from Whole Cell Accessories, If you looking for a great deal, this is the place to come",
+                    image: Img3,
+                    video: Video3,
+                    date: "11-14-2020",
+                    store: "Whole Cell Accessories" 
+                },
+                {
+                    id: 4,
+                    firstname: "Whole Cell",
+                    lastname: "Customer",
+                    desc: "I had a great experience today, have really good discounts, he helped us get a new phone, very great deal, very respectful",
+                    image: Img4,
+                    video: Video4,
+                    date: "11-15-2020",
+                    store: "Boost Mobile" 
+                },
+                {
+                    id: 5,
+                    firstname: "Whole Cell",
+                    lastname: "Customer",
+                    desc: "had a good deal, here at Boost Mobile, come check them out",
+                    image: Img5,
+                    video: Video5,
+                    date: "11-15-2020",
+                    store: "Boost Mobile" 
+                },
+                {
+                    id: 6,
+                    firstname: "Whole Cell",
+                    lastname: "Customer",
+                    desc: "I just got my phone fixed by Islah and he did a good job",
+                    image: Img6,
+                    video: Video6,
+                    date: "11-15-2020",
                     store: "We Fix Phones" 
                 },
                 {
-                    id: 363,
+                    id: 7,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I'm here at Whole Cell Accessories, this is my second trip here, very successful, come on down they will hook you up",
-                    image: Img363,
-                    video: Video363,
-                    date: "08-20-2020",
+                    desc: "I'm here at Whole Cell Accessories, excellent customer service, have been coming here for years, they have always done a great job",
+                    image: Img7,
+                    video: Video7,
+                    date: "11-16-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
-                    id: 364,
+                    id: 8,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I'm here at Boost Mobile, I just got SE phone, Shally is a great employee, she loves her job and does it well, Thank you",
-                    image: Img364,
-                    video: Video364,
-                    date: "08-21-2020",
-                    store: "Boost Mobile" 
-                },
-                {
-                    id: 365,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "I came to pay phone bill, Islah hook me up with nice deal, my new favourite spot to come to",
-                    image: Img365,
-                    video: Video365,
-                    date: "08-21-2020",
-                    store: "Boost Mobile" 
-                },
-                {
-                    id: 366,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "It was wonderful, I'll be back again",
-                    image: Img366,
-                    video: Video366,
-                    date: "08-22-2020",
-                    store: "Boost Mobile" 
-                },
-                {
-                    id: 367,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "My phone was messed up, he took his time, and helped me out, thank you",
-                    image: Img367,
-                    video: Video367,
-                    date: "08-22-2020",
+                    desc: "I'm here at Whole Cell Joliet, I love this place, good experience, they really help you, I had a cracked phone, came here, and thank you",
+                    image: Img8,
+                    video: Video8,
+                    date: "11-16-2020",
                     store: "We Fix Phones" 
                 },
                 {
-                    id: 368,
+                    id: 9,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I'm here at Accessories for Tablets, they just fixed my phone, It was cracked but now it's nice and smooth",
-                    image: Img368,
-                    video: Video368,
-                    date: "08-23-2020",
+                    desc: "We are at Whole Cell Accessories in Joliet, we had good experience here, great service, thank you",
+                    image: Img9,
+                    video: Video9,
+                    date: "11-16-2020",
+                    store: "Whole Cell Accessories" 
+                },
+                {
+                    id: 10,
+                    firstname: "Whole Cell",
+                    lastname: "Customer",
+                    desc: "Come to Whole Cell Accessories in Lansing, they will take care of you, good people",
+                    image: Img10,
+                    video: Video10,
+                    date: "11-17-2020",
+                    store: "Whole Cell Accessories" 
+                },
+                {
+                    id: 11,
+                    firstname: "Whole Cell",
+                    lastname: "Customer",
+                    desc: "I came here to get my phone fixed, It was cracked, and Alex take care of it really good, that's why I come back",
+                    image: Img11,
+                    video: Video11,
+                    date: "11-17-2020",
                     store: "We Fix Phones" 
                 },
                 {
-                    id: 369,
+                    id: 12,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I come from good distance, because they always take care of me, and give me good prices",
-                    image: Img369,
-                    video: Video369,
-                    date: "08-23-2020",
+                    desc: "He fixed my laptop and did a good job",
+                    image: Img12,
+                    video: Video12,
+                    date: "11-17-2020",
                     store: "We Fix Phones" 
                 }
             ]

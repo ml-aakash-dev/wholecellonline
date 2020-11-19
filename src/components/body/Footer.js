@@ -4,19 +4,19 @@ import GalleryModal from './GalleryModal'
 
 import '../../css/body/footer.css'
 
-import Img354 from '../../assets/work/354_img.jpg'
-import Img355 from '../../assets/work/355_img.jpg'
-import Img357 from '../../assets/work/357_img.jpg'
-import Img361 from '../../assets/work/361_img.jpg'
-import Img362 from '../../assets/work/362_img.jpg'
-import Img363 from '../../assets/work/363_img.jpg'
+import Img1 from '../../assets/work/1.jpg'
+import Img2 from '../../assets/work/2.jpg'
+import Img3 from '../../assets/work/3.jpg'
+import Img4 from '../../assets/work/4.jpg'
+import Img5 from '../../assets/work/5.jpg'
+import Img6 from '../../assets/work/6.jpg'
 
-import Video354 from '../../assets/work/354.mp4'
-import Video355 from '../../assets/work/355.mp4'
-import Video357 from '../../assets/work/357.mp4'
-import Video361 from '../../assets/work/361.mp4'
-import Video362 from '../../assets/work/362.mp4'
-import Video363 from '../../assets/work/363.mp4'
+import Video1 from '../../assets/work/1.mp4'
+import Video2 from '../../assets/work/2.mp4'
+import Video3 from '../../assets/work/3.mp4'
+import Video4 from '../../assets/work/4.mp4'
+import Video5 from '../../assets/work/5.mp4'
+import Video6 from '../../assets/work/6.mp4'
 
 
 class Footer extends Component {
@@ -25,64 +25,64 @@ class Footer extends Component {
         this.state = {
             reviews: [
                 {
-                    id: 354,
+                    id: 1,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came to purchase my phone, Whole Cell was a big help today, I appreciate it",
-                    image: Img354,
-                    video: Video354,
-                    date: "08-16-2020",
-                    store: "Whole Cell Accessories" 
-                },
-                {
-                    id: 355,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "I'm at Whole Cell Accessories, this is the best place to buy what you need for your phone, anything you need come here",
-                    image: Img355,
-                    video: Video355,
-                    date: "08-16-2020",
-                    store: "Whole Cell Accessories" 
-                },
-                {
-                    id: 357,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "I came here to look for phone, the young man here was fabulous, kind and patient, he convinced me to purchase a phone and accessories, thank you",
-                    image: Img357,
-                    video: Video357,
-                    date: "08-17-2020",
-                    store: "Whole Cell Accessories" 
-                },
-                {
-                    id: 361,
-                    firstname: "Whole Cell",
-                    lastname: "Customer",
-                    desc: "The service is very good at Boost Mobile",
-                    image: Img361,
-                    video: Video361,
-                    date: "08-19-2020",
+                    desc: "Hi, Listen come to Umer, He is great and terrific",
+                    image: Img1,
+                    video: Video1,
+                    date: "11-14-2020",
                     store: "Boost Mobile" 
                 },
                 {
-                    id: 362,
+                    id: 2,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I come up here at Whole Cell Accessories, they took care of my phone, 20-30 minutes to fix this cracked phone, this is the place where you wanna be",
-                    image: Img362,
-                    video: Video362,
-                    date: "08-20-2020",
-                    store: "We Fix Phones" 
+                    desc: "Hi, I came to Boost Mobile, my slaesperson was Islah, really good person, really good guy",
+                    image: Img2,
+                    video: Video2,
+                    date: "11-14-2020",
+                    store: "Boost Mobile" 
                 },
                 {
-                    id: 363,
+                    id: 3,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I'm here at Whole Cell Accessories, this is my second trip here, very successful, come on down they will hook you up",
-                    image: Img363,
-                    video: Video363,
-                    date: "08-20-2020",
+                    desc: "Just got a great deal from Whole Cell Accessories, If you looking for a great deal, this is the place to come",
+                    image: Img3,
+                    video: Video3,
+                    date: "11-14-2020",
                     store: "Whole Cell Accessories" 
+                },
+                {
+                    id: 4,
+                    firstname: "Whole Cell",
+                    lastname: "Customer",
+                    desc: "I had a great experience today, have really good discounts, he helped us get a new phone, very great deal, very respectful",
+                    image: Img4,
+                    video: Video4,
+                    date: "11-15-2020",
+                    store: "Boost Mobile" 
+                },
+                {
+                    id: 5,
+                    firstname: "Whole Cell",
+                    lastname: "Customer",
+                    desc: "had a good deal, here at Boost Mobile, come check them out",
+                    image: Img5,
+                    video: Video5,
+                    date: "11-15-2020",
+                    store: "Boost Mobile" 
+                },
+                {
+                    id: 6,
+                    firstname: "Whole Cell",
+                    lastname: "Customer",
+                    desc: "I just got my phone fixed by Islah and he did a good job",
+                    image: Img6,
+                    video: Video6,
+                    date: "11-15-2020",
+                    store: "We Fix Phones" 
                 }
             ],
             filteredModal:[]
