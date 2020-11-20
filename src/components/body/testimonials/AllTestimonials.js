@@ -5,11 +5,11 @@ import Video19 from '../../../assets/testimonials/19.mp4'
 import Video20 from '../../../assets/testimonials/20.mp4'
 import Video21 from '../../../assets/testimonials/21.mp4'
 import Video22 from '../../../assets/testimonials/22.mp4'
-// import Video23 from '../../../assets/testimonials/23.mp4'
-// import Video24 from '../../../assets/testimonials/24.mp4'
-// import Video25 from '../../../assets/testimonials/25.mp4'
-// import Video26 from '../../../assets/testimonials/26.mp4'
-// import Video27 from '../../../assets/testimonials/27.mp4'
+import Video23 from '../../../assets/testimonials/23.mp4'
+import Video24 from '../../../assets/testimonials/24.mp4'
+import Video25 from '../../../assets/testimonials/25.mp4'
+import Video26 from '../../../assets/testimonials/26.mp4'
+import Video27 from '../../../assets/testimonials/27.mp4'
 
 import '../../../css/body/testimonials/allTestimonials.css'
 import $ from 'jquery'
@@ -45,10 +45,40 @@ class AllTestimonials extends Component {
                     src: Video21
                 },
                 {
-                    id: "current-testi",
-                    class:"slide video current",
+                    id: "",
+                    class:"slide video",
                     vidref: "vidRef22",
                     src: Video22
+                },
+                {
+                    id: "",
+                    class:"slide video",
+                    vidref: "vidRef23",
+                    src: Video23
+                },
+                {
+                    id: "",
+                    class:"slide video",
+                    vidref: "vidRef24",
+                    src: Video24
+                },
+                {
+                    id: "",
+                    class:"slide video",
+                    vidref: "vidRef25",
+                    src: Video25
+                },
+                {
+                    id: "",
+                    class:"slide video",
+                    vidref: "vidRef26",
+                    src: Video26
+                },
+                {
+                    id: "current-testi",
+                    class:"slide video current",
+                    vidref: "vidRef27",
+                    src: Video27
                 }
             ]
         }
@@ -162,11 +192,11 @@ class AllTestimonials extends Component {
         this.refs.vidRef20.pause();
         this.refs.vidRef21.pause();
         this.refs.vidRef22.pause();
-        // this.refs.vidRef23.pause();
-        // this.refs.vidRef24.pause();
-        // this.refs.vidRef25.pause();
-        // this.refs.vidRef26.pause();
-        // this.refs.vidRef27.pause();
+        this.refs.vidRef23.pause();
+        this.refs.vidRef24.pause();
+        this.refs.vidRef25.pause();
+        this.refs.vidRef26.pause();
+        this.refs.vidRef27.pause();
       };
     render() {
         return (
