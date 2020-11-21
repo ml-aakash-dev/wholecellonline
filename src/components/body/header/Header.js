@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import BgVideo from '../../../assets/header.mp4'
+import $ from 'jquery'
+
+import BgVideo from '../../../assets/header1.mp4'
 
 import NavigationBar from './NavigationBar'
 import HamburgerMenu from './HamburgerMenu'
@@ -9,11 +11,16 @@ import MobileHamburgerMenu from './MobileHamburgerMenu'
 import '../../../css/body/header/header.css'
 
 class Header extends Component {
-    // componentDidUpdate() {
-    //     document.getElementById('icon-wrap').onmouseenter(
-    //         document.getElementById('store-popup').style.display="block"
-    //     )
-    // }
+    componentDidMount(){var videoList = ["http://www.w3schools.com/html/mov_bbb.mp4", "http://media.sublimevideo.net/v/next15-sublime_360p.mp4"];
+    videoList.sort(function(a, b) {return 0.5 - Math.random()});
+    
+    $("#videoplayer").html("<video id='rawvideo' autoplay poster='' id='bgvid' loop><source src='" + videoList[0] + "' type='video/mp4'></video>");
+    }
+    
+    handleMapModal = () => {
+        document.getElementById('map-modal').style.display="block"
+        document.body.style.overflow="hidden"
+    }
     render() {
         return (
             <div className={this.props.state1, "header"} id="header">
@@ -55,7 +62,7 @@ class Header extends Component {
                                 </div>
                             </div> */}
                         </div>
-                        <div id="icon-wrap" className="icon-wrap">
+                        <div id="icon-wrap" className="icon-wrap" onClick={this.handleMapModal}>
                         <i className="fas fa-store store-icon"></i><h2>come visit our <span>retail locations</span></h2> 
                         </div>
                         {/* <div id="store-popup" className="store-popup">come visit our retail locations</div> */}
