@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import $ from 'jquery'
 
-import BgVideo from '../../../assets/header1.mp4'
+import BgVideo1 from '../../../assets/header1.mp4'
+import BgVideo2 from '../../../assets/header2.mp4'
+import BgVideo3 from '../../../assets/header3.mp4'
 
 import NavigationBar from './NavigationBar'
 import HamburgerMenu from './HamburgerMenu'
@@ -11,10 +13,19 @@ import MobileHamburgerMenu from './MobileHamburgerMenu'
 import '../../../css/body/header/header.css'
 
 class Header extends Component {
-    componentDidMount(){var videoList = ["http://www.w3schools.com/html/mov_bbb.mp4", "http://media.sublimevideo.net/v/next15-sublime_360p.mp4"];
-    videoList.sort(function(a, b) {return 0.5 - Math.random()});
-    
-    $("#videoplayer").html("<video id='rawvideo' autoplay poster='' id='bgvid' loop><source src='" + videoList[0] + "' type='video/mp4'></video>");
+    constructor(props){
+        super(props)
+        this.state={
+            videos:[BgVideo1, BgVideo2, BgVideo3],
+            randomVideo:null
+        }
+    }
+
+    componentDidMount(){
+        this.setState({
+            randomVideo: this.state.videos[Math.floor(Math.random() * 
+                this.state.videos.length)]
+        })
     }
     
     handleMapModal = () => {
@@ -45,7 +56,7 @@ class Header extends Component {
                     />
                 </div>
                     <video preload="auto" autoPlay muted loop="loop" id="header-video" className="video">
-                    <source src={BgVideo} type="video/webm" />
+                    <source src={this.state.randomVideo} type="video/webm" />
                     Your browser does not support HTML5 video.
                     </video>
                 {/* <div className="bgimg">   */}
