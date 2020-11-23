@@ -58,7 +58,8 @@
 
     <script>
       function initMap(){
-        // url = 'https://mts.googleapis.com/vt/icon/name=icons/spotlight/spotlight-waypoint-a.png&text=&psize=16&font=fonts/Roboto-Regular.ttf&color=#cc9a4f&ax=44&ay=48&scale=1'
+        url = 'https://wholecellonline.com/whole-cell-online-site/store50.png'
+        
         var zoom;
         if(window.innerWidth>576){
           zoom=10.5
@@ -162,6 +163,9 @@
           position: props.coords,
           map:map,
           title: props.title,
+          icon : {
+            url: url
+          }
           // label: {
           // text: props.label,
           // color: '#222222',
