@@ -66,7 +66,7 @@ class HamburgerMenu extends Component {
                             </span>
                         </div>
                     </Col>
-                    <Col xs={12} xl={4} className="sec col" onClick={this.props.scrollToNumbers}>
+                    <Col id="ham-numbers" xs={12} xl={4} className="sec col" onClick={this.props.scrollToNumbers}>
                         <div className="text">
                             <span>
                                 <span className="label">Some Facts</span>

@@ -15,6 +15,7 @@ class Contact extends Component {
             lastname: "",
             email: "",
             message: "",
+            subject: "",
             emailStatus: ""
         }
         this.handleChange = this.handleChange.bind(this)
@@ -33,7 +34,8 @@ class Contact extends Component {
             firstname,
             lastname,
             email,
-            message
+            message,
+            subject
         } = this.state
 
         //create new xmlhttprequest
@@ -51,7 +53,7 @@ class Contact extends Component {
         // open the request with the verb and the url
         xhr.open('GET', 'https://wholecellonline.com/whole-cell-online-site/mail.php?sendto=' + email + 
                                 '&name=' + firstname + ' ' + lastname +
-                                '&message=' + message);
+                                '&message=' + message +'&subject=' + subject);
         // send the request
         xhr.send();
 
@@ -66,7 +68,8 @@ class Contact extends Component {
                 firstname: "",
                 lastname: "",
                 email: "",
-                message: ""
+                message: "",
+                subject: ""
             })
         }
         handleMapModal = () => {
@@ -114,7 +117,8 @@ class Contact extends Component {
                                     </p>
                                 </span>
                                 <div className="form-content" data-aos="fade-left" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
-                                    <Form id="contact-form" onSubmit={this.handleSubmit} className="form">
+                                    {/* <Form id="contact-form" onSubmit={this.handleSubmit} className="form"> */}
+                                    <Form id="contact-form" className="form">
                                         <Row>
                                             <Col md={6}>
                                                 <Form.Group>
@@ -122,6 +126,7 @@ class Contact extends Component {
                                                     type="firstname"
                                                     name="firstname"
                                                     placeholder="First Name"
+                                                    required="required"
                                                     onChange={this.handleChange}
                                                     />
                                                 </Form.Group>
@@ -148,6 +153,14 @@ class Contact extends Component {
                                         </Form.Group>
                                         <Form.Group>
                                             <Form.Control
+                                            type="text"
+                                            name="subject"
+                                            placeholder="Subject"
+                                            onChange={this.handleChange}
+                                            />
+                                        </Form.Group>
+                                        <Form.Group>
+                                            <Form.Control
                                             as="textarea"
                                             name="message"
                                             type="textarea" 
@@ -158,7 +171,7 @@ class Contact extends Component {
                                             />
                                         </Form.Group>
                                         <Form.Group className="text-center">
-                                            <button className="btn btn-outline-light send" type="submit">Send</button>
+                                            <button className="btn btn-outline-light send" type="submit" onClick={this.handleSubmit}>Send</button>
                                         </Form.Group>
                                     </Form>
                                 </div>

@@ -19,6 +19,9 @@ class Numbers extends Component {
                 var currentPosition = $(document).scrollTop();
                 //when element position starting in viewport
               if (currentPosition > elementViewInBottom && firEvent === false) {
+                  $('#ham-numbers').click(function () {
+                    firEvent = false;
+                  })
                 firEvent = true;
                 animationCounter();
               }   
