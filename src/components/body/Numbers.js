@@ -22,6 +22,9 @@ class Numbers extends Component {
                   $('#ham-numbers').click(function () {
                     firEvent = false;
                   })
+                  $('#m-ham-numbers').click(function () {
+                    firEvent = false;
+                  })
                 firEvent = true;
                 animationCounter();
               }   
