@@ -108,9 +108,9 @@ class Footer extends Component {
                 <Container data-aos="fade-down" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
                     <Row>
                         <Col xs={6} md={3} className="first-col col">
-                            <h1>Whole Cell <span>Accessories</span></h1>
-                            <p>
-                                Open To Public
+                            <h1 className="f-logo">Whole Cell <span>Accessories</span></h1>
+                            <p className="logo-bottom">
+                                Open To Public!!!
                                 <br/> 
                                 Never Pay Retail 
                             </p>
@@ -174,7 +174,7 @@ class Footer extends Component {
                 </Container>
                     <Row className="copyrights">
                         <Col>
-                            <p>Created By Tensor Solutions LLC | Copyrights Reserved &copy;</p>
+                            <p><a href="https://www.tensorsolutions.com/" target="_blank" rel="noopener noreferrer">Created By Tensor Solutions LLC | Copyrights Reserved &copy;</a></p>
                         </Col>
                     </Row>
 

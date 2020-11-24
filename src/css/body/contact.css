@@ -141,8 +141,11 @@
   background-color: rgba(14, 14, 15, 0.95);
   display: none;
 }
-.contact .gm-style, .contact .gm-style a{
+.contact .gm-style, .contact .gm-style h5, .contact .gm-style, .contact .gm-style p{
   color: black;
+}
+.contact .gm-style, .contact .gm-style a{
+  color: blue;
 }
 .contact .gm-style a:hover{
   color: blue;

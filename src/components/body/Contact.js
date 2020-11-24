@@ -85,8 +85,8 @@ class Contact extends Component {
                             </div>
                             <div className="sub-content">
                                 <span data-aos="fade-right" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
-                                    <p>Number: <a href="tel:(630) 674 8822">(630) 674 8822</a></p>
-                                    <p>2419 W. Jefferson St. <br/> Joliet, IL 60181</p>
+                                    <p>Number: <a href="tel:+17084743333">+17084743333</a></p>
+                                    <p><a href="https://goo.gl/maps/PGXPnHurJMYUPdNs8" target="_blank" rel="noopener noreferrer">17105 Torrence Ave, Lansing,<br/>IL 60438, United States</a></p>
                                     <p>
                                         {/* <a href="mailto:info@wholecellonline.com">info@wholecellonline.com</a> 
                                         <br />  */}

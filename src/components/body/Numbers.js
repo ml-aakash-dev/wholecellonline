@@ -63,7 +63,14 @@ class Numbers extends Component {
                             <Col xs={12} sm={6} xl={3} className="background-l col">
                             {/* <div className="counter background-10-light" data-target="6656">0</div> */}
                                 <div className="counter background-10-light">10114</div>
-                                <h3>5 Star Google Reviews</h3>
+                                {/* <h3>5 Star Google Reviews</h3> */}
+                                <h3>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                <span className="fa fa-star checked"></span>
+                                </h3> 
                             </Col>
                             <Col xs={12} sm={6} xl={3} className="background-d col">
                             {/* <div className="counter background-10-light" data-target="6656">0</div> */}
