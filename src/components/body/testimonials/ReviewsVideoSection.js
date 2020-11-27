@@ -140,7 +140,7 @@ class ReviewsVideoSection extends Component {
                     <div className="rvs-slider">
                         {this.state.videos.slice().reverse().map((video,key)=>(
                         <video key={key} ref={video.vidref}
-                        preload="auto"
+                        preload="none"
                         controls id={video.id} className={video.class}>
                             <source src={video.src} type="video/mp4" />
                             Your browser does not support HTML5 video.

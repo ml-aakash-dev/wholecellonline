@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import BgVideo from '../../../assets/services/repair.webm'
+import BgVideo from '../../../assets/services/repair.mp4'
 import RepairPoster from '../../../assets/services/repair-poster.jpg'
 import '../../../css/body/services/repair.css'
 import IntroductionSection from '../IntroductionSection'
@@ -28,7 +28,7 @@ class Repair extends Component {
                 />
                 <div className="repair">
                     <video preload="auto" autoPlay muted loop="loop" id="repair-video" className="video" poster={RepairPoster}>
-                    <source src={BgVideo} type="video/webm" />
+                    <source src={BgVideo} type="video/mp4" />
                     Your browser does not support HTML5 video.
                     </video>
                         {/* {
