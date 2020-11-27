@@ -15,6 +15,7 @@ class JoinUsModal extends Component {
             lastname: "",
             email: "",
             message: "",
+            subject: "",
             emailStatus: ""
         }
         this.handleChange = this.handleChange.bind(this)
@@ -32,7 +33,8 @@ class JoinUsModal extends Component {
             firstname,
             lastname,
             email,
-            message
+            message,
+            subject
         } = this.state
 
         //create new xmlhttprequest
@@ -53,8 +55,8 @@ class JoinUsModal extends Component {
         });
         // open the request with the verb and the url
         xhr.open('GET', 'https://wholecellonline.com/whole-cell-online-site/mail.php?sendto=' + email + 
-                                '&name=' + firstname + ' ' + lastname +
-                                '&message=' + message);
+        '&name=' + firstname + ' ' + lastname +
+        '&message=' + message +'&subject=' + subject);
         // send the request
         xhr.send();
 
@@ -69,7 +71,8 @@ class JoinUsModal extends Component {
                 firstname: "",
                 lastname: "",
                 email: "",
-                message: ""
+                message: "",
+                subject: ""
             })
         }
 
@@ -93,6 +96,7 @@ class JoinUsModal extends Component {
                                     type="firstname"
                                     name="firstname"
                                     placeholder="First Name"
+                                    required="required"
                                     onChange={this.handleChange}
                                     />
                                 </FormGroup>
@@ -103,6 +107,7 @@ class JoinUsModal extends Component {
                                     type="lastname"
                                     name="lastname"
                                     placeholder="Last Name"
+                                    required="required"
                                     onChange={this.handleChange}
                                     />
                                 </FormGroup>
@@ -114,6 +119,16 @@ class JoinUsModal extends Component {
                             type="email"
                             name="email"
                             placeholder="Email"
+                            required="required"
+                            onChange={this.handleChange}
+                            />
+                        </FormGroup>
+                        <FormGroup>
+                            <Input
+                            type="text"
+                            name="subject"
+                            placeholder="Subject"
+                            required="required"
                             onChange={this.handleChange}
                             />
                         </FormGroup>
@@ -124,6 +139,7 @@ class JoinUsModal extends Component {
                             rows={4} 
                             id="joinUsMessage" 
                             placeholder="Message"
+                            required="required"
                             onChange={this.handleChange}
                             />
                         </FormGroup>

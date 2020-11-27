@@ -31,7 +31,7 @@
       padding: 120px 40px 0 40px;
       width: 100%;
   }
-  .reviews .content h1{
+  .reviews .content .rev-h1{
     font-family: "Oswald", Helvetica, sans-serif;
     text-align: center;
     font-weight: 700;

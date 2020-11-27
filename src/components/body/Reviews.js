@@ -1,33 +1,33 @@
 import React, { Component } from 'react'
 import GalleryModal from './GalleryModal'
 
-import Img1 from '../../assets/work/1.jpg'
-import Img2 from '../../assets/work/2.jpg'
-import Img3 from '../../assets/work/3.jpg'
-import Img4 from '../../assets/work/4.jpg'
-import Img5 from '../../assets/work/5.jpg'
-import Img6 from '../../assets/work/6.jpg'
-import Img7 from '../../assets/work/7.jpg'
-import Img8 from '../../assets/work/8.jpg'
-import Img9 from '../../assets/work/9.jpg'
-import Img10 from '../../assets/work/10.jpg'
-import Img11 from '../../assets/work/11.jpg'
-import Img12 from '../../assets/work/12.jpg'
+import Img1 from '../../assets/customer_reviews/1.jpg'
+import Img2 from '../../assets/customer_reviews/2.jpg'
+import Img3 from '../../assets/customer_reviews/3.jpg'
+import Img4 from '../../assets/customer_reviews/4.jpg'
+import Img5 from '../../assets/customer_reviews/5.jpg'
+import Img6 from '../../assets/customer_reviews/6.jpg'
+import Img7 from '../../assets/customer_reviews/7.jpg'
+import Img8 from '../../assets/customer_reviews/8.jpg'
+import Img9 from '../../assets/customer_reviews/9.jpg'
+import Img10 from '../../assets/customer_reviews/10.jpg'
+import Img11 from '../../assets/customer_reviews/11.jpg'
+import Img12 from '../../assets/customer_reviews/12.jpg'
 
 
 
-import Video1 from '../../assets/work/1.mp4'
-import Video2 from '../../assets/work/2.mp4'
-import Video3 from '../../assets/work/3.mp4'
-import Video4 from '../../assets/work/4.mp4'
-import Video5 from '../../assets/work/5.mp4'
-import Video6 from '../../assets/work/6.mp4'
-import Video7 from '../../assets/work/7.mp4'
-import Video8 from '../../assets/work/8.mp4'
-import Video9 from '../../assets/work/9.mp4'
-import Video10 from '../../assets/work/10.mp4'
-import Video11 from '../../assets/work/11.mp4'
-import Video12 from '../../assets/work/12.mp4'
+import Video1 from '../../assets/customer_reviews/1.mp4'
+import Video2 from '../../assets/customer_reviews/2.mp4'
+import Video3 from '../../assets/customer_reviews/3.mp4'
+import Video4 from '../../assets/customer_reviews/4.mp4'
+import Video5 from '../../assets/customer_reviews/5.mp4'
+import Video6 from '../../assets/customer_reviews/6.mp4'
+import Video7 from '../../assets/customer_reviews/7.mp4'
+import Video8 from '../../assets/customer_reviews/8.mp4'
+import Video9 from '../../assets/customer_reviews/9.mp4'
+import Video10 from '../../assets/customer_reviews/10.mp4'
+import Video11 from '../../assets/customer_reviews/11.mp4'
+import Video12 from '../../assets/customer_reviews/12.mp4'
 
 import '../../css/body/reviews.css'
 
@@ -236,7 +236,7 @@ class Reviews extends Component {
                             <a href="/whole-cell-online-site/"><i className="fas fa-times icon cross"></i></a>
                         </div> */}
                         <div className="content">
-                            <h1>OUR REVIEWS</h1>
+                            <h1 className="rev-h1">OUR REVIEWS</h1>
                             <ul className="filter">
                                 <button className="btn btn-outline-light" onClick={this.allHandler}>
                                     <li className={this.state.allState} >All</li>

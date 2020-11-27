@@ -48,97 +48,97 @@ class OurWork extends Component {
                     id: 1,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Hi, Listen come to Umer, He is great and terrific",
+                    desc: "Great service at this location, I recommend it to everybody, great deals",
                     image: Img1,
                     video: Video1,
-                    date: "11-14-2020",
+                    date: "11-20-2020",
                     store: "Boost Mobile" 
                 },
                 {
                     id: 2,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Hi, I came to Boost Mobile, my slaesperson was Islah, really good person, really good guy",
+                    desc: "Came here to get my upgrade, had great experience, right here in Bolingbrook, thanks for your service and help guys",
                     image: Img2,
                     video: Video2,
-                    date: "11-14-2020",
+                    date: "11-20-2020",
                     store: "Boost Mobile" 
                 },
                 {
                     id: 3,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Just got a great deal from Whole Cell Accessories, If you looking for a great deal, this is the place to come",
+                    desc: "I got a very good deal, thank you, you guys are awesome",
                     image: Img3,
                     video: Video3,
-                    date: "11-14-2020",
+                    date: "11-21-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
                     id: 4,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I had a great experience today, have really good discounts, he helped us get a new phone, very great deal, very respectful",
+                    desc: "I'm at the Boost Mobile in Bolingbrook, and the service here is fantastic",
                     image: Img4,
                     video: Video4,
-                    date: "11-15-2020",
+                    date: "11-21-2020",
                     store: "Boost Mobile" 
                 },
                 {
                     id: 5,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "had a good deal, here at Boost Mobile, come check them out",
+                    desc: "Just had wonderful service at Boost Mobile, they always take care of me, and I'm satisfied",
                     image: Img5,
                     video: Video5,
-                    date: "11-15-2020",
+                    date: "11-22-2020",
                     store: "Boost Mobile" 
                 },
                 {
                     id: 6,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I just got my phone fixed by Islah and he did a good job",
+                    desc: "I recommend anybody to come, and get there phone fixed, they are the best one, got it fixed within 30 to 40 minutes, and it works great",
                     image: Img6,
                     video: Video6,
-                    date: "11-15-2020",
+                    date: "11-22-2020",
                     store: "We Fix Phones" 
                 },
                 {
                     id: 7,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I'm here at Whole Cell Accessories, excellent customer service, have been coming here for years, they have always done a great job",
+                    desc: "They have been looking out for me since I was 17, over 13 years, you all need to come here, they will treat you just like family",
                     image: Img7,
                     video: Video7,
-                    date: "11-16-2020",
+                    date: "11-23-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
                     id: 8,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I'm here at Whole Cell Joliet, I love this place, good experience, they really help you, I had a cracked phone, came here, and thank you",
+                    desc: "Mahz and Alex took care of us really nice today, screen fix on Iphone 11, they hooked us up, come here",
                     image: Img8,
                     video: Video8,
-                    date: "11-16-2020",
+                    date: "11-23-2020",
                     store: "We Fix Phones" 
                 },
                 {
                     id: 9,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "We are at Whole Cell Accessories in Joliet, we had good experience here, great service, thank you",
+                    desc: "I met Alex, very good employee, I'm getting handsfree, and music, I'll definitely be coming back, I'm very pleased",
                     image: Img9,
                     video: Video9,
-                    date: "11-16-2020",
+                    date: "11-24-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
                     id: 10,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Come to Whole Cell Accessories in Lansing, they will take care of you, good people",
+                    desc: "Come to Whole Cell Accessories, You get the best deals",
                     image: Img10,
                     video: Video10,
                     date: "11-17-2020",
@@ -148,20 +148,20 @@ class OurWork extends Component {
                     id: 11,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came here to get my phone fixed, It was cracked, and Alex take care of it really good, that's why I come back",
+                    desc: "We Fix Phones, He did a pretty good job, get here asap, nice job",
                     image: Img11,
                     video: Video11,
-                    date: "11-17-2020",
+                    date: "11-25-2020",
                     store: "We Fix Phones" 
                 },
                 {
                     id: 12,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "He fixed my laptop and did a good job",
+                    desc: "I came to We Fix Phones and Alex helped me, he was done before 40 minutes, I really appreciate that, he did a good job",
                     image: Img12,
                     video: Video12,
-                    date: "11-17-2020",
+                    date: "11-25-2020",
                     store: "We Fix Phones" 
                 }
             ]
@@ -240,7 +240,7 @@ class OurWork extends Component {
                 <div className="bgimg">
                     <div className="wrapper">
                         <div className="content">
-                            <h1>OUR REVIEWS</h1>
+                            <h1 className="work-h1">OUR REVIEWS</h1>
                             <h2><span>SOME RECENT</span> REVIEWS</h2>
                             <ul className="filter">
                                 <button className="btn btn-outline-light" onClick={this.allHandler}>

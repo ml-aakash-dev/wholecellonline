@@ -137,6 +137,7 @@ class Contact extends Component {
                                                     type="lastname"
                                                     name="lastname"
                                                     placeholder="Last Name"
+                                                    required="required"
                                                     onChange={this.handleChange}
                                                     />
                                                 </Form.Group>
@@ -148,6 +149,7 @@ class Contact extends Component {
                                             type="email"
                                             name="email"
                                             placeholder="Email"
+                                            required="required"
                                             onChange={this.handleChange}
                                             />
                                         </Form.Group>
@@ -156,6 +158,7 @@ class Contact extends Component {
                                             type="text"
                                             name="subject"
                                             placeholder="Subject"
+                                            required="required"
                                             onChange={this.handleChange}
                                             />
                                         </Form.Group>
@@ -167,6 +170,7 @@ class Contact extends Component {
                                             rows={4} 
                                             id="joinUsMessage" 
                                             placeholder="Message"
+                                            required="required"
                                             onChange={this.handleChange}
                                             />
                                         </Form.Group>
