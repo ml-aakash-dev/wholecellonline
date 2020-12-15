@@ -304,14 +304,14 @@ class NavigationBar extends Component {
                                 </NavbarBrand>
 
                                 <NavbarBrand className="nav-item date" >{this.getDate()}</NavbarBrand>
-                                {
+                                {/* {
                                     this.state.loggedin ? 
                                     
                                 <NavbarBrand id="loggedin" className="login">Welcome Aakash</NavbarBrand>
-                                : 
+                                :  */}
                                 
                                 <NavbarBrand className="login nav-item" onClick={() => this.onLoginToggle()}><span><i className="fas fa-user"></i>&nbsp;Login</span></NavbarBrand>
-                                }
+                                {/* } */}
                             </Nav>
                         {
                             window.innerWidth>=1200 ?

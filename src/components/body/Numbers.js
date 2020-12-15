@@ -58,17 +58,17 @@ class Numbers extends Component {
                         <Row className="counters">
                             <Col xs={12} sm={6} xl={3} className="background-l col">
                             {/* <div className="counter background-10-light" data-target="358022">0</div> */}
-                                <div className="counter background-10-light">388714</div>
+                                <div className="counter background-10-light">391123</div>
                                 <h3>Satisfied Customers</h3>
                             </Col>
                             <Col xs={12} sm={6} xl={3} className="background-d col">
                             {/* <div className="counter background-10-light" data-target="24442">0</div> */}
-                                <div className="counter background-10-light">26831</div>
+                                <div className="counter background-10-light">26988</div>
                                 <h3>Succesful Repairs</h3>
                             </Col>
                             <Col xs={12} sm={6} xl={3} className="background-l col">
                             {/* <div className="counter background-10-light" data-target="6656">0</div> */}
-                                <div className="counter background-10-light">10233</div>
+                                <div className="counter background-10-light">10282</div>
                                 {/* <h3>5 Star Google Reviews</h3> */}
                                 <h3>
                                 <span className="fa fa-star checked"></span>
@@ -80,7 +80,7 @@ class Numbers extends Component {
                             </Col>
                             <Col xs={12} sm={6} xl={3} className="background-d col">
                             {/* <div className="counter background-10-light" data-target="6656">0</div> */}
-                                <div className="counter background-10-light">92891</div>
+                                <div className="counter background-10-light">94067</div>
                                 <h3>New Phone Sales</h3>
                             </Col>
                         </Row>
