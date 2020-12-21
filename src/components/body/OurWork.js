@@ -48,50 +48,50 @@ class OurWork extends Component {
                     id: 1,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Please come to the Boost by the Super Walmart Bolingbrook, they do good service and they are good guys",
+                    desc: "I came to the Boost Store by walmart, and I'm very pleased with the service, their professionalism and good products",
                     image: Img1,
                     video: Video1,
-                    date: "12-09-2020",
+                    date: "12-15-2020",
                     store: "Boost Mobile" 
                 },
                 {
                     id: 2,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Came into the Boost Store today, and I got a really good deal",
+                    desc: "I came in, they helped me get a new phone",
                     image: Img2,
                     video: Video2,
-                    date: "12-09-2020",
+                    date: "12-15-2020",
                     store: "Boost Mobile" 
                 },
                 {
                     id: 3,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "They gave us good discount on phone, shout out to Whole Cell Chicago Heights, check them out",
+                    desc: "I came to Accessories for Tablets, hooked me up with the phone, thank you very much",
                     image: Img3,
                     video: Video3,
-                    date: "12-10-2020",
+                    date: "12-16-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
                     id: 4,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Boost Mobile in Bolingbrook, got good deal on our phones, come here",
+                    desc: "I came to the Boost Mobile Store in Bolingbrook, Islah did an awesome job, 100% customer service",
                     image: Img4,
                     video: Video4,
-                    date: "12-10-2020",
+                    date: "12-16-2020",
                     store: "Boost Mobile" 
                 },
                 {
                     id: 5,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I have been coming here for the last three years, they give me good deals and I keep coming back, thank you Boost",
+                    desc: "Shout out to Boost",
                     image: Img5,
                     video: Video5,
-                    date: "12-11-2020",
+                    date: "12-17-2020",
                     store: "Boost Mobile" 
                 },
                 {
@@ -101,7 +101,7 @@ class OurWork extends Component {
                     desc: "I'm at We Fix Phones, my phone was damaged, the screen wasn't working at all, Mo fixed my phone, it's brand new, I'm pretty satisfied with the service",
                     image: Img6,
                     video: Video6,
-                    date: "12-11-2020",
+                    date: "12-17-2020",
                     store: "We Fix Phones" 
                 },
                 {
@@ -111,57 +111,57 @@ class OurWork extends Component {
                     desc: "Glad to be here at Accessories for Tablets, Alex took real good care of us, we found everything we liked, and we will be back",
                     image: Img7,
                     video: Video7,
-                    date: "12-12-2020",
+                    date: "12-18-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
                     id: 8,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came to Accessories for Tablets, Alex helped me fix my phone, he gave me great service, and discount, I give him 5 stars",
+                    desc: "He look out for me everytime I come, if you need your phone or computer fixed, this is the place to come to, Whole Cell Accessories",
                     image: Img8,
                     video: Video8,
-                    date: "12-12-2020",
+                    date: "12-18-2020",
                     store: "We Fix Phones" 
                 },
                 {
                     id: 9,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "We are at the Whole Cell Accessories in Chicago Heights, they gave us a really good deal, please come here, you get great deals and great service, thank you",
+                    desc: "I came here to get a new phone, service here was great, I love it, very friendly and helpful",
                     image: Img9,
                     video: Video9,
-                    date: "12-13-2020",
+                    date: "12-19-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
                     id: 10,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Whole Cell Accessories, great customer service",
+                    desc: "Gotta come down, check out Accessories for Tablets, got all the good deals, great customer service",
                     image: Img10,
                     video: Video10,
-                    date: "12-13-2020",
+                    date: "12-19-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
                     id: 11,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came to Shmidt Store, he fixed my phone, It was completely cracked, and it's looking brand new, good job",
+                    desc: "Alex fixed my phone at We Fix Phones, he did a pretty good job, my phone came out brand new, appreciate it",
                     image: Img11,
                     video: Video11,
-                    date: "12-14-2020",
+                    date: "12-20-2020",
                     store: "We Fix Phones" 
                 },
                 {
                     id: 12,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Accessories For Tablets, good discounts, take care of you, great prices, great deals, I'm satisfied customer",
+                    desc: "I came here because I have problem with existing phone, and walking out with 2 new phones, I got excellent service, i'm happy, and I recommend it",
                     image: Img12,
                     video: Video12,
-                    date: "12-14-2020",
+                    date: "12-20-2020",
                     store: "We Fix Phones" 
                 }
             ]

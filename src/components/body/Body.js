@@ -6,16 +6,9 @@ import Accessories from './services/Accessories'
 import Repair from './services/Repair'
 import Activation from './services/Activation'
 import Testimonials from './testimonials/Testimonials'
-// import About from './About'
-// import HowWeWork from './HowWeWork'
-// import Team from './Team'
-// import WhoWeAre from './WhoWeAre'
-// import Services from './Services'
 import OurWork from './OurWork'
 import JoinUs from './join/JoinUs'
-// import Process from './Process'
 import Numbers from './Numbers'
-// import OurSkills from './OurSkills'
 import Contact from './Contact'
 import Footer from './Footer'
 
@@ -34,16 +27,10 @@ class Body extends Component {
         }
         this.header = React.createRef()
         this.services = React.createRef()
-        // this.about = React.createRef()
-        // this.hww = React.createRef()
-        // this.team = React.createRef()
-        // this.wwa = React.createRef()
         this.work = React.createRef()
-        // this.process = React.createRef()
         this.numbers = React.createRef()
         this.testimonial = React.createRef()
         this.join = React.createRef()
-        // this.skills = React.createRef()
         this.contact = React.createRef()
     } 
     
