@@ -48,27 +48,27 @@ class OurWork extends Component {
                     id: 1,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came to the Boost Store by walmart, and I'm very pleased with the service, their professionalism and good products",
+                    desc: "Alex fixed my phone at We Fix Phones, he did a pretty good job, my phone came out brand new, appreciate it",
                     image: Img1,
                     video: Video1,
-                    date: "12-15-2020",
-                    store: "Boost Mobile" 
+                    date: "12-20-2020",
+                    store: "We Fix Phones" 
                 },
                 {
                     id: 2,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came in, they helped me get a new phone",
+                    desc: "I came here because I have problem with existing phone, and walking out with 2 new phones, I got excellent service, i'm happy, and I recommend it",
                     image: Img2,
                     video: Video2,
-                    date: "12-15-2020",
-                    store: "Boost Mobile" 
+                    date: "12-20-2020",
+                    store: "We Fix Phones" 
                 },
                 {
                     id: 3,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came to Accessories for Tablets, hooked me up with the phone, thank you very much",
+                    desc: "Thank you for the new Iphone, we appreciate it, excellent service, and very fast",
                     image: Img3,
                     video: Video3,
                     date: "12-16-2020",
@@ -78,7 +78,7 @@ class OurWork extends Component {
                     id: 4,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came to the Boost Mobile Store in Bolingbrook, Islah did an awesome job, 100% customer service",
+                    desc: "I had some great customer service, we got Iphones, happy customers, come check them out",
                     image: Img4,
                     video: Video4,
                     date: "12-16-2020",
@@ -88,7 +88,7 @@ class OurWork extends Component {
                     id: 5,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Shout out to Boost",
+                    desc: "Come into the Boost Store on Schmidt road, got a great deal, I'm happy with the upgrade of my phone, and great service",
                     image: Img5,
                     video: Video5,
                     date: "12-17-2020",
@@ -108,7 +108,7 @@ class OurWork extends Component {
                     id: 7,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Glad to be here at Accessories for Tablets, Alex took real good care of us, we found everything we liked, and we will be back",
+                    desc: "I had Wonderful time, came to Whole Cell Accessories, and AL helped me out so good, he is so patient, he is plus to the store, I'm gonna come here all the time from now",
                     image: Img7,
                     video: Video7,
                     date: "12-18-2020",
@@ -138,7 +138,7 @@ class OurWork extends Component {
                     id: 10,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Gotta come down, check out Accessories for Tablets, got all the good deals, great customer service",
+                    desc: "I'm at the Whole Cell Accessories in Chicago Heights, he helped us out with everything, we had great experience, great customer service, come on down he will hook you up",
                     image: Img10,
                     video: Video10,
                     date: "12-19-2020",
@@ -148,21 +148,21 @@ class OurWork extends Component {
                     id: 11,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Alex fixed my phone at We Fix Phones, he did a pretty good job, my phone came out brand new, appreciate it",
+                    desc: "Very good service, I appreciate for your help",
                     image: Img11,
                     video: Video11,
-                    date: "12-20-2020",
-                    store: "We Fix Phones" 
+                    date: "12-15-2020",
+                    store: "Boost Mobile" 
                 },
                 {
                     id: 12,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came here because I have problem with existing phone, and walking out with 2 new phones, I got excellent service, i'm happy, and I recommend it",
+                    desc: "I came to Boost Mobile near by Walmart, and Essa helped me, and gave me great deal",
                     image: Img12,
                     video: Video12,
-                    date: "12-20-2020",
-                    store: "We Fix Phones" 
+                    date: "12-15-2020",
+                    store: "Boost Mobile" 
                 }
             ]
         }
