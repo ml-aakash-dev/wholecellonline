@@ -51,7 +51,7 @@ class OurWork extends Component {
                     desc: "Alex fixed my phone at We Fix Phones, he did a pretty good job, my phone came out brand new, appreciate it",
                     image: Img1,
                     video: Video1,
-                    date: "12-20-2020",
+                    date: "12-30-2020",
                     store: "We Fix Phones" 
                 },
                 {
@@ -61,7 +61,7 @@ class OurWork extends Component {
                     desc: "I came here because I have problem with existing phone, and walking out with 2 new phones, I got excellent service, i'm happy, and I recommend it",
                     image: Img2,
                     video: Video2,
-                    date: "12-20-2020",
+                    date: "12-30-2020",
                     store: "We Fix Phones" 
                 },
                 {
@@ -71,7 +71,7 @@ class OurWork extends Component {
                     desc: "Thank you for the new Iphone, we appreciate it, excellent service, and very fast",
                     image: Img3,
                     video: Video3,
-                    date: "12-16-2020",
+                    date: "12-31-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
@@ -81,7 +81,7 @@ class OurWork extends Component {
                     desc: "I had some great customer service, we got Iphones, happy customers, come check them out",
                     image: Img4,
                     video: Video4,
-                    date: "12-16-2020",
+                    date: "12-31-2020",
                     store: "Boost Mobile" 
                 },
                 {
@@ -91,7 +91,7 @@ class OurWork extends Component {
                     desc: "Come into the Boost Store on Schmidt road, got a great deal, I'm happy with the upgrade of my phone, and great service",
                     image: Img5,
                     video: Video5,
-                    date: "12-17-2020",
+                    date: "01-01-2020",
                     store: "Boost Mobile" 
                 },
                 {
@@ -101,7 +101,7 @@ class OurWork extends Component {
                     desc: "I'm at We Fix Phones, my phone was damaged, the screen wasn't working at all, Mo fixed my phone, it's brand new, I'm pretty satisfied with the service",
                     image: Img6,
                     video: Video6,
-                    date: "12-17-2020",
+                    date: "01-01-2020",
                     store: "We Fix Phones" 
                 },
                 {
@@ -111,7 +111,7 @@ class OurWork extends Component {
                     desc: "I had Wonderful time, came to Whole Cell Accessories, and AL helped me out so good, he is so patient, he is plus to the store, I'm gonna come here all the time from now",
                     image: Img7,
                     video: Video7,
-                    date: "12-18-2020",
+                    date: "01-02-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
@@ -121,7 +121,7 @@ class OurWork extends Component {
                     desc: "He look out for me everytime I come, if you need your phone or computer fixed, this is the place to come to, Whole Cell Accessories",
                     image: Img8,
                     video: Video8,
-                    date: "12-18-2020",
+                    date: "01-02-2020",
                     store: "We Fix Phones" 
                 },
                 {
@@ -131,7 +131,7 @@ class OurWork extends Component {
                     desc: "I came here to get a new phone, service here was great, I love it, very friendly and helpful",
                     image: Img9,
                     video: Video9,
-                    date: "12-19-2020",
+                    date: "01-03-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
@@ -141,7 +141,7 @@ class OurWork extends Component {
                     desc: "I'm at the Whole Cell Accessories in Chicago Heights, he helped us out with everything, we had great experience, great customer service, come on down he will hook you up",
                     image: Img10,
                     video: Video10,
-                    date: "12-19-2020",
+                    date: "01-03-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
@@ -151,7 +151,7 @@ class OurWork extends Component {
                     desc: "Very good service, I appreciate for your help",
                     image: Img11,
                     video: Video11,
-                    date: "12-15-2020",
+                    date: "01-04-2020",
                     store: "Boost Mobile" 
                 },
                 {
@@ -161,7 +161,7 @@ class OurWork extends Component {
                     desc: "I came to Boost Mobile near by Walmart, and Essa helped me, and gave me great deal",
                     image: Img12,
                     video: Video12,
-                    date: "12-15-2020",
+                    date: "01-04-2020",
                     store: "Boost Mobile" 
                 }
             ]

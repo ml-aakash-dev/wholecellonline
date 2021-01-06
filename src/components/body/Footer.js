@@ -31,7 +31,7 @@ class Footer extends Component {
                     desc: "Alex fixed my phone at We Fix Phones, he did a pretty good job, my phone came out brand new, appreciate it",
                     image: Img1,
                     video: Video1,
-                    date: "12-20-2020",
+                    date: "12-30-2020",
                     store: "We Fix Phones" 
                 },
                 {
@@ -41,7 +41,7 @@ class Footer extends Component {
                     desc: "I came here because I have problem with existing phone, and walking out with 2 new phones, I got excellent service, i'm happy, and I recommend it",
                     image: Img2,
                     video: Video2,
-                    date: "12-20-2020",
+                    date: "12-30-2020",
                     store: "We Fix Phones" 
                 },
                 {
@@ -51,7 +51,7 @@ class Footer extends Component {
                     desc: "Thank you for the new Iphone, we appreciate it, excellent service, and very fast",
                     image: Img3,
                     video: Video3,
-                    date: "12-16-2020",
+                    date: "12-31-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
@@ -61,7 +61,7 @@ class Footer extends Component {
                     desc: "I had some great customer service, we got Iphones, happy customers, come check them out",
                     image: Img4,
                     video: Video4,
-                    date: "12-16-2020",
+                    date: "12-31-2020",
                     store: "Boost Mobile" 
                 },
                 {
@@ -71,7 +71,7 @@ class Footer extends Component {
                     desc: "Come into the Boost Store on Schmidt road, got a great deal, I'm happy with the upgrade of my phone, and great service",
                     image: Img5,
                     video: Video5,
-                    date: "12-17-2020",
+                    date: "01-01-2020",
                     store: "Boost Mobile" 
                 },
                 {
@@ -81,7 +81,7 @@ class Footer extends Component {
                     desc: "I'm at We Fix Phones, my phone was damaged, the screen wasn't working at all, Mo fixed my phone, it's brand new, I'm pretty satisfied with the service",
                     image: Img6,
                     video: Video6,
-                    date: "12-17-2020",
+                    date: "01-01-2020",
                     store: "We Fix Phones" 
                 }
             ],
