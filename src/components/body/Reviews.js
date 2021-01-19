@@ -46,121 +46,121 @@ class Reviews extends Component {
                     id: 1,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came to the Boost Store by walmart, and I'm very pleased with the service, their professionalism and good products",
+                    desc: "Thank you so much, this is one of the best phone companies I've been into",
                     image: Img1,
                     video: Video1,
-                    date: "12-15-2020",
-                    store: "Boost Mobile" 
+                    date: "01-05-2020",
+                    store: "We Fix Phones" 
                 },
                 {
                     id: 2,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came in, they helped me get a new phone",
+                    desc: "I have been very very satisfied, he did a wonderful job, he was very helpful",
                     image: Img2,
                     video: Video2,
-                    date: "12-15-2020",
-                    store: "Boost Mobile" 
+                    date: "01-05-2020",
+                    store: "We Fix Phones" 
                 },
                 {
                     id: 3,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came to Accessories for Tablets, hooked me up with the phone, thank you very much",
+                    desc: "I'm at the Whole Cell Accessories, and this is great product right here",
                     image: Img3,
                     video: Video3,
-                    date: "12-16-2020",
+                    date: "01-06-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
                     id: 4,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came to the Boost Mobile Store in Bolingbrook, Islah did an awesome job, 100% customer service",
+                    desc: "Hi, came to the Boost Store in Bolingbrook, he helped me, and I really appreciate his help, I'll come back and I'll also invite people to come here",
                     image: Img4,
                     video: Video4,
-                    date: "12-16-2020",
+                    date: "01-06-2020",
                     store: "Boost Mobile" 
                 },
                 {
                     id: 5,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Shout out to Boost",
+                    desc: "I like the service, it was very fast, very honest, and I would recommend to anybody",
                     image: Img5,
                     video: Video5,
-                    date: "12-17-2020",
+                    date: "01-07-2020",
                     store: "Boost Mobile" 
                 },
                 {
                     id: 6,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I'm at We Fix Phones, my phone was damaged, the screen wasn't working at all, Mo fixed my phone, it's brand new, I'm pretty satisfied with the service",
+                    desc: "Thank you so much AJ, you helped me out so much, I'm so happy",
                     image: Img6,
                     video: Video6,
-                    date: "12-17-2020",
+                    date: "01-07-2020",
                     store: "We Fix Phones" 
                 },
                 {
                     id: 7,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Glad to be here at Accessories for Tablets, Alex took real good care of us, we found everything we liked, and we will be back",
+                    desc: "I'm at Whole Cell Accessories, my man AL, hooked me up with the new phone, he helped me out, gave me a good deals on some accessories, Chicago Heights Whole Cell Accessories",
                     image: Img7,
                     video: Video7,
-                    date: "12-18-2020",
+                    date: "01-08-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
                     id: 8,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "He look out for me everytime I come, if you need your phone or computer fixed, this is the place to come to, Whole Cell Accessories",
+                    desc: "Hi, I just want to say that Alex was awesome, he had great customer service, and very friendly, I'll come back to see him",
                     image: Img8,
                     video: Video8,
-                    date: "12-18-2020",
+                    date: "01-08-2020",
                     store: "We Fix Phones" 
                 },
                 {
                     id: 9,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came here to get a new phone, service here was great, I love it, very friendly and helpful",
+                    desc: "Very great service, they took care of me",
                     image: Img9,
                     video: Video9,
-                    date: "12-19-2020",
+                    date: "01-09-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
                     id: 10,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Gotta come down, check out Accessories for Tablets, got all the good deals, great customer service",
+                    desc: "Hello, I had a good service, deals and everything, I recommend this Chicago Heights location",
                     image: Img10,
                     video: Video10,
-                    date: "12-19-2020",
+                    date: "01-09-2020",
                     store: "Whole Cell Accessories" 
                 },
                 {
                     id: 11,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Alex fixed my phone at We Fix Phones, he did a pretty good job, my phone came out brand new, appreciate it",
+                    desc: "Boost Mobile wonderful, this store is wonderful, he helped me get a new phone, thank you Boost Mobile",
                     image: Img11,
                     video: Video11,
-                    date: "12-20-2020",
-                    store: "We Fix Phones" 
+                    date: "01-10-2020",
+                    store: "Boost Mobile" 
                 },
                 {
                     id: 12,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came here because I have problem with existing phone, and walking out with 2 new phones, I got excellent service, i'm happy, and I recommend it",
+                    desc: "I came to Boost Mobile in Bolingbrook, they hook me up, this is my second time coming, everytime I get great deals, make sure you check them out",
                     image: Img12,
                     video: Video12,
-                    date: "12-20-2020",
-                    store: "We Fix Phones" 
+                    date: "01-10-2020",
+                    store: "Boost Mobile" 
                 }
             ]
         }
