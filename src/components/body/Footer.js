@@ -31,7 +31,7 @@ class Footer extends Component {
                     desc: "Thank you so much, this is one of the best phone companies I've been into",
                     image: Img1,
                     video: Video1,
-                    date: "01-12-2020",
+                    date: "01-12-2021",
                     store: "We Fix Phones" 
                 },
                 {
@@ -41,7 +41,7 @@ class Footer extends Component {
                     desc: "Boy AJ hooke me up, right here in Boling Brook, fixed my phone, got me the deal, come here and get your deal",
                     image: Img2,
                     video: Video2,
-                    date: "01-12-2020",
+                    date: "01-12-2021",
                     store: "We Fix Phones" 
                 },
                 {
@@ -51,37 +51,37 @@ class Footer extends Component {
                     desc: "For all your cell phone needs go to the Whole Cell Accessories, and speak to AL and Ian, they are great",
                     image: Img3,
                     video: Video3,
-                    date: "01-13-2020",
+                    date: "01-13-2021",
                     store: "Whole Cell Accessories" 
                 },
                 {
                     id: 4,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "have a new phone, Mohammed gave us good deal",
+                    desc: "I got a very good deal today, he was amazing and excellent",
                     image: Img4,
                     video: Video4,
-                    date: "01-13-2020",
+                    date: "02-05-2021",
                     store: "Boost Mobile" 
                 },
                 {
                     id: 5,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came in for a phone for my brother, so quick, Mohammed was so nice, and gave me such a great deal, thank you",
+                    desc: "I came to Boost right now, I got a good deal, thank you so much",
                     image: Img5,
                     video: Video5,
-                    date: "01-14-2020",
+                    date: "02-06-2021",
                     store: "Boost Mobile" 
                 },
                 {
                     id: 6,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came here to get my phone repaired, Alex took care of me, and he did a real good job, prompt, and courteous, and did what he said",
+                    desc: "I'm right here at Boost Mobile, I got great service today, this man helped me with my phone issue, great attitude, come and shop here",
                     image: Img6,
                     video: Video6,
-                    date: "01-14-2020",
+                    date: "02-06-2021",
                     store: "We Fix Phones" 
                 }
             ],
