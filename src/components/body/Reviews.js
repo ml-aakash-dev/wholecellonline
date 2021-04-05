@@ -76,30 +76,30 @@ class Reviews extends Component {
                     id: 4,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "have a new phone, Mohammed gave us good deal",
+                    desc: "I got a very good deal today, he was amazing and excellent",
                     image: Img4,
                     video: Video4,
-                    date: "01-13-2021",
+                    date: "02-05-2021",
                     store: "Boost Mobile" 
                 },
                 {
                     id: 5,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came in for a phone for my brother, so quick, Mohammed was so nice, and gave me such a great deal, thank you",
+                    desc: "I came to Boost right now, I got a good deal, thank you so much",
                     image: Img5,
                     video: Video5,
-                    date: "01-14-2021",
+                    date: "02-06-2021",
                     store: "Boost Mobile" 
                 },
                 {
                     id: 6,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came here to get my phone repaired, Alex took care of me, and he did a real good job, prompt, and courteous, and did what he said",
+                    desc: "I'm right here at Boost Mobile, I got great service today, this man helped me with my phone issue, great attitude, come and shop here",
                     image: Img6,
                     video: Video6,
-                    date: "01-14-2021",
+                    date: "02-06-2021",
                     store: "We Fix Phones" 
                 },
                 {
@@ -116,50 +116,50 @@ class Reviews extends Component {
                     id: 8,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Thanks AL for hooking us up today, my sister phone broke, he hooked us up with an amazing deal, he's an amazing person to help us, Boost Mobile in Chicago Heights, everybody come check them out",
+                    desc: "I came to Boost Mobile, they fixed my phone, and I like it",
                     image: Img8,
                     video: Video8,
-                    date: "01-15-2021",
+                    date: "02-07-2021",
                     store: "We Fix Phones" 
                 },
                 {
                     id: 9,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I'm here in Whole Cell Accessories in Joliet, very good customer service",
+                    desc: "I'm at Whole Cell Accessories in Joliet, come check them out, I got good deals over here, they'll help you out whatever you need",
                     image: Img9,
                     video: Video9,
-                    date: "01-16-2021",
+                    date: "02-08-2021",
                     store: "Whole Cell Accessories" 
                 },
                 {
                     id: 10,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I always come to Whole Cell Accessories, he takes care of me, and he is a very good man, I have been shopping here for a while, they always give you deals, very good people",
+                    desc: "Whole Cell Accessories in Joliet, I'm here with my buddy, he takes care of us, great deals, come see him",
                     image: Img10,
                     video: Video10,
-                    date: "01-16-2021",
+                    date: "02-08-2021",
                     store: "Whole Cell Accessories" 
                 },
                 {
                     id: 11,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I'm here in the Lansing Boost Mobile, I love this place, I always come here, I get my products from here, these guys are awesome, anytime you need new phone or service, come here",
+                    desc: "I got good deal, appreciate it, good business",
                     image: Img11,
                     video: Video11,
-                    date: "01-17-2021",
+                    date: "02-09-2021",
                     store: "Boost Mobile" 
                 },
                 {
                     id: 12,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came in today to buy a new phone, I would recommend you guys to come here to get a deal",
+                    desc: "They took care of me and I am a very happy customer",
                     image: Img12,
                     video: Video12,
-                    date: "01-17-2021",
+                    date: "02-09-2021",
                     store: "Boost Mobile" 
                 }
             ]
