@@ -266,6 +266,7 @@ class OurWork extends Component {
                                     <h6>Whole Cell <span>Customer</span></h6>
                                     <br/>
                                     <p>{review.desc}</p>
+                                    <p style={{fontWeight:"700"}}>{review.date}</p>
                                     <i className="far fa-play-circle video-icon"></i>
                                 </div>
                             </div>
