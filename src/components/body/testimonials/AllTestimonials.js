@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 
-import Video22 from '../../../assets/testimonials/22.mp4'
 import Video23 from '../../../assets/testimonials/23.mp4'
 import Video24 from '../../../assets/testimonials/24.mp4'
 import Video25 from '../../../assets/testimonials/25.mp4'
@@ -10,6 +9,7 @@ import Video28 from '../../../assets/testimonials/28.mp4'
 import Video29 from '../../../assets/testimonials/29.mp4'
 import Video30 from '../../../assets/testimonials/30.mp4'
 import Video31 from '../../../assets/testimonials/31.mp4'
+import Video32 from '../../../assets/testimonials/32.mp4'
 
 import '../../../css/body/testimonials/allTestimonials.css'
 import $ from 'jquery'
@@ -20,12 +20,6 @@ class AllTestimonials extends Component {
         this.state={
             pause: false,
             videos:[
-                {
-                    id: "",
-                    class:"slide video",
-                    vidref: "vidRef22",
-                    src: Video22
-                },
                 {
                     id: "",
                     class:"slide video",
@@ -75,10 +69,16 @@ class AllTestimonials extends Component {
                     src: Video30
                 },
                 {
-                    id: "current-testi",
-                    class:"slide video current",
+                    id: "",
+                    class:"slide video",
                     vidref: "vidRef31",
                     src: Video31
+                },
+                {
+                    id: "current-testi",
+                    class:"slide video current",
+                    vidref: "vidRef32",
+                    src: Video32
                 }
             ]
         }
@@ -187,7 +187,6 @@ class AllTestimonials extends Component {
 
     pauseVideo = () => {
         // Pause as well
-        this.refs.vidRef22.pause();
         this.refs.vidRef23.pause();
         this.refs.vidRef24.pause();
         this.refs.vidRef25.pause();
@@ -197,6 +196,7 @@ class AllTestimonials extends Component {
         this.refs.vidRef29.pause();
         this.refs.vidRef30.pause();
         this.refs.vidRef31.pause();
+        this.refs.vidRef32.pause();
       };
     render() {
         return (
