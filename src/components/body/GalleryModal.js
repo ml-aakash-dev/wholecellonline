@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import {Row, Col} from 'react-bootstrap'
+import {FacebookShareButton, FacebookIcon, 
+        WhatsappShareButton, WhatsappIcon,
+        EmailShareButton, EmailIcon} from 'react-share' 
 
 import '../../css/body/galleryModal.css'
 
@@ -22,6 +25,7 @@ class GalleryModal extends Component {
         this.props.clearState()
     }
     render() {
+        // let url = "https://wholecellonline.com/whole-cell-online-site/static/media/main.8695a813.mp4";
         return (
             <div className="gallery-modal">
                 <div className="gm-contorls">
@@ -53,6 +57,17 @@ class GalleryModal extends Component {
                                 </p>
                                 <p>{data.date}</p>
                                 <p>{data.desc}</p>
+                                <div className="social-share">
+                                <FacebookShareButton url={data.url}>
+                                    <FacebookIcon logoFillColor="white" size={35}></FacebookIcon>
+                                </FacebookShareButton>
+                                <EmailShareButton url={data.url}>
+                                    <EmailIcon logoFillColor="whte" size={35}></EmailIcon>
+                                </EmailShareButton>
+                                <WhatsappShareButton url={data.url}>
+                                    <WhatsappIcon logoFillColor="whte" size={35}></WhatsappIcon>
+                                </WhatsappShareButton>
+                                </div>
                             </span>
                         </Col>
                     </Row>
