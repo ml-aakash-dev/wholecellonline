@@ -68,6 +68,18 @@
     color: orange;
 }
 
+
+.gallery-modal .ctc-icon{
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    transform: translateY(14%);
+    padding: 5px;
+    background-color: grey;
+    color: white;
+}
+
 @media(max-width: 991px){
     .gallery-modal .sec-col{
         margin-bottom: 20px;

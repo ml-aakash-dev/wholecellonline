@@ -20,6 +20,15 @@
     top: 20px;
     right: 20px;
   }
+  .reviews-video-section .ctc-icon{
+      font-size: 30px;
+      cursor: pointer;
+      position: relative;
+      top: 50%;
+      transform: translateY(14%);
+      padding: 10px;
+      background-color: grey;
+  }
 
 
 .reviews-video-section .video-wrapper{

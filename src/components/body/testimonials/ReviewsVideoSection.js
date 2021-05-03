@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import {FacebookShareButton, FacebookIcon, 
         WhatsappShareButton, WhatsappIcon,
-        EmailShareButton, EmailIcon} from 'react-share' 
+        EmailShareButton, EmailIcon} from 'react-share'
+import {CopyToClipboard} from 'react-copy-to-clipboard'; 
 
 // import Video26 from '../../../assets/testimonials/26.mp4'
 // import Video27 from '../../../assets/testimonials/27.mp4'
@@ -136,6 +137,9 @@ class ReviewsVideoSection extends Component {
       };
     
     render() {
+        const handleCopy = () => {
+            alert("copied to clipboard")
+          }
         let url = "https://wholecellonline.com/whole-cell-online-site/static/media/main.8695a813.mp4";
         return (
             <div className="reviews-video-section">
@@ -149,6 +153,10 @@ class ReviewsVideoSection extends Component {
               <WhatsappShareButton url={url}>
                 <WhatsappIcon logoFillColor="whte" size={50}></WhatsappIcon>
               </WhatsappShareButton>
+            <CopyToClipboard text={"https://wholecellonline.com/whole-cell-online-site/static/media/main.8695a813.mp4"}
+                onCopy={handleCopy}>
+                <i className="fas fa-paste ctc-icon"></i>
+            </CopyToClipboard>
             </div>
                 <div className="video-wrapper">
                     <i className="far fa-play-circle playpause"></i>

@@ -3,6 +3,7 @@ import {Row, Col} from 'react-bootstrap'
 import {FacebookShareButton, FacebookIcon, 
         WhatsappShareButton, WhatsappIcon,
         EmailShareButton, EmailIcon} from 'react-share' 
+import {CopyToClipboard} from 'react-copy-to-clipboard'; 
 
 import '../../css/body/galleryModal.css'
 
@@ -25,6 +26,9 @@ class GalleryModal extends Component {
         this.props.clearState()
     }
     render() {
+        const handleCopy = () => {
+            alert("copied to clipboard")
+          }
         // let url = "https://wholecellonline.com/whole-cell-online-site/static/media/main.8695a813.mp4";
         return (
             <div className="gallery-modal">
@@ -67,6 +71,10 @@ class GalleryModal extends Component {
                                 <WhatsappShareButton url={data.url}>
                                     <WhatsappIcon logoFillColor="whte" size={35}></WhatsappIcon>
                                 </WhatsappShareButton>
+                                <CopyToClipboard text={data.url}
+                                    onCopy={handleCopy}>
+                                    <i className="fas fa-paste ctc-icon"></i>
+                                </CopyToClipboard>
                                 </div>
                             </span>
                         </Col>
