@@ -4,6 +4,7 @@ import {FacebookShareButton, FacebookIcon,
         WhatsappShareButton, WhatsappIcon,
         EmailShareButton, EmailIcon} from 'react-share' 
 import {CopyToClipboard} from 'react-copy-to-clipboard'; 
+import Swal from 'sweetalert2'
 
 import '../../css/body/galleryModal.css'
 
@@ -27,7 +28,13 @@ class GalleryModal extends Component {
     }
     render() {
         const handleCopy = () => {
-            alert("copied to clipboard")
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                text: 'Successfully, Copied To Clipboard', 
+                showConfirmButton: false,
+                timer: 1500
+              })
           }
         // let url = "https://wholecellonline.com/whole-cell-online-site/static/media/main.8695a813.mp4";
         return (
@@ -63,15 +70,15 @@ class GalleryModal extends Component {
                                 <p>{data.desc}</p>
                                 <div className="social-share">
                                 <FacebookShareButton url={data.url}>
-                                    <FacebookIcon logoFillColor="white" size={35}></FacebookIcon>
+                                    <FacebookIcon logoFillColor="white" size={35} title="facebook"></FacebookIcon>
                                 </FacebookShareButton>
                                 <EmailShareButton url={data.url}>
-                                    <EmailIcon logoFillColor="whte" size={35}></EmailIcon>
+                                    <EmailIcon logoFillColor="white" size={35} title="email"></EmailIcon>
                                 </EmailShareButton>
                                 <WhatsappShareButton url={data.url}>
-                                    <WhatsappIcon logoFillColor="whte" size={35}></WhatsappIcon>
+                                    <WhatsappIcon logoFillColor="white" size={35} title="whatsapp"></WhatsappIcon>
                                 </WhatsappShareButton>
-                                <CopyToClipboard text={data.url}
+                                <CopyToClipboard text={data.url} title="copy to clipboard"
                                     onCopy={handleCopy}>
                                     <i className="fas fa-paste ctc-icon"></i>
                                 </CopyToClipboard>

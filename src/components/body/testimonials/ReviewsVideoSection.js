@@ -2,10 +2,9 @@ import React, { Component } from 'react'
 import {FacebookShareButton, FacebookIcon, 
         WhatsappShareButton, WhatsappIcon,
         EmailShareButton, EmailIcon} from 'react-share'
-import {CopyToClipboard} from 'react-copy-to-clipboard'; 
+import {CopyToClipboard} from 'react-copy-to-clipboard'
+import Swal from 'sweetalert2';
 
-// import Video26 from '../../../assets/testimonials/26.mp4'
-// import Video27 from '../../../assets/testimonials/27.mp4'
 import Video1 from '../../../assets/testimonials/main.mp4'
 
 
@@ -138,7 +137,13 @@ class ReviewsVideoSection extends Component {
     
     render() {
         const handleCopy = () => {
-            alert("copied to clipboard")
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                text: 'Successfully, Copied To Clipboard', 
+                showConfirmButton: false,
+                timer: 1500
+              })
           }
         let url = "https://wholecellonline.com/whole-cell-online-site/static/media/main.8695a813.mp4";
         return (
@@ -148,10 +153,10 @@ class ReviewsVideoSection extends Component {
                 <FacebookIcon logoFillColor="white" size={50}></FacebookIcon>
               </FacebookShareButton>
               <EmailShareButton url={url}>
-                <EmailIcon logoFillColor="whte" size={50}></EmailIcon>
+                <EmailIcon logoFillColor="white" size={50}></EmailIcon>
               </EmailShareButton>
               <WhatsappShareButton url={url}>
-                <WhatsappIcon logoFillColor="whte" size={50}></WhatsappIcon>
+                <WhatsappIcon logoFillColor="white" size={50}></WhatsappIcon>
               </WhatsappShareButton>
             <CopyToClipboard text={"https://wholecellonline.com/whole-cell-online-site/static/media/main.8695a813.mp4"}
                 onCopy={handleCopy}>

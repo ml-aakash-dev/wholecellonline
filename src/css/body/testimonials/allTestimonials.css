@@ -60,7 +60,7 @@
     padding-bottom: 25px;
 }
 
-.all-testimonials .slide.video{
+.all-testimonials video.slide{
     position: absolute;
     top: 0px;
     left: 0;
@@ -106,6 +106,22 @@
     background-color: #cc9a4f;
     color: #fff;
 }
+
+.all-testimonials .social-share{
+    position: absolute;
+    z-index: 101;
+    top: 20px;
+    right: 20px;
+  }
+  .all-testimonials .ctc-icon{
+      font-size: 30px;
+      cursor: pointer;
+      position: relative;
+      top: 50%;
+      transform: translateY(14%);
+      padding: 10px;
+      background-color: grey;
+  }
 @media(min-width:767px){
     .all-testimonials{
         /* height: calc(100vh - 55px);

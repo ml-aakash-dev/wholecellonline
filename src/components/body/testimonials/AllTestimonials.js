@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
+import {FacebookShareButton, FacebookIcon, 
+        WhatsappShareButton, WhatsappIcon,
+        EmailShareButton, EmailIcon} from 'react-share'
+import {CopyToClipboard} from 'react-copy-to-clipboard'
+import Swal from 'sweetalert2';
 
-import Video23 from '../../../assets/testimonials/23.mp4'
 import Video24 from '../../../assets/testimonials/24.mp4'
 import Video25 from '../../../assets/testimonials/25.mp4'
 import Video26 from '../../../assets/testimonials/26.mp4'
@@ -10,6 +14,7 @@ import Video29 from '../../../assets/testimonials/29.mp4'
 import Video30 from '../../../assets/testimonials/30.mp4'
 import Video31 from '../../../assets/testimonials/31.mp4'
 import Video32 from '../../../assets/testimonials/32.mp4'
+import Video33 from '../../../assets/testimonials/33.mp4'
 
 import '../../../css/body/testimonials/allTestimonials.css'
 import $ from 'jquery'
@@ -23,62 +28,71 @@ class AllTestimonials extends Component {
                 {
                     id: "",
                     class:"slide video",
-                    vidref: "vidRef23",
-                    src: Video23
-                },
-                {
-                    id: "",
-                    class:"slide video",
                     vidref: "vidRef24",
-                    src: Video24
+                    src: Video24,
+                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/24.b2748bde.mp4"
                 },
                 {
                     id: "",
                     class:"slide video",
                     vidref: "vidRef25",
-                    src: Video25
+                    src: Video25,
+                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/25.d5487dbd.mp4"
                 },
                 {
                     id: "",
                     class:"slide video",
                     vidref: "vidRef26",
-                    src: Video26
+                    src: Video26,
+                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/26.3ca58215.mp4"
                 },
                 {
                     id: "",
                     class:"slide video",
                     vidref: "vidRef27",
-                    src: Video27
+                    src: Video27,
+                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/27.2eb61d61.mp4"
                 },
                 {
                     id: "",
                     class:"slide video",
                     vidref: "vidRef28",
-                    src: Video28
+                    src: Video28,
+                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/28.f6ea8ea7.mp4"
                 },
                 {
                     id: "",
                     class:"slide video",
                     vidref: "vidRef29",
-                    src: Video29
+                    src: Video29,
+                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/29.4010c812.mp4"
                 },
                 {
                     id: "",
                     class:"slide video",
                     vidref: "vidRef30",
-                    src: Video30
+                    src: Video30,
+                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/30.3b8a635e.mp4"
                 },
                 {
                     id: "",
                     class:"slide video",
                     vidref: "vidRef31",
-                    src: Video31
+                    src: Video31,
+                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/31.4ad336fe.mp4"
+                },
+                {
+                    id: "",
+                    class:"slide video",
+                    vidref: "vidRef32",
+                    src: Video32,
+                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/32.a15a5187.mp4"
                 },
                 {
                     id: "current-testi",
                     class:"slide video current",
-                    vidref: "vidRef32",
-                    src: Video32
+                    vidref: "vidRef33",
+                    src: Video33
                 }
             ]
         }
@@ -187,7 +201,6 @@ class AllTestimonials extends Component {
 
     pauseVideo = () => {
         // Pause as well
-        this.refs.vidRef23.pause();
         this.refs.vidRef24.pause();
         this.refs.vidRef25.pause();
         this.refs.vidRef26.pause();
@@ -197,8 +210,18 @@ class AllTestimonials extends Component {
         this.refs.vidRef30.pause();
         this.refs.vidRef31.pause();
         this.refs.vidRef32.pause();
+        this.refs.vidRef33.pause();
       };
     render() {
+        const handleCopy = () => {
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                text: 'Successfully, Copied To Clipboard', 
+                showConfirmButton: false,
+                timer: 1500
+              })
+          }
         return (
             <div className="all-testimonials">
                 {/* <div className="top-controls">
@@ -210,12 +233,29 @@ class AllTestimonials extends Component {
                     </div>
                     <div className="slider">
                         {this.state.videos.slice().reverse().map((video,key)=>(
-                        <video key={key} ref={video.vidref}
-                        preload="none"
-                        controls id={video.id} className={video.class}>
-                            <source src={video.src} type="video/mp4" />
-                            Your browser does not support HTML5 video.
-                        </video>
+                            // <div>
+                            //     <div className="social-share">
+                            //     <FacebookShareButton>
+                            //         <FacebookIcon logoFillColor="white" size={50}></FacebookIcon>
+                            //     </FacebookShareButton>
+                            //     <EmailShareButton>
+                            //         <EmailIcon logoFillColor="white" size={50}></EmailIcon>
+                            //     </EmailShareButton>
+                            //     <WhatsappShareButton>
+                            //         <WhatsappIcon logoFillColor="white" size={50}></WhatsappIcon>
+                            //     </WhatsappShareButton>
+                            //     <CopyToClipboard text={"https://wholecellonline.com/whole-cell-online-site/static/media/main.8695a813.mp4"}
+                            //         onCopy={handleCopy}>
+                            //         <i className="fas fa-paste ctc-icon"></i>
+                            //     </CopyToClipboard>
+                            //     </div>
+                                <video key={key} ref={video.vidref}
+                                preload="none"
+                                controls id={video.id} className={video.class}>
+                                    <source src={video.src} type="video/mp4" />
+                                    Your browser does not support HTML5 video.
+                                </video>
+                            // </div>
                         ))}
                     </div>
                     <button id="prev" className="prev" onClick={this.pauseVideo}><i className="fas fa-arrow-left"></i>{ window.innerWidth>575 ? " Prev Video" : ""}</button>
