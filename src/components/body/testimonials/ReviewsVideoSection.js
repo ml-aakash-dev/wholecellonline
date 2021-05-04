@@ -145,7 +145,7 @@ class ReviewsVideoSection extends Component {
                 timer: 1500
               })
           }
-        let url = "https://wholecellonline.com/whole-cell-online-site/static/media/main.8695a813.mp4";
+        let url = "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/testimonials/main.mp4";
         return (
             <div className="reviews-video-section">
             <div className="social-share">
@@ -158,7 +158,7 @@ class ReviewsVideoSection extends Component {
               <WhatsappShareButton url={url}>
                 <WhatsappIcon logoFillColor="white" size={50}></WhatsappIcon>
               </WhatsappShareButton>
-            <CopyToClipboard text={"https://wholecellonline.com/whole-cell-online-site/static/media/main.8695a813.mp4"}
+            <CopyToClipboard text={"https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/testimonials/main.mp4"}
                 onCopy={handleCopy}>
                 <i className="fas fa-paste ctc-icon"></i>
             </CopyToClipboard>

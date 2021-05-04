@@ -53,7 +53,7 @@ class OurWork extends Component {
                     video: Video1,
                     date: "04-28-2021",
                     store: "We Fix Phones",
-                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/1.1981f8b4.mp4"
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/1.mp4"
                 },
                 {
                     id: 2,
@@ -64,7 +64,7 @@ class OurWork extends Component {
                     video: Video2,
                     date: "04-28-2021",
                     store: "We Fix Phones",
-                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/2.089900f3.mp4"
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/2.mp4"
                 },
                 {
                     id: 3,
@@ -75,7 +75,7 @@ class OurWork extends Component {
                     video: Video3,
                     date: "04-20-2021",
                     store: "Whole Cell Accessories",
-                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/3.c684a2dd.mp4"
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/3.mp4"
                 },
                 {
                     id: 4,
@@ -86,7 +86,7 @@ class OurWork extends Component {
                     video: Video4,
                     date: "04-29-2021",
                     store: "Boost Mobile",
-                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/4.330f5ca1.mp4"
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/4.mp4"
                 },
                 {
                     id: 5,
@@ -97,7 +97,7 @@ class OurWork extends Component {
                     video: Video5,
                     date: "04-30-2021",
                     store: "Boost Mobile",
-                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/5.c0e834b8.mp4"
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/5.mp4"
                 },
                 {
                     id: 6,
@@ -108,7 +108,7 @@ class OurWork extends Component {
                     video: Video6,
                     date: "04-30-2021",
                     store: "We Fix Phones",
-                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/6.ee79f770.mp4"
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/6.mp4"
                 },
                 {
                     id: 7,
@@ -119,7 +119,7 @@ class OurWork extends Component {
                     video: Video7,
                     date: "04-22-2021",
                     store: "Whole Cell Accessories",
-                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/7.a0908c89.mp4"
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/7.mp4"
                 },
                 {
                     id: 8,
@@ -130,7 +130,7 @@ class OurWork extends Component {
                     video: Video8,
                     date: "05-01-2021",
                     store: "We Fix Phones",
-                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/8.dcc31410.mp4"
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/8.mp4"
                 },
                 {
                     id: 9,
@@ -141,7 +141,7 @@ class OurWork extends Component {
                     video: Video9,
                     date: "05-02-2021",
                     store: "Whole Cell Accessories",
-                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/9.5317d832.mp4"
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/9.mp4"
                 },
                 {
                     id: 10,
@@ -152,7 +152,7 @@ class OurWork extends Component {
                     video: Video10,
                     date: "05-02-2021",
                     store: "Whole Cell Accessories",
-                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/10.364ccd02.mp4"
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/10.mp4"
                 },
                 {
                     id: 11,
@@ -163,7 +163,7 @@ class OurWork extends Component {
                     video: Video11,
                     date: "05-03-2021",
                     store: "Boost Mobile",
-                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/11.a5d40bf0.mp4"
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/11.mp4"
                 },
                 {
                     id: 12,
@@ -174,7 +174,7 @@ class OurWork extends Component {
                     video: Video12,
                     date: "05-03-2021",
                     store: "Boost Mobile",
-                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/12.99262014.mp4"
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/12.mp4"
                 }
             ]
         }
