@@ -28,61 +28,67 @@ class Footer extends Component {
                     id: 1,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "There is a great customer service at this store, 'AJ' helped me out alot, and I'll definitely be coming back",
+                    desc: "I had to stop by Accessories for Tablets, I have a new phone, and having to switch more than 300 contacts was very distressful, they were so helpful, and saved so much time, you helped me and saved me, thank you so much ",
                     image: Img1,
                     video: Video1,
-                    date: "04-14-2021",
-                    store: "We Fix Phones" 
+                    date: "04-28-2021",
+                    store: "We Fix Phones",
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/1.mp4"
                 },
                 {
                     id: 2,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Came down here to get my phone fixed, it didn't take that long, the price is reasonable, if looking to get your phone fixed come down here",
+                    desc: "I came here because my phone was totally messed up, I bought it from this guy and returned back to him, and I'll be back again",
                     image: Img2,
                     video: Video2,
-                    date: "04-14-2021",
-                    store: "We Fix Phones" 
+                    date: "04-28-2021",
+                    store: "We Fix Phones",
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/2.mp4"
                 },
                 {
                     id: 3,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I am here at Whole Cell, this is a place to be, no 1 customer service, come here, you can't miss it",
+                    desc: "I'm here at Whole Cell Accessories, they give the greatest customer service here, I come here often, and I recommend this store to everybody, come by to Whole Cell Accessories",
                     image: Img3,
                     video: Video3,
-                    date: "04-15-2021",
-                    store: "Whole Cell Accessories" 
+                    date: "05-03-2021",
+                    store: "Whole Cell Accessories",
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/3.mp4"
                 },
                 {
                     id: 4,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "I came to buy a phone, customer service is great, he helped me out, come here, and he will get you what you need",
+                    desc: "I give this store a '5 Star', thank you so much for helping my son and I purchasing new device, customer service was excellent",
                     image: Img4,
                     video: Video4,
-                    date: "04-15-2021",
-                    store: "Boost Mobile" 
+                    date: "04-29-2021",
+                    store: "Boost Mobile",
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/4.mp4"
                 },
                 {
                     id: 5,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "Boost Mobile, thumbs up, I recommend anybody",
+                    desc: "I'm here in Lansing Boost Mobile, I just bought me a new phone, and I had great service, and I appreciate everything he did, I give him a '10'",
                     image: Img5,
                     video: Video5,
-                    date: "04-16-2021",
-                    store: "Boost Mobile" 
+                    date: "05-04-2021",
+                    store: "Boost Mobile",
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/5.mp4"
                 },
                 {
                     id: 6,
                     firstname: "Whole Cell",
                     lastname: "Customer",
-                    desc: "'Alex' and 'Maaz' are probably one of the best workers I have ever had to fix my phone, they are really customer friendly, really really helpful",
+                    desc: "Hello, I'm here at the Whole Cell Accessories, I'm always coming to visit 'AL', he help0s me very good, I've been coming here for years, thank you for allowing me to be your customer",
                     image: Img6,
                     video: Video6,
-                    date: "04-16-2021",
-                    store: "We Fix Phones" 
+                    date: "05-04-2021",
+                    store: "We Fix Phones",
+                    url: "https://wholecellonline.com/whole-cell-online-site/wholecellonline-media/latest/6.mp4"
                 }
             ],
             filteredModal:[]
