@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+ import React, { Component } from 'react'
 import {FacebookShareButton, FacebookIcon, 
         WhatsappShareButton, WhatsappIcon,
         EmailShareButton, EmailIcon} from 'react-share'
