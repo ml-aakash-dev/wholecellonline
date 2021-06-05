@@ -5,6 +5,8 @@ import BgVideo1 from '../../../assets/header1.mp4'
 import BgVideo2 from '../../../assets/header2.mp4'
 import BgVideo3 from '../../../assets/header3.mp4'
 
+import bgCover from '../../../assets/testimonials/cover_img.jpg'
+
 import NavigationBar from './NavigationBar'
 import HamburgerMenu from './HamburgerMenu'
 import MobileHamburgerMenu from './MobileHamburgerMenu'
@@ -55,7 +57,7 @@ class Header extends Component {
                 scrollToNumbers={this.props.scrollToNumbers}
                     />
                 </div>
-                    <video preload="auto" autoPlay muted loop="loop" id="header-video" className="video">
+                    <video poster={bgCover} preload="auto" autoPlay muted loop="loop" id="header-video" className="video">
                     <source src={this.state.randomVideo} type="video/webm" />
                     Your browser does not support HTML5 video.
                     </video>
