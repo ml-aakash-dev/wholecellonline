@@ -5,7 +5,6 @@ import {FacebookShareButton, FacebookIcon,
 import {CopyToClipboard} from 'react-copy-to-clipboard'
 import Swal from 'sweetalert2';
 
-import Video29 from '../../../assets/testimonials/29.mp4'
 import Video30 from '../../../assets/testimonials/30.mp4'
 import Video31 from '../../../assets/testimonials/31.mp4'
 import Video32 from '../../../assets/testimonials/32.mp4'
@@ -15,6 +14,7 @@ import Video35 from '../../../assets/testimonials/35.mp4'
 import Video36 from '../../../assets/testimonials/36.mp4'
 import Video37 from '../../../assets/testimonials/37.mp4'
 import Video38 from '../../../assets/testimonials/38.mp4'
+import Video39 from '../../../assets/testimonials/39.mp4'
 
 import '../../../css/body/testimonials/allTestimonials.css'
 import $ from 'jquery'
@@ -25,13 +25,6 @@ class AllTestimonials extends Component {
         this.state={
             pause: false,
             videos:[
-                {
-                    id: "",
-                    class:"slide video",
-                    vidref: "vidRef29",
-                    src: Video29,
-                    url: "https://wholecellonline.com/whole-cell-online-site/static/media/29.4010c812.mp4"
-                },
                 {
                     id: "",
                     class:"slide video",
@@ -84,10 +77,16 @@ class AllTestimonials extends Component {
                     src: Video37
                 },
                 {
-                    id: "current-testi",
-                    class:"slide video current",
+                    id: "",
+                    class:"slide video",
                     vidref: "vidRef38",
                     src: Video38
+                },
+                {
+                    id: "current-testi",
+                    class:"slide video current",
+                    vidref: "vidRef39",
+                    src: Video39
                 }
             ]
         }
@@ -196,7 +195,6 @@ class AllTestimonials extends Component {
 
     pauseVideo = () => {
         // Pause as well
-        this.refs.vidRef29.pause();
         this.refs.vidRef30.pause();
         this.refs.vidRef31.pause();
         this.refs.vidRef32.pause();
@@ -206,6 +204,7 @@ class AllTestimonials extends Component {
         this.refs.vidRef36.pause();
         this.refs.vidRef37.pause();
         this.refs.vidRef38.pause();
+        this.refs.vidRef39.pause();
       };
     render() {
         const handleCopy = () => {
