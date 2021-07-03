@@ -58,12 +58,12 @@ class Numbers extends Component {
                         <Row className="counters">
                             <Col xs={12} sm={6} xl={3} className="background-l col">
                             {/* <div className="counter background-10-light" data-target="358022">0</div> */}
-                                <div className="counter background-10-light">423448</div>
+                                <div className="counter background-10-light">424617</div>
                                 <h3>Satisfied Customers</h3>
                             </Col>
                             <Col xs={12} sm={6} xl={3} className="background-d col">
                             {/* <div className="counter background-10-light" data-target="24442">0</div> */}
-                                <div className="counter background-10-light">29169</div>
+                                <div className="counter background-10-light">29251</div>
                                 <h3>Succesful Repairs</h3>
                             </Col>
                             <Col xs={12} sm={6} xl={3} className="background-l col">
@@ -80,7 +80,7 @@ class Numbers extends Component {
                             </Col>
                             <Col xs={12} sm={6} xl={3} className="background-d col">
                             {/* <div className="counter background-10-light" data-target="6656">0</div> */}
-                                <div className="counter background-10-light">108291</div> 
+                                <div className="counter background-10-light">108793</div> 
                                 <h3>New Phone Sales</h3>
                             </Col>
                         </Row>
